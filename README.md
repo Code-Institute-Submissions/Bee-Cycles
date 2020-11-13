@@ -1,45 +1,27 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Bee Cycles
 
-Welcome USER_NAME,
+#### Bee Cycles webshop was designed, built and deployed by Slobodan Todorovic as his final project for the Code Institute Full Stack Web Development diploma. The purpose of Bee Cycles online shop is to be the first website built for this shop. This website is designed to create a beautifully intuitive, smooth and effortless online shopping experience. Specifically aimed at customers who enjoy to cycle, own and maintain their bicycles.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
-
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+## User Stories
+### As a Shopper
+1. As a shopper I want to view list of products and services.
+2. As a shopper I want to view product and service details so that I can identify price, description, product rating and product image.
+3. As a shopper I want to easily view total of my purchases at any time.
+4. As a shopper I want to sort the list of available products by best rated, price and categorically.
+5. As a shopper I want to search for a product/service by name or description.
+6. As a shopper I want to view items in my bag to be puchased.
+7. As a shopper I want to adjust the quantity of individual items in my bag.
+8. As a shopper I want to easily enter my payment information.
+9. As a shopper I want to feel my personal and payment information is safe and secure.
+10. As a shopper I want to view an order confirmation after checkout.
+11. As a shopper I want to recieve an email confirmation after checking out.
+### As a Site User
+1. As a user I want to easily register for an account.
+2. As a user I want to easily log in or out.
+3. As a user I want to easily recover my password in case I forget it.
+4. As a user I want to recieve and email confirmation after registering.
+5. As a user I want to have a personalized user profile.
+### As a Shop Owner
+1. As a owner I want to add a product.
+2. As a owner I want to edit a product.
+3. As a owner I want to delete a product.
