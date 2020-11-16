@@ -25,3 +25,8 @@
 1. As a owner I want to add a product.
 2. As a owner I want to edit a product.
 3. As a owner I want to delete a product.
+
+
+## Hero images taken from Pixabay
+## TinyPNG used to compress images
+## Logo font is Permanent Marker
