@@ -32,6 +32,7 @@
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
                 <a href="{% url 'home' %}" class="nav-link main-logo-link">
                     <h2 class="logo-font my-0 text-dark"><strong>Bee</strong> Cycles</h2>
+                     <img src="/media/bee.png" alt="" class="logo">
                 </a>
             </div>
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
@@ -48,7 +49,7 @@
                     </div>
                 </form>
             </div>
-            <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
+            <div class="col-12 col-lg-4 py-lg-0">
                 <ul class="list-inline list-unstyled text-center text-lg-right my-0">
                     <li class="list-inline-item dropdown">
                         <a class="nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -61,7 +62,7 @@
                                 <p class="my-0 text-dark">My Account</p>
                             </div>
                         </a>
-                        <div class="dropdown-menu border-0" aria-labelledby="user-options">
+                        <div class="dropdown-menu border-0 bg-warning" aria-labelledby="user-options">
                             {% if request.user.is_authenticated %}
                                 {% if request.user.is_superuser %}
                                     <a href="" class="dropdown-item">Product Management</a>
@@ -82,7 +83,7 @@
                                     {% if grand_total %}
                                         ${{ grand_total|floatformat:2 }}
                                     {% else %}
-                                        $0.00
+                                        0.00€
                                     {% endif %}
                                 </p>
                             </div>
@@ -104,10 +105,18 @@
     {% block content %}
     {% endblock %}
     <footer>
-        <div class="container">
+        <div class="container-fluid bg-warning">
             <div class="row">
-                <div class="col-12">
-
+                <div class="col-12 icons mt-4">
+                    <div><i class="fas fa-map-marker-alt fa-lg"></i> <a href="https://www.google.com/maps/place/Bee+cycles/@53.3332315,-6.2906374,15z/data=!4m5!3m4!1s0x0:0xb3a7f735865ae7f9!8m2!3d53.3332315!4d-6.2906374" target="_blank" class="text-decoration-none">382 S Circular Rd, Saint James' (part of Phoenix Park), Dublin, D08 N9FA</a></div>
+                    <div><i class="fas fa-phone-alt fa-lg"></i> +353868895487</div>
+                    <div><i class="fas fa-envelope fa-lg"></i><a href="mailto:beecycles@example.com" class="text-decoration-none"> beecycles@example.com</a></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center icons mb-4">
+                    <a href="https://www.facebook.com/Bee-Cycles-190244594335155" class="mr-3 text-dark" target="_blank"><i class="fab fa-facebook-square fa-lg"></i></a>
+                    <a href="https://www.yelp.com/biz/bee-cycles-dublin" target="_blank" class="text-dark"><i class="fab fa-yelp fa-lg"></i></a>
                 </div>
             </div>
         </div>

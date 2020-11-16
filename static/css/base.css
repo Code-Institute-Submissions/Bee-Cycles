@@ -7,3 +7,19 @@ html{
 .logo-font{
     font-family: 'Permanent Marker', cursive;
 }
+/* from Bulma */
+.icon {
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.icons{
+    font-size: 1.5rem;
+}
+
+.logo{
+    height: 80px;
+}
