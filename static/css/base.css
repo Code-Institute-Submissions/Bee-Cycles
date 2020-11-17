@@ -2,6 +2,7 @@
 
 html{
     height: 100%;
+    overflow-x: hidden;
 }
 
 .logo-font{
@@ -24,3 +25,10 @@ html{
     height: 6rem;
 }
 
+.carousel-item img{
+    max-height: 60rem;
+}
+
+#carousel{
+    padding: 0;
+}
