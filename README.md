@@ -27,6 +27,6 @@
 3. As a owner I want to delete a product.
 
 
-## Hero images taken from Pixabay, freeimages
+## Hero images taken from Pixabay, freeimages, Pexels
 ## TinyPNG used to compress images
 ## Logo font is Permanent Marker
