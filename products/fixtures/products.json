@@ -783,3 +783,340 @@
       "image": "oakley-oakley-jawbreaker-matte-black-prizm-road-bl.jpg"
     }
   },
+{
+    "pk": 57,
+    "model": "products.product",
+    "fields": {
+      "sku": "57",
+      "name": "Cannondale Quick Disc 5 City Bike 2021 Matte Black",
+      "description": "A swift, sporty bike that’s perfect for getting a workout, city cruising or just getting out and feeling good. Highlights are Lightweight aluminum frame with 360° reflective accents, Shimano Tourney TX 14-speed drivetrain with disc brakes and Integrated connectivity with Cannondale App",
+      "price": 660.00,
+      "category": 9,
+      "rating": 4.6,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/334165911/600x600x2/cannondale-cannondale-quick-disc-5-city-bike-2021.jpg",
+      "image": "cannondale-cannondale-quick-disc-5-city-bike-2021.png"
+    }
+  },
+  {
+    "pk": 58,
+    "model": "products.product",
+    "fields": {
+      "sku": "58",
+      "name": "Merida Speeder 100D 2021 Blue",
+      "description": "Redesigned for MY20 with more sporty geometry with longer reach. The frame can accomodate wider tyres making it more versatile - up to 37mm (32mm with mudguards). All models run hydraulic disc brakes for all weather reliability and come with a tapered carbon fork.",
+      "price": 799.00,
+      "category": 9,
+      "rating": 4.9,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/339667667/600x600x2/merida-merida-speeder-100d-blue-2021.jpg",
+      "image": "merida-merida-speeder-100d-blue-2021.jpg"
+    }
+  },
+  {
+    "pk": 59,
+    "model": "products.product",
+    "fields": {
+      "sku": "59",
+      "name": "Cannondale Treadwell Neo EQ Electric City Bike 2020",
+      "description": "An e-bike for any day and anywhere. Fun and light to rip around the neighborhood for meet ups, running errands or Sunday fun days. The new optional Battery or “Range Extender” from ebikemotion is one of the most interesting accessories of X35 propulsion system. Its 208w complement the 252w of the main inner battery reaching 450w as total capacity. This numbers can move the system during 4.5 hours with a medium consumption of 100wh that is currently the media consumption of the system.",
+      "price": 2399.00,
+      "category": 9,
+      "rating": 4.2,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/314513687/600x600x2/cannondale-cannondale-treadwell-neo-eq-electric-ci.jpg",
+      "image": "cannondale-cannondale-treadwell-neo-eq-electric-ci.jpg"
+    }
+  },
+  {
+    "pk": 60,
+    "model": "products.product",
+    "fields": {
+      "sku": "60",
+      "name": "Ridgeback Cyclone Gents 2020",
+      "description": "Designed for everyday use, a short test ride of the Cyclone and you will soon realise it is the perfect companion for any leisure or commute rides. The use of Shimano's bench-mark STePS system provides a high level of reliability and an ease of use to match. With a charge time of four hours and a range of up 125km, STePS makes the Cyclone the perfect bike for the person who wants to get to work on time by missing all the traffic and not arrive hot and bothered. The Cyclone has all the bells and whistles you will ever need with the remarkable Shimano STePS system for when you need a little assistance, full mudguards perfect for those rainy morning commutes.",
+      "price": 2799.00,
+      "category": 9,
+      "rating": 4.6,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/332202555/600x600x2/ridgeback-electric-bike-ridgeback-cyclone-gents-20.jpg",
+      "image": "ridgeback-electric-bike-ridgeback-cyclone-gents-20.jpg"
+    }
+  },
+{
+    "pk": 61,
+    "model": "products.product",
+    "fields": {
+      "sku": "61",
+      "name": "Cannondale Synapse Tiagra Disc 2021 Blue",
+      "description": "A road bike that’s light, stiff, fast and surprisingly comfortable. Your rides will go longer. You'll barely notice. Highlights are Lightweight SmartForm C2 Alloy Frame with full carbon fork, Shimano Tiagra 10-speed drivetrain with dual chainring FSA crank and Promax Decoder R mechanical disc brakes.",
+      "price": 1200.00,
+      "category": 9,
+      "rating": 5.0,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/334166717/600x600x2/cannondale-cannondale-synapse-tiagra-disc-2021-blu.jpg",
+      "image": "cannondale-cannondale-synapse-tiagra-disc-2021-blu.jpg"
+    }
+  },
+  {
+    "pk": 62,
+    "model": "products.product",
+    "fields": {
+      "sku": "62",
+      "name": "Merida Scultura 100 Claris 2021 Silver",
+      "description": "Scultura has won stages of the Grand Tours and combines class leading comfort with whippet-like acceleration. Our lightweight aluminium version is made with 6066 series triple butted and hydroformed aluminium tubing with smooth welding.  Features include: Full carbon tapered fork for light weight and precise steering and internal cable routing. Scultura 100 is Shimano Claris equipped.",
+      "price": 899.00,
+      "category": 9,
+      "rating": 3.9,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/334347526/600x600x2/merida-merida-scultura-100-claris-rim-brake-silver.jpg",
+      "image": "merida-merida-scultura-100-claris-rim-brake-silver.jpg"
+    }
+  },
+  {
+    "pk": 63,
+    "model": "products.product",
+    "fields": {
+      "sku": "63",
+      "name": "Giro Caden Urban Standard Helmet",
+      "description": "he Caden offers a sophisticated style with advanced head protection technology, making it a perfect match for your on-the-go lifestyle. The light, yet tough In-Mold shell helps to resist dents and dings from life on the streets, and the Roc Loc City fit system makes fit/feel adjustment almost effortless. Thoughtful details include reflective accents, a lock port for securing the helmet with your bike or a bag when you’re on the move, and a removable cycling cap-style visor that accents your style without compromising ventilation.",
+      "price": 75.50,
+      "category": 9,
+      "rating": 4.8,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/334774696/600x600x2/giro-giro-caden-urban-standard-helmet-2020.jpg",
+      "image": "giro-giro-caden-urban-standard-helmet-2020.jpg"
+    }
+  },
+  {
+    "pk": 64,
+    "model": "products.product",
+    "fields": {
+      "sku": "64",
+      "name": "Giro Cinder Mips Helmet",
+      "description": "The Cinder MIPS provides all the features an avid road rider wants in a lightweight package. The design is inspired by the classic aesthetic of our premium Synthe helmet, offering similar performance and style. Key features include the Roc Loc 5 fit system, which allows you to easily dial in fit tension and adjust vertical position with a single hand. Air-FX padding offers comfort on your longest rides, and the helmet is equipped with MIPS to redirect impact energy, providing more protection in certain impacts.",
+      "price": 149.95,
+      "category": 9,
+      "rating": 4.9,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/242523686/600x600x2/giro-giro-cinder-mips-helmet-2020.jpg",
+      "image": "giro-giro-cinder-mips-helmet-2020.jpg"
+    }
+  },
+  {
+    "pk": 65,
+    "model": "products.product",
+    "fields": {
+      "sku": "65",
+      "name": "Ridgeback Comet Standard Frame Red 2021",
+      "description": "The Comet is built around a confidence inspiring 6061 heat treated aluminium frame and a chromoly fork to give you a stable and comfortable ride. It has been finished with a single chainring up front to keep maintenance low and a high-quality Shimano 7 speed 11-32 cassette to still offer a gear range that will allow you to take on any terrain. stopping is taken care of by Promax V-Brakes front and rear to make the Comet a fantastic all-round urban bike.",
+      "price": 479.00,
+      "category": 10,
+      "rating": 3.8,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/336589376/600x600x2/ridgeback-ridgeback-comet-standard-leisure-hybrid.jpg",
+      "image": "ridgeback-ridgeback-comet-standard-leisure-hybrid.jpg"
+    }
+  },
+  {
+    "pk": 66,
+    "model": "products.product",
+    "fields": {
+      "sku": "66",
+      "name": "Skoda City Lady Classic Bike",
+      "description": "The ŠKODA CITY Lady bike in a stunning retro style is primarily designed for cycling around town in comfort. It features a low step-over frame, making it easy to get on and off the bike. The cream frame and mudguards, a comfy imitation leather saddle and brown tyres with reflective strips enhance the exceptional design of this bike.",
+      "price": 899.00,
+      "category": 10,
+      "rating": 3.9,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/329314855/600x600x2/skoda-skoda-city-lady-classic-womens-bike-48cm-one.jpg",
+      "image": "skoda-skoda-city-lady-classic-womens-bike-48cm-one.jpg"
+    }
+  },
+  {
+    "pk": 67,
+    "model": "products.product",
+    "fields": {
+      "sku": "67",
+      "name": "Merida Eone-Forty 9000",
+      "description": "Carbon front triangle with integrated battery technology, paired with 6016 rear end with aggressive enduro/trail geometry and 133 mm rear wheel travel - Shimano STePS E8000/E7000 motors allow for short chain stays delivering agility. Internal cable guide for rattle free running. Full carbon motor bracket creates an integrated appearance of the motor into the frame as well as provides an extremely strong connection between frame and motor. A two-component battery cover, which offers the perfect protection for the internal battery of these models. The softer (outer) layer reduces noises, seals the downtube perfectly and absorbs hits from trail debris easily, while the harder (inner) layer ensures that the battery does not get damaged and gives it the structural shape.",
+      "price": 8350.00,
+      "category": 10,
+      "rating": 4.6,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/343235622/600x600x2/merida-merida-eone-forty-9000-electric-dual-suspen.jpg",
+      "image": "merida-merida-eone-forty-9000-electric-dual-suspen.jpg"
+    }
+  },
+  {
+    "pk": 68,
+    "model": "products.product",
+    "fields": {
+      "sku": "68",
+      "name": "Merida E-Speeder 400 EQ",
+      "description": "Brand new for MY21 a new range of eLeisure bikes powered by the Mahle eBikemotion system. Five models all based on the same versatile geometry frame. Each model has a specific fork and componentry to match its application. The frame has mounts for mudguards and rack and a neat hidden kickstand mount, generous tyre clearance means you can run up to a 40mm tyre and mudguards. Cable routing is through a specific headset cap to keep the cockpit nice and neat.",
+      "price": 3120.00,
+      "category": 10,
+      "rating": 4.1,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/342743711/600x600x2/merida-merida-e-speeder-400-eq-2021-electric-city.jpg",
+      "image": "merida-merida-e-speeder-400-eq-2021-electric-city.jpg"
+    }
+  },
+  {
+    "pk": 69,
+    "model": "products.product",
+    "fields": {
+      "sku": "69",
+      "name": "Merida Scultura 400 105 2021 Red",
+      "description": "Scultura has won stages of the Grand Tours and combines class leading comfort with whippet-like acceleration. Our lightweight aluminium version is made with 6066 series triple butted and hydroformed aluminium tubing with smooth welding.  Features include: Full carbon tapered fork for light weight and precise steering and internal cable routing. Scultura 100 is Shimano Claris equipped.",
+      "price": 1150.00,
+      "category": 10,
+      "rating": 4.0,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/337580584/600x600x2/merida-merida-scultura-400-105-rim-brake-red-2021.jpg",
+      "image": "merida-merida-scultura-400-105-rim-brake-red-2021.jpg"
+    }
+  },
+  {
+    "pk": 70,
+    "model": "products.product",
+    "fields": {
+      "sku": "70",
+      "name": "Cannondale Synapse 105 Disc 2021 Candy Red",
+      "description": "Scultura has won stages of the Grand Tours and combines class leading comfort with whippet-like acceleration. Our lightweight aluminium version is made with 6066 series triple butted and hydroformed aluminium tubing with smooth welding.  Features include: Full carbon tapered fork for light weight and precise steering and internal cable routing. Scultura 100 is Shimano Claris equipped.",
+      "price": 1560.00,
+      "category": 10,
+      "rating": 4.2,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/334166418/600x600x2/cannondale-cannondale-synapse-105-disc-2021-candy.jpg",
+      "image": "cannondale-cannondale-synapse-105-disc-2021-candy.jpg"
+    }
+  },
+  {
+    "pk": 71,
+    "model": "products.product",
+    "fields": {
+      "sku": "71",
+      "name": "Lazer One Plus Helmet",
+      "description": "The Lazer One+, a skate style inspired cycling helmet. Classic styling combined with modern production technologies create a lightweight but durable helmet. It has ventilation channels in the EPS to provide sufficient cooling, while a hard shell construction makes sure the helmet can take a beating. The integrated TS+ fit system allows for a snug and comfortable fit, every time.",
+      "price": 39.50,
+      "category": 10,
+      "rating": 4.9,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/329499160/600x600x2/lazer-lazer-one-plus-helmet.jpg",
+      "image": "lazer-lazer-one-plus-helmet.jpg"
+    }
+  },
+  {
+    "pk": 72,
+    "model": "products.product",
+    "fields": {
+      "sku": "72",
+      "name": "Giro Agilis Mips Road Helmet",
+      "description": "Giro MIPS provides all the features an avid road rider wants in a lightweight package. The design is inspired by the classic aesthetic of our premium Synthe helmet, offering similar performance and style. Key features include the Roc Loc 5 fit system, which allows you to easily dial in fit tension and adjust vertical position with a single hand. Air-FX padding offers comfort on your longest rides, and the helmet is equipped with MIPS to redirect impact energy, providing more protection in certain impacts.",
+      "price": 99.00,
+      "category": 10,
+      "rating": 4.5,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/309701832/600x600x2/giro-giro-agilis-mips-road-helmet-2020.jpg",
+      "image": "giro-giro-agilis-mips-road-helmet-2020.jpg"
+    }
+  },
+  {
+    "pk": 73,
+    "model": "products.product",
+    "fields": {
+      "sku": "73",
+      "name": "Oakley Evzero Path",
+      "description": "Built for speed and engineered to be the ultimate multi-sport sunglass for training, running and beyond, EVZero™ Path is Oakley's lightest performance frame and features a toric shield of Plutonite® in a rimless design for an unobstructed view. Three-Point Fit: Comfort and performance that holds lenses in precise optical alignment. Durability and all-day comfort of lightweight, stress-resistant O Matter™ frame material. Unobtainium® earsocks and nosebombs increase grip with perspiration for a no slip grip without compromising on style. Frame suitable for small to medium faces. Available with Prizm™ lenses to enhance color, contrast and detail for an optimized experience. UV protection of Plutonite® lens that filters out 100% of UVA / UVB / UVC & harmful blue light up to 400nm. Glare reduction and tuned light transmission of Iridium® lens coating (optional). Optimized peripheral vision of toric shield lens curvature. Optimal precision and impact resistance that meet or exceed ANSI Z80.3 optical and basic impact standards. Geometric Oakley design language etched into the lens",
+      "price": 150.00,
+      "category": 11,
+      "rating": 4.7,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/341136289/600x600x2/oakley-oakley-evzero-path-polished-white-with-priz.jpg",
+      "image": "oakley-oakley-evzero-path-polished-white-with-priz.jpg"
+    }
+  },
+  {
+    "pk": 74,
+    "model": "products.product",
+    "fields": {
+      "sku": "74",
+      "name": "Oakley Flak 2.0 Prizm",
+      "description": "Oakley engineering takes performance to the next level and brings style along for the ride. Flak 2.0 offers a standard size frame with enhanced lens coverage, and every millimeter of the lens is optimized with High Definition Optics® in a ruggedly durable yet lightweight design. Designed to push your limits with patented XYZ Optics® for razor sharp clarity and secure grip of Unobtanium®",
+      "price": 149.00,
+      "category": 10,
+      "rating": 4.2,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/341103781/600x600x2/oakley-oakley-flak-20-xl-prizm-lens-smoke-grey-red.jpg",
+      "image": "oakley-oakley-flak-20-xl-prizm-lens-smoke-grey-red.jpg"
+    }
+  },
+  {
+    "pk": 75,
+    "model": "products.product",
+    "fields": {
+      "sku": "75",
+      "name": "Oakley Flight Jacket",
+      "description": "Aerodynamic engineering makes this speed specialist the ultimate eyewear for cycling, running and beyond. An open-edge brow maximizes the upper field of view, and our new Advancer nose bridge instantly opens airflow to combat fogging and overheating. Brow-less design allows for improved upper field of view. Advancer™ nosebridge positions the frame to block light while opening airflow to combat fogging and overheating. Interchangeable temple lengths for improved helmet compatibility. Durability and all-day comfort of lightweight O-Matter™ frame material. No-slip Unobtainium™ nosepads and earsocks: Increase grip with perspiration. Three-Point Fit: Comfort and performance that holds lenses in precise optical alignment. Frame suitable for medium to large faces.Optimal precision and impact resistance that meet or exceed ANSI Z80.3 optical and impact standards",
+      "price": 195.00,
+      "category": 11,
+      "rating": 5.0,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/313733611/600x600x2/oakley-oakley-flight-jacket-steel-prizm-road-jade.jpg",
+      "image": "oakley-oakley-flight-jacket-steel-prizm-road-jade.jpg"
+    }
+  },
+  {
+    "pk": 76,
+    "model": "products.product",
+    "fields": {
+      "sku": "76",
+      "name": "Giro Agilis Standard Road Helmet",
+      "description": "Giro MIPS provides all the features an avid road rider wants in a lightweight package. The design is inspired by the classic aesthetic of our premium Synthe helmet, offering similar performance and style. Key features include the Roc Loc 5 fit system, which allows you to easily dial in fit tension and adjust vertical position with a single hand. Air-FX padding offers comfort on your longest rides, and the helmet is equipped with MIPS to redirect impact energy, providing more protection in certain impacts.",
+      "price": 74.49,
+      "category": 11,
+      "rating": 4.2,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/334173160/600x600x2/giro-giro-agilis-standard-road-helmet-2020.jpg",
+      "image": "giro-giro-agilis-standard-road-helmet-2020.jpg"
+    }
+  },
+  {
+    "pk": 77,
+    "model": "products.product",
+    "fields": {
+      "sku": "77",
+      "name": "Giro Quarter FS Standard",
+      "description": "The Quarter is one of the lowest-profile helmets we’ve ever made, and it’s also the lightest we’ve made with an ABS shell. The essentials are here – an EPS liner for impact management, a tough outer shell, riveted webbing anchors and plush, sweat-absorbent pads for long-lasting comfort. Another standout feature -- the Roc Loc Vert dial fit system allows you to easily adjust the helmet for a secure and stable fit. Available in a bunch of great colors and three Super Fit sizes.",
+      "price": 44.99,
+      "category": 11,
+      "rating": 4.4,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/334173415/600x600x2/giro-helmet-giro-quarter-fs-standard-2019-2020.jpg",
+      "image": "giro-helmet-giro-quarter-fs-standard-2019-2020.jpg"
+    }
+  },
+  {
+    "pk": 78,
+    "model": "products.product",
+    "fields": {
+      "sku": "31",
+      "name": "Bell Formula Road Helmet Standard",
+      "description": "There's no reason to skimp on comfort and protection while trying to maintain a budget. The Formula benefits from the same technologies that make our road helmets such champions of comfort and safety; this model features the MIPS impact management as well as our Float Fit retention system and innovative Sweat Guide liner. Elegant shape, fluid aerodynamics and ample ventilation ensure the Formula's place as a classy all-rounder.",
+      "price": 95.00,
+      "category": 11,
+      "rating": 4.2,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/329432741/600x600x2/bell-formula-road-helmet-standard.jpg",
+      "image": "bell-formula-road-helmet-standard.jpg"
+    }
+  },
+  {
+    "pk": 79,
+    "model": "products.product",
+    "fields": {
+      "sku": "79",
+      "name": "Folding Lock Abus Ugrip Bordo",
+      "description": "The foldable Bordo U-Grip lock offers ideal combination of security, weight and transport size. It uses a unique link construction to offer maximum flexibility when fastening your bike to a lamppost or railings. The clever design allows the Bordo to fold right up into its own compact frame mountable case. The new U-Grip version introduces 5 exciting new colors to the range. Comes with the Abus premium cylinder which is highly picking resistant.",
+      "price": 62.50,
+      "category": 11,
+      "rating": 4.1,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/161853341/600x600x2/abus-folding-lock-abus-ugrip-bordo-5700-80cm.jpg",
+      "image": "abus-folding-lock-abus-ugrip-bordo-5700-80cm.jpg"
+    }
+  },
+  {
+    "pk": 80,
+    "model": "products.product",
+    "fields": {
+      "sku": "80",
+      "name": "Lock Kruptonite R2",
+      "description": "Extremely flexible 90 cm retractable cable lock, Perfect for your pocket, 2.4 mm vinyl coated twisted steel cable for lightweight security, Retracts into housing for easy storage, 90 cm long, Reinforced lock head construction with patented 4-digit re-settable combination and easy grip dials, recommended for quick release components and accessory lock up, handy to use at a coffee stop as a theft deterrent.",
+      "price": 15.99,
+      "category": 11,
+      "rating": 4.4,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/260470511/600x600x2/kryptonite-lock-kryptonite-r2-retracting-combo-caf.jpg",
+      "image": "kryptonite-lock-kryptonite-r2-retracting-combo-caf.jpg"
+    }
+  }
+]
