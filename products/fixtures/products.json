@@ -223,3 +223,115 @@
       "image": "merida-merida-espresso-300eq-se-electric-bike-2020.jpg"
     }
   },
+  {
+    "pk": 17,
+    "model": "products.product",
+    "fields": {
+      "sku": "17",
+      "name": "Cannondale Synapse Tiagra Disc 2021 Blue",
+      "description": "A road bike that’s light, stiff, fast and surprisingly comfortable. Your rides will go longer. You'll barely notice. Highlights are Lightweight SmartForm C2 Alloy Frame with full carbon fork, Shimano Tiagra 10-speed drivetrain with dual chainring FSA crank and Promax Decoder R mechanical disc brakes.",
+      "price": 1200.00,
+      "category": 4,
+      "rating": 5.0,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/334166717/600x600x2/cannondale-cannondale-synapse-tiagra-disc-2021-blu.jpg",
+      "image": "cannondale-cannondale-synapse-tiagra-disc-2021-blu.jpg"
+    }
+  },
+  {
+    "pk": 18,
+    "model": "products.product",
+    "fields": {
+      "sku": "18",
+      "name": "Merida Scultura 100 Claris 2021 Silver",
+      "description": "Scultura has won stages of the Grand Tours and combines class leading comfort with whippet-like acceleration. Our lightweight aluminium version is made with 6066 series triple butted and hydroformed aluminium tubing with smooth welding.  Features include: Full carbon tapered fork for light weight and precise steering and internal cable routing. Scultura 100 is Shimano Claris equipped.",
+      "price": 899.00,
+      "category": 4,
+      "rating": 3.9,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/334347526/600x600x2/merida-merida-scultura-100-claris-rim-brake-silver.jpg",
+      "image": "merida-merida-scultura-100-claris-rim-brake-silver.jpg"
+    }
+  },
+  {
+    "pk": 19,
+    "model": "products.product",
+    "fields": {
+      "sku": "19",
+      "name": "Merida Scultura 400 105 2021 Red",
+      "description": "Scultura has won stages of the Grand Tours and combines class leading comfort with whippet-like acceleration. Our lightweight aluminium version is made with 6066 series triple butted and hydroformed aluminium tubing with smooth welding.  Features include: Full carbon tapered fork for light weight and precise steering and internal cable routing. Scultura 100 is Shimano Claris equipped.",
+      "price": 1150.00,
+      "category": 4,
+      "rating": 4.0,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/337580584/600x600x2/merida-merida-scultura-400-105-rim-brake-red-2021.jpg",
+      "image": "merida-merida-scultura-400-105-rim-brake-red-2021.jpg"
+    }
+  },
+  {
+    "pk": 20,
+    "model": "products.product",
+    "fields": {
+      "sku": "20",
+      "name": "Cannondale Synapse 105 Disc 2021 Candy Red",
+      "description": "Scultura has won stages of the Grand Tours and combines class leading comfort with whippet-like acceleration. Our lightweight aluminium version is made with 6066 series triple butted and hydroformed aluminium tubing with smooth welding.  Features include: Full carbon tapered fork for light weight and precise steering and internal cable routing. Scultura 100 is Shimano Claris equipped.",
+      "price": 1560.00,
+      "category": 4,
+      "rating": 4.2,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/334166418/600x600x2/cannondale-cannondale-synapse-105-disc-2021-candy.jpg",
+      "image": "cannondale-cannondale-synapse-105-disc-2021-candy.jpg"
+    }
+  },
+  {
+    "pk": 21,
+    "model": "products.product",
+    "fields": {
+      "sku": "21",
+      "name": "Cannondale Synapse 105 Disc 2021 Black Pearl",
+      "description": "Scultura has won stages of the Grand Tours and combines class leading comfort with whippet-like acceleration. Our lightweight aluminium version is made with 6066 series triple butted and hydroformed aluminium tubing with smooth welding.  Features include: Full carbon tapered fork for light weight and precise steering and internal cable routing. Scultura 100 is Shimano Claris equipped.",
+      "price": 1560.00,
+      "category": 4,
+      "rating": 4.2,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/334166290/600x600x2/cannondale-cannondale-synapse-105-disc-2021-black.jpg",
+      "image": "cannondale-cannondale-synapse-105-disc-2021-black.jpg"
+    }
+  },
+  {
+    "pk": 22,
+    "model": "products.product",
+    "fields": {
+      "sku": "22",
+      "name": "Cinelli Vigorelli Disc 105 Hydro Bike",
+      "description": "The hugely versatile steel frame with excellent ride quality returns for 2020 in a new disc brake version. Constructed in Columbus Thron tubing and matched with a Columbus Futura Carbon Disc fork, the Vigorelli was designed in conjunction with the riders of Team Cinelli Chrome, Red Hook Crit Champions and sports a beautiful metallic blue paint with chrome decals. The advanced engineering of the different steel tube thicknesses for different parts of the frame allows for perfect weight distribution that only this material can produce. It enjoys minimal toe overlap and a higher bottom bracket position.",
+      "price": 1880.00,
+      "category": 4,
+      "rating": 4.4,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/329072928/600x600x2/cinelli-cinelli-vigorelli-disc-105-hydro-bike-xlar.jpg",
+      "image": "cinelli-cinelli-vigorelli-disc-105-hydro-bike-xlar.jpg"
+    }
+  },
+  {
+    "pk": 23,
+    "model": "products.product",
+    "fields": {
+      "sku": "23",
+      "name": "Merida Scultura 400 Hydraulic Disc 105 2021 Black",
+      "description": "Our Pro Tour proven Scultura adapted to run disc brakes. Class leading comfort and cutting-edge technology. 6066 series triple butted and hydroformed aluminium tubing with smooth welding.  Tapered full carbon fork head tube for precise steering and 12mm bolt through axles for stiffness. Highlights of the 400 - 22 speed Shimano 105 drivetrain, Shimano 105 hydraulic disc brakes and full carbon tapered forks.",
+      "price": 1925.00,
+      "category": 4,
+      "rating": 4.6,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/334361921/600x600x2/merida-merida-scultura-400d-hydraulic-disc-105-bla.jpg",
+      "image": "merida-merida-scultura-400d-hydraulic-disc-105-bla.jpg"
+    }
+  },
+  {
+    "pk": 24,
+    "model": "products.product",
+    "fields": {
+      "sku": "24",
+      "name": "Genesis Equilibrium Shimano Bike",
+      "description": "There is good reason why the equilibrium has been a staple in our range for many a year now - the combination of a lightweight, durable Reynolds 725 frame, classic looks, full-length mudguard capabilities, sublime ride and handling qualities has made it a true riders' favourite; to many the quintessential four-season UK road bike. With a little more relaxed geometry versus a conventional road race frame (longer wheelbase, slacker headtube angle & more fork offset), the Equilibrium is our lightweight steel all-rounder, ideally suited to big mile rides where comfort, stability and efficiency come before KOM leaderboards.",
+      "price": 1450.00,
+      "category": 4,
+      "rating": 4.8,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/342721858/600x600x2/genesis-genesis-equilibrium-shimano-105-rim-brake.jpg",
+      "image": "genesis-genesis-equilibrium-shimano-105-rim-brake.jpg"
+    }
+  },
