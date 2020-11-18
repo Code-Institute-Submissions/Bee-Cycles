@@ -335,3 +335,115 @@
       "image": "genesis-genesis-equilibrium-shimano-105-rim-brake.jpg"
     }
   },
+  {
+    "pk": 25,
+    "model": "products.product",
+    "fields": {
+      "sku": "25",
+      "name": "Giro Caden Urban Standard Helmet",
+      "description": "he Caden offers a sophisticated style with advanced head protection technology, making it a perfect match for your on-the-go lifestyle. The light, yet tough In-Mold shell helps to resist dents and dings from life on the streets, and the Roc Loc City fit system makes fit/feel adjustment almost effortless. Thoughtful details include reflective accents, a lock port for securing the helmet with your bike or a bag when you’re on the move, and a removable cycling cap-style visor that accents your style without compromising ventilation.",
+      "price": 75.50,
+      "category": 5,
+      "rating": 4.8,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/334774696/600x600x2/giro-giro-caden-urban-standard-helmet-2020.jpg",
+      "image": "giro-giro-caden-urban-standard-helmet-2020.jpg"
+    }
+  },
+  {
+    "pk": 26,
+    "model": "products.product",
+    "fields": {
+      "sku": "26",
+      "name": "Giro Cinder Mips Helmet",
+      "description": "The Cinder MIPS provides all the features an avid road rider wants in a lightweight package. The design is inspired by the classic aesthetic of our premium Synthe helmet, offering similar performance and style. Key features include the Roc Loc 5 fit system, which allows you to easily dial in fit tension and adjust vertical position with a single hand. Air-FX padding offers comfort on your longest rides, and the helmet is equipped with MIPS to redirect impact energy, providing more protection in certain impacts.",
+      "price": 149.95,
+      "category": 5,
+      "rating": 4.9,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/242523686/600x600x2/giro-giro-cinder-mips-helmet-2020.jpg",
+      "image": "giro-giro-cinder-mips-helmet-2020.jpg"
+    }
+  },
+  {
+    "pk": 27,
+    "model": "products.product",
+    "fields": {
+      "sku": "27",
+      "name": "Lazer One Plus Helmet",
+      "description": "The Lazer One+, a skate style inspired cycling helmet. Classic styling combined with modern production technologies create a lightweight but durable helmet. It has ventilation channels in the EPS to provide sufficient cooling, while a hard shell construction makes sure the helmet can take a beating. The integrated TS+ fit system allows for a snug and comfortable fit, every time.",
+      "price": 39.50,
+      "category": 5,
+      "rating": 4.9,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/329499160/600x600x2/lazer-lazer-one-plus-helmet.jpg",
+      "image": "lazer-lazer-one-plus-helmet.jpg"
+    }
+  },
+  {
+    "pk": 28,
+    "model": "products.product",
+    "fields": {
+      "sku": "28",
+      "name": "Giro Agilis Mips Road Helmet",
+      "description": "Giro MIPS provides all the features an avid road rider wants in a lightweight package. The design is inspired by the classic aesthetic of our premium Synthe helmet, offering similar performance and style. Key features include the Roc Loc 5 fit system, which allows you to easily dial in fit tension and adjust vertical position with a single hand. Air-FX padding offers comfort on your longest rides, and the helmet is equipped with MIPS to redirect impact energy, providing more protection in certain impacts.",
+      "price": 99.00,
+      "category": 5,
+      "rating": 4.5,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/309701832/600x600x2/giro-giro-agilis-mips-road-helmet-2020.jpg",
+      "image": "giro-giro-agilis-mips-road-helmet-2020.jpg"
+    }
+  },
+  {
+    "pk": 29,
+    "model": "products.product",
+    "fields": {
+      "sku": "29",
+      "name": "Giro Agilis Standard Road Helmet",
+      "description": "Giro MIPS provides all the features an avid road rider wants in a lightweight package. The design is inspired by the classic aesthetic of our premium Synthe helmet, offering similar performance and style. Key features include the Roc Loc 5 fit system, which allows you to easily dial in fit tension and adjust vertical position with a single hand. Air-FX padding offers comfort on your longest rides, and the helmet is equipped with MIPS to redirect impact energy, providing more protection in certain impacts.",
+      "price": 74.49,
+      "category": 5,
+      "rating": 4.2,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/334173160/600x600x2/giro-giro-agilis-standard-road-helmet-2020.jpg",
+      "image": "giro-giro-agilis-standard-road-helmet-2020.jpg"
+    }
+  },
+  {
+    "pk": 30,
+    "model": "products.product",
+    "fields": {
+      "sku": "30",
+      "name": "Giro Quarter FS Standard",
+      "description": "The Quarter is one of the lowest-profile helmets we’ve ever made, and it’s also the lightest we’ve made with an ABS shell. The essentials are here – an EPS liner for impact management, a tough outer shell, riveted webbing anchors and plush, sweat-absorbent pads for long-lasting comfort. Another standout feature -- the Roc Loc Vert dial fit system allows you to easily adjust the helmet for a secure and stable fit. Available in a bunch of great colors and three Super Fit sizes.",
+      "price": 44.99,
+      "category": 5,
+      "rating": 4.4,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/334173415/600x600x2/giro-helmet-giro-quarter-fs-standard-2019-2020.jpg",
+      "image": "giro-helmet-giro-quarter-fs-standard-2019-2020.jpg"
+    }
+  },
+  {
+    "pk": 31,
+    "model": "products.product",
+    "fields": {
+      "sku": "31",
+      "name": "Bell Formula Road Helmet Standard",
+      "description": "There's no reason to skimp on comfort and protection while trying to maintain a budget. The Formula benefits from the same technologies that make our road helmets such champions of comfort and safety; this model features the MIPS impact management as well as our Float Fit retention system and innovative Sweat Guide liner. Elegant shape, fluid aerodynamics and ample ventilation ensure the Formula's place as a classy all-rounder.",
+      "price": 95.00,
+      "category": 5,
+      "rating": 4.2,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/329432741/600x600x2/bell-formula-road-helmet-standard.jpg",
+      "image": "bell-formula-road-helmet-standard.jpg"
+    }
+  },
+  {
+    "pk": 32,
+    "model": "products.product",
+    "fields": {
+      "sku": "32",
+      "name": "Lazer Century Road Helmet With Integrated Light",
+      "description": "The Century helmet is the result of 100 years of expertise. By integrating all knowledge and user requirements into one concept, the Century offers a new benchmark that requires no priorities for either protection, comfort, aerodynamics or visibility. The Century offers it all! One of its most visible new technologies is the unique Twist Cap, which offers a twist-of-the-hand action to change the Century from a full-ventilated helmet into an aero helmet.",
+      "price": 149.50,
+      "category": 5,
+      "rating": 4.7,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/334506490/45x45x2/lazer-lazer-century-road-helmet-with-integrated-li.jpg",
+      "image": "lazer-lazer-century-road-helmet-with-integrated-li.jpg"
+    }
+  },
