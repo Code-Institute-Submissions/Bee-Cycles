@@ -559,3 +559,115 @@
       "image": "cateye-front-light-cateye-sync-core-500lm.jpg"
     }
   },
+  {
+    "pk": 41,
+    "model": "products.product",
+    "fields": {
+      "sku": "41",
+      "name": "Kryptonite Kryptolok Standard U-Lock",
+      "description": "Complete solution - use the 4' cable to secure front wheel or accessories, 13mm hardened Performance steel shackle resists cutting and leverage attacks, New patent pending hardened double deadbolt design gives additional protection against twist attacks, High security double deadlock locking system, High security disc-style cylinder is pick and drill resistant, Anti-rattle bumpers reduce noise during transport, New dust cover, Includes Transit FlexFrame-U transportation system which allows for versatile carrying, Protective vinyl coating, 2 stainless steel keys",
+      "price": 52.50,
+      "category": 7,
+      "rating": 5.0,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/225658100/600x600x2/kryptonite-kryptonite-kryptolok-standard-u-lock-wi.jpg",
+      "image": "kryptonite-kryptonite-kryptolok-standard-u-lock-wi.jpg"
+    }
+  },
+   {
+    "pk": 42,
+    "model": "products.product",
+    "fields": {
+      "sku": "42",
+      "name": "Kryptonite Evolution Mini-5",
+      "description": "13mm hardened MAX-Performance steel shackle resists bolt cutters and leverage attacks, New patent pending hardened double deadbolt design gives additional protection against twist attacks, High security disc-style cylinder is pick and drill resistant, Anti-rattle bumpers reduce noise during transport, New dust cover, Includes Transit FlexFrame-U transportation system which allows for versatile carrying, Protective vinyl coating, 3 stainless steel keys – one lighted with high intensity LED bulb & replaceable battery, Key Safe Program",
+      "price": 49.50,
+      "category": 7,
+      "rating": 5.0,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/272856292/600x600x2/kryptonite-kryptonite-evolution-mini-5-sold-secure.jpg",
+      "image": "kryptonite-kryptonite-evolution-mini-5-sold-secure.jpg"
+    }
+  },
+  {
+    "pk": 43,
+    "model": "products.product",
+    "fields": {
+      "sku": "43",
+      "name": "Kryptonite Kryptolok 955 Integrated Chain",
+      "description": "The KryptoLok Series 2 Integrated Chains include 9mm four-sided chain links made from triple heat-treated boron manganese steel. The chain secures with a new patent-pending Integrated KryptoLok series 2 Lock head with talon deadbolt. The innovative chains also include a new patent-pending pin-less link design which allows for no weak link in the chain.",
+      "price": 49.50,
+      "category": 7,
+      "rating": 4.0,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/281407888/600x600x2/kryptonite-kryptonite-kryptolok-955-integrated-cha.jpg",
+      "image": "kryptonite-kryptonite-kryptolok-955-integrated-cha.jpg"
+    }
+  },
+  {
+    "pk": 44,
+    "model": "products.product",
+    "fields": {
+      "sku": "44",
+      "name": "Kryptonite New York Standard",
+      "description": "16mm hardened MAX-Performance steel shackle, Patented pending hardened double deadbolt design gives additional protection against twist attacks, Highest security disc-style cylinder is pick and drill resistant, Protective vinyl coating, Sliding dustcover protects cylinder from the elements, Includes Transit FlexFrame-U transportation system which allows for versatile carrying, 3 stainless steel keys – one lighted with high intensity LED bulb & replaceable battery, Key Safe Program.",
+      "price": 99.50,
+      "category": 7,
+      "rating": 4.7,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/268922915/600x600x2/kryptonite-kryptonite-new-york-standard-nyl-lock-w.jpg",
+      "image": "kryptonite-kryptonite-new-york-standard-nyl-lock-w.jpg"
+    }
+  },
+  {
+    "pk": 45,
+    "model": "products.product",
+    "fields": {
+      "sku": "45",
+      "name": "Oxford Viper Cable",
+      "description": "Bicycle combination lock. No key needed. 12mm x 1800mm.",
+      "price": 19.99,
+      "category": 7,
+      "rating": 4.2,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/343210650/600x600x2/oxford-viper-cable-combination-lock-12mm-x-1800mm.jpg",
+      "image": "oxford-viper-cable-combination-lock-12mm-x-1800mm.jpg"
+    }
+  },
+  {
+    "pk": 46,
+    "model": "products.product",
+    "fields": {
+      "sku": "46",
+      "name": "Folding Lock Abus Ugrip Bordo",
+      "description": "The foldable Bordo U-Grip lock offers ideal combination of security, weight and transport size. It uses a unique link construction to offer maximum flexibility when fastening your bike to a lamppost or railings. The clever design allows the Bordo to fold right up into its own compact frame mountable case. The new U-Grip version introduces 5 exciting new colors to the range. Comes with the Abus premium cylinder which is highly picking resistant.",
+      "price": 62.50,
+      "category": 7,
+      "rating": 4.1,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/161853341/600x600x2/abus-folding-lock-abus-ugrip-bordo-5700-80cm.jpg",
+      "image": "abus-folding-lock-abus-ugrip-bordo-5700-80cm.jpg"
+    }
+  },
+  {
+    "pk": 47,
+    "model": "products.product",
+    "fields": {
+      "sku": "47",
+      "name": "Lock Kruptonite R2",
+      "description": "Extremely flexible 90 cm retractable cable lock, Perfect for your pocket, 2.4 mm vinyl coated twisted steel cable for lightweight security, Retracts into housing for easy storage, 90 cm long, Reinforced lock head construction with patented 4-digit re-settable combination and easy grip dials, recommended for quick release components and accessory lock up, handy to use at a coffee stop as a theft deterrent.",
+      "price": 15.99,
+      "category": 7,
+      "rating": 4.4,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/260470511/600x600x2/kryptonite-lock-kryptonite-r2-retracting-combo-caf.jpg",
+      "image": "kryptonite-lock-kryptonite-r2-retracting-combo-caf.jpg"
+    }
+  },
+  {
+    "pk": 48,
+    "model": "products.product",
+    "fields": {
+      "sku": "48",
+      "name": "Kryptonite Cable Lock",
+      "description": "For accessory and quick release component lock-up, 7 foot (220 cm) length, 10 mm diameter braided steel cable, Double-looped cable for use with all Kryptonite U-locks, disc locks, and padlocks, Braided steel cable has greater core density than twisted cable, increasing cut resistance, Hook and Loop style strap included for carrying ease, Durable and vinyl coated, Weatherproof",
+      "price": 15.00,
+      "category": 7,
+      "rating": 4.4,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/253641458/600x600x2/kryptonite-kryptonite-kryptoflex-cable-lock-7-feet.jpg",
+      "image": "kryptonite-kryptonite-kryptoflex-cable-lock-7-feet.jpg"
+    }
+  },
