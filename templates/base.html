@@ -37,7 +37,7 @@
             <div class="col-12 col-lg-4 py-1 py-lg-0">
                 <div class="row justify-content-center">
                     <a href="{% url 'home' %}" class="nav-link">
-                    <h2 class="logo-font my-0 text-dark"><strong>Bee</strong> Cycles</h2>
+                        <h2 class="logo-font my-0 text-dark"><strong>Bee</strong> Cycles</h2>
                     </a>
                 </div>
                 <form method="GET" action="">
@@ -113,10 +113,19 @@
     <footer>
         <div class="container-fluid bg-dark">
             <div class="row">
-                <div class="col-12 icons mt-4">
+                <div class="col-sm-12 col-md-6 icons mt-4">
                     <div class="m-3 text-warning"><i class="fas fa-map-marker-alt fa-lg"></i> <a href="https://www.google.com/maps/place/Bee+cycles/@53.3332315,-6.2906374,15z/data=!4m5!3m4!1s0x0:0xb3a7f735865ae7f9!8m2!3d53.3332315!4d-6.2906374" target="_blank" class="text-decoration-none text-warning">382 S Circular Rd, Saint James' (part of Phoenix Park), Dublin, D08 N9FA</a></div>
                     <div class="m-3 text-warning"><i class="fas fa-phone-alt fa-lg"></i> +353868895487</div>
                     <div class="m-3 text-warning"><i class="fas fa-envelope fa-lg"></i><a href="mailto:beecycles@example.com" class="text-decoration-none text-warning"> beecycles@example.com</a></div>
+                </div>
+                <div class="col-sm-12 col-md-6 text-center">
+                    <a href="{% url 'home' %}" class="nav-link">
+                        <img src="/media/bee.png" alt="" class="logo">
+                    </a>
+                    <a href="{% url 'home' %}" class="nav-link">
+                        <h2 class="logo-font my-0 text-warning"><strong>Bee</strong> Cycles</h2>
+                    </a>
+                    <p class="text-warning">We are customer service driven bicycle shop in Dublin</p>
                 </div>
             </div>
             <div class="row">
