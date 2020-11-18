@@ -1,0 +1,31 @@
+[
+  {
+    "pk": 2,
+    "model": "products.product",
+    "fields": {
+      "sku": "C31501M10LG",
+      "name": "Cannondale Quick Disc 5 City Bike 2021 Matte Black",
+      "description": "A swift, sporty bike that is perfect for getting a workout, city cruising or just getting out and feeling good. Highlights are 
+        lightweight aluminum frame w/ 360° reflective accents, Shimano Tourney TX 14-speed drivetrain w/ disc brakes and Integrated connectivity with Cannondale App.",
+      "price": 660.00,
+      "category": 2,
+      "rating": 4.6,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/334165911/600x600x2/cannondale-cannondale-quick-disc-5-city-bike-2021.jpg",
+      "image": "cannondale-cannondale-quick-disc-5-city-bike-2021.png"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001340155",
+      "name": "Arizona Original Bootcut Jeans",
+      "description": "Bootcut jeans in our just-right original fit are comfortable and look great too.  5-pocket style sits below waist straight fit through seat and thigh bootcut leg 18\" leg opening cotton washable imported extended sizes and washes available online only",
+      "price": 53.99,
+      "category": 6,
+      "rating": 4.6,
+      "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
+      "image": "DP0709201205510679M.jpg"
+    }
+  },
+  
