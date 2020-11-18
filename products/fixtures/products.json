@@ -1,12 +1,11 @@
 [
   {
-    "pk": 2,
+    "pk": 1,
     "model": "products.product",
     "fields": {
-      "sku": "C31501M10LG",
+      "sku": "1",
       "name": "Cannondale Quick Disc 5 City Bike 2021 Matte Black",
-      "description": "A swift, sporty bike that is perfect for getting a workout, city cruising or just getting out and feeling good. Highlights are 
-        lightweight aluminum frame w/ 360° reflective accents, Shimano Tourney TX 14-speed drivetrain w/ disc brakes and Integrated connectivity with Cannondale App.",
+      "description": "A swift, sporty bike that’s perfect for getting a workout, city cruising or just getting out and feeling good. Highlights are Lightweight aluminum frame with 360° reflective accents, Shimano Tourney TX 14-speed drivetrain with disc brakes and Integrated connectivity with Cannondale App",
       "price": 660.00,
       "category": 2,
       "rating": 4.6,
@@ -18,14 +17,57 @@
     "pk": 2,
     "model": "products.product",
     "fields": {
-      "sku": "pp5001340155",
-      "name": "Arizona Original Bootcut Jeans",
-      "description": "Bootcut jeans in our just-right original fit are comfortable and look great too.  5-pocket style sits below waist straight fit through seat and thigh bootcut leg 18\" leg opening cotton washable imported extended sizes and washes available online only",
-      "price": 53.99,
-      "category": 6,
-      "rating": 4.6,
-      "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-      "image": "DP0709201205510679M.jpg"
+      "sku": "2",
+      "name": "Merida Speeder 100D 2021 Blue",
+      "description": "Redesigned for MY20 with more sporty geometry with longer reach. The frame can accomodate wider tyres making it more versatile - up to 37mm (32mm with mudguards). All models run hydraulic disc brakes for all weather reliability and come with a tapered carbon fork.",
+      "price": 799.00,
+      "category": 2,
+      "rating": 4.9,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/339667667/600x600x2/merida-merida-speeder-100d-blue-2021.jpg",
+      "image": "merida-merida-speeder-100d-blue-2021.jpg"
     }
   },
+  {
+    "pk": 3,
+    "model": "products.product",
+    "fields": {
+      "sku": "3",
+      "name": "Ridgeback Comet Standard Frame Red 2021",
+      "description": "The Comet is built around a confidence inspiring 6061 heat treated aluminium frame and a chromoly fork to give you a stable and comfortable ride. It has been finished with a single chainring up front to keep maintenance low and a high-quality Shimano 7 speed 11-32 cassette to still offer a gear range that will allow you to take on any terrain. stopping is taken care of by Promax V-Brakes front and rear to make the Comet a fantastic all-round urban bike.",
+      "price": 479.00,
+      "category": 2,
+      "rating": 3.8,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/336589376/600x600x2/ridgeback-ridgeback-comet-standard-leisure-hybrid.jpg",
+      "image": "ridgeback-ridgeback-comet-standard-leisure-hybrid.jpg"
+    }
+  },
+  {
+    "pk": 4,
+    "model": "products.product",
+    "fields": {
+      "sku": "4",
+      "name": "Skoda City Lady Classic Bike",
+      "description": "The ŠKODA CITY Lady bike in a stunning retro style is primarily designed for cycling around town in comfort. It features a low step-over frame, making it easy to get on and off the bike. The cream frame and mudguards, a comfy imitation leather saddle and brown tyres with reflective strips enhance the exceptional design of this bike.",
+      "price": 899.00,
+      "category": 2,
+      "rating": 3.9,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/329314855/600x600x2/skoda-skoda-city-lady-classic-womens-bike-48cm-one.jpg",
+      "image": "skoda-skoda-city-lady-classic-womens-bike-48cm-one.jpg"
+    }
+  },
+  {
+    "pk": 5,
+    "model": "products.product",
+    "fields": {
+      "sku": "5",
+      "name": "KTM Life Lite City Bike White 2020",
+      "description": "The ŠKODA CITY Lady bike in a stunning retro style is primarily designed for cycling around town in comfort. It features a low step-over frame, making it easy to get on and off the bike. The cream frame and mudguards, a comfy imitation leather saddle and brown tyres with reflective strips enhance the exceptional design of this bike.",
+      "price": 899.00,
+      "category": 2,
+      "rating": 3.9,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/329314855/600x600x2/skoda-skoda-city-lady-classic-womens-bike-48cm-one.jpg",
+      "image": "skoda-skoda-city-lady-classic-womens-bike-48cm-one.jpg"
+    }
+  },
+  
   
