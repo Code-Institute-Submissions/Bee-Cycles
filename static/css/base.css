@@ -4,11 +4,15 @@ html{
     height: 100%;
     overflow-x: hidden;
 }
-
+/*** LOGO ***/
 .logo-font{
     font-family: 'Permanent Marker', cursive;
 }
-/* from Bulma */
+.logo{
+    height: 6rem;
+}
+/*** ICONS ***/
+/*** from Bulma ***/
 .icon {
     align-items: center;
     display: inline-flex;
@@ -16,22 +20,15 @@ html{
     height: 1.5rem;
     width: 1.5rem;
 }
-
 .icons{
     font-size: 1.5rem;
 }
 
-.logo{
-    height: 6rem;
-}
 
+/*** index.html CAROUSEL ***/
 .carousel-item img{
     max-height: 60rem;
 }
-
 #carousel{
     padding: 0;
-}
-.nav-tabs{
-    
 }
