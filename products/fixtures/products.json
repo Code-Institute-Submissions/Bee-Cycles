@@ -447,3 +447,115 @@
       "image": "lazer-lazer-century-road-helmet-with-integrated-li.jpg"
     }
   },
+  {
+    "pk": 33,
+    "model": "products.product",
+    "fields": {
+      "sku": "33",
+      "name": "Lights Set Cateye",
+      "description": "Super bright front and rear lightset Lithium-ion polymer rechargeable battery with micro USB port Runtime 1 - 7 hours Pocket sized, compact, sleek design with three modes - constant high, constant low and flashing Push button switch operation is easy.",
+      "price": 37.50,
+      "category": 6,
+      "rating": 4.2,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/159528125/600x600x2/cateye-lights-set-cateye-volt100-rapid-micro-usb-r.jpg",
+      "image": "cateye-lights-set-cateye-volt100-rapid-micro-usb-r.jpg"
+    }
+  },
+  {
+    "pk": 34,
+    "model": "products.product",
+    "fields": {
+      "sku": "34",
+      "name": "Lights Set Infini",
+      "description": "Super bright front and rear lightset Lithium-ion polymer rechargeable battery with micro USB port Runtime 1 - 7 hours Pocket sized, compact, sleek design with three modes - constant high, constant low and flashing Push button switch operation is easy.",
+      "price": 39.50,
+      "category": 6,
+      "rating": 4.2,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/207870551/600x600x2/light-set-infini-i-260wr-lava-twin-pack-micro-usb.jpg",
+      "image": "light-set-infini-i-260wr-lava-twin-pack-micro-usb.jpg"
+    }
+  },
+  {
+    "pk": 35,
+    "model": "products.product",
+    "fields": {
+      "sku": "35",
+      "name": "Lights Set Cateye",
+      "description": "Now with upgraded brighter more efficient LED’s. The incredibly stylish, but compact EL-135 measures just 2.5 x 3.5 x 9cm. Pair this with the Omni 5 rear light and you truly have a powerful light set up.",
+      "price": 32.50,
+      "category": 6,
+      "rating": 4.1,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/159528164/600x600x2/cateye-light-set-cateye-hl135omni5.jpg",
+      "image": "cateye-light-set-cateye-hl135omni5.jpg"
+    }
+  },
+  {
+    "pk": 36,
+    "model": "products.product",
+    "fields": {
+      "sku": "36",
+      "name": "Front Light Cateye Ampp 500",
+      "description": "500 Lumen maximum output, Opticube lens technology for supreme light distribution, Robust matt polycarbonate body with enhanced scratch resistance, FlexTight bracket – suitable for bars up to 35mm diameter and selected aero bars, 2.5x greater Lumen output on Low mode compared to Volt 500XC, for increased versatility, 220% larger side lens for a significantly wider beam and enhanced side visibility, Power button illumination and red indicator @ 20% battery capacity, Redesigned underside connection for easier removal from the FlexTight bracket, Double click to High mode, Single click returns to previous mode, Light Mode Memory, Recharge time: 4hrs ( 1A ) – 8hrs ( 0.5A ), Battery: Li-Ion 3.6v 2200mAh, Waterproof rating: IPX4, Weight: 95g.",
+      "price": 41.50,
+      "category": 6,
+      "rating": 4.8,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/314807855/600x600x2/cateye-front-light-cateye-ampp-500-usb-rechargable.jpg",
+      "image": "cateye-front-light-cateye-ampp-500-usb-rechargable.jpg"
+    }
+  },
+  {
+    "pk": 37,
+    "model": "products.product",
+    "fields": {
+      "sku": "37",
+      "name": "Light Set Cateye Ampp 500",
+      "description": "Perfectly matched for features and functions the extremely popular AMPP400 is now paired with the Rapid Micro rear light. Both feature the simple and secure FlexTight brackets. The AMPP400 is perfect for urban riding, the compact, lightweight Cateye AMPP 400 offers impressive functionality and visibility, whilst the powerful Rapid Micro gives you a feature rich, long lasting and highly visible rear safety light.",
+      "price": 54.50,
+      "category": 6,
+      "rating": 4.9,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/339270909/600x600x2/cateye-light-set-cateye-ampp-400-rapid-micro.jpg",
+      "image": "cateye-light-set-cateye-ampp-400-rapid-micro.jpg"
+    }
+  },
+  {
+    "pk": 38,
+    "model": "products.product",
+    "fields": {
+      "sku": "38",
+      "name": "Cateye Kinetic Rear Light",
+      "description": "50 Lumen maximum output, Opticube lens technology for supreme light distribution, Robust matt polycarbonate body with enhanced scratch resistance, FlexTight bracket – suitable for bars up to 35mm diameter and selected aero bars, 2.5x greater Lumen output on Low mode compared to Volt 500XC, for increased versatility, 220% larger side lens for a significantly wider beam and enhanced side visibility, Power button illumination and red indicator @ 20% battery capacity, Redesigned underside connection for easier removal from the FlexTight bracket, Double click to High mode, Single click returns to previous mode, Light Mode Memory, Recharge time: 4hrs ( 1A ) – 8hrs ( 0.5A ), Battery: Li-Ion 3.6v 2200mAh, Waterproof rating: IPX4, Weight: 95g.",
+      "price": 39.00,
+      "category": 6,
+      "rating": 4.9,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/282100213/600x600x2/cateye-cateye-kinetic-x2-usb-rechargeable-rear-lig.jpg",
+      "image": "cateye-cateye-kinetic-x2-usb-rechargeable-rear-lig.jpg"
+    }
+  },
+  {
+    "pk": 39,
+    "model": "products.product",
+    "fields": {
+      "sku": "39",
+      "name": "Cateye Rear Light",
+      "description": "50 Lumen maximum output, Opticube lens technology for supreme light distribution, Robust matt polycarbonate body with enhanced scratch resistance, FlexTight bracket – suitable for bars up to 35mm diameter and selected aero bars, 2.5x greater Lumen output on Low mode compared to Volt 500XC, for increased versatility, 220% larger side lens for a significantly wider beam and enhanced side visibility, Power button illumination and red indicator @ 20% battery capacity, Redesigned underside connection for easier removal from the FlexTight bracket, Double click to High mode, Single click returns to previous mode, Light Mode Memory, Recharge time: 4hrs ( 1A ) – 8hrs ( 0.5A ), Battery: Li-Ion 3.6v 2200mAh, Waterproof rating: IPX4, Weight: 95g.",
+      "price": 19.99,
+      "category": 6,
+      "rating": 4.2,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/159528665/600x600x2/cateye-light-rear-cateye-rapid-micro-usb.jpg",
+      "image": "cateye-light-rear-cateye-rapid-micro-usb.jpg"
+    }
+  },
+  {
+    "pk": 40,
+    "model": "products.product",
+    "fields": {
+      "sku": "40",
+      "name": "Front Light Cateye Sync Core 500LM",
+      "description": "500 Lumen maximum output, Opticube lens technology for supreme light distribution, Robust matt polycarbonate body with enhanced scratch resistance, FlexTight bracket – suitable for bars up to 35mm diameter and selected aero bars, 2.5x greater Lumen output on Low mode compared to Volt 500XC, for increased versatility, 220% larger side lens for a significantly wider beam and enhanced side visibility, Power button illumination and red indicator @ 20% battery capacity, Redesigned underside connection for easier removal from the FlexTight bracket, Double click to High mode, Single click returns to previous mode, Light Mode Memory, Recharge time: 4hrs ( 1A ) – 8hrs ( 0.5A ), Battery: Li-Ion 3.6v 2200mAh, Waterproof rating: IPX4, Weight: 95g.",
+      "price": 79.99,
+      "category": 6,
+      "rating": 5.0,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/214099139/600x600x2/cateye-front-light-cateye-sync-core-500lm.jpg",
+      "image": "cateye-front-light-cateye-sync-core-500lm.jpg"
+    }
+  },
