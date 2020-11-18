@@ -61,13 +61,165 @@
     "fields": {
       "sku": "5",
       "name": "KTM Life Lite City Bike White 2020",
-      "description": "The ŠKODA CITY Lady bike in a stunning retro style is primarily designed for cycling around town in comfort. It features a low step-over frame, making it easy to get on and off the bike. The cream frame and mudguards, a comfy imitation leather saddle and brown tyres with reflective strips enhance the exceptional design of this bike.",
-      "price": 899.00,
+      "description": "KTM Life Lite City Bike is built around a confidence inspiring 6061 heat treated aluminium frame and a chromoly fork to give you a stable and comfortable ride. It has been finished with a single chainring up front to keep maintenance low and a high-quality Shimano 7 speed 11-32 cassette to still offer a gear range that will allow you to take on any terrain. Stopping is taken care of by Promax V-Brakes front and rear to make the KTM Life Lite City Bike a fantastic all-round urban bike.",
+      "price": 799.00,
       "category": 2,
-      "rating": 3.9,
-      "image_url": "https://cdn.webshopapp.com/shops/219098/files/329314855/600x600x2/skoda-skoda-city-lady-classic-womens-bike-48cm-one.jpg",
-      "image": "skoda-skoda-city-lady-classic-womens-bike-48cm-one.jpg"
+      "rating": 3.3,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/333774039/600x600x2/ktm-ktm-life-lite-city-bike-white-2020.jpg",
+      "image": "ktm-ktm-life-lite-city-bike-white-2020.jpg"
     }
   },
-  
-  
+  {
+    "pk": 6,
+    "model": "products.product",
+    "fields": {
+      "sku": "6",
+      "name": "Cannondale Treadwell EQP 27.5 2021 Alpine",
+      "description": "The Treadwell EQ is a great runabout. It’s perfect for short, quick rides. Running errands or a bit of shopping is what this is made for, and it puts a smile on your face every time.",
+      "price": 999.00,
+      "category": 2,
+      "rating": 4.8,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/334081743/600x600x2/cannondale-cannondale-treadwell-eqp-275-2021-blue.jpg",
+      "image": "cannondale-cannondale-treadwell-eqp-275-2021-blue.jpg"
+    }
+  },
+  {
+    "pk": 7,
+    "model": "products.product",
+    "fields": {
+      "sku": "7",
+      "name": "Ridgeback Element EQ City Bike",
+      "description": "A lightweight understated classic urban bike packed full of features, the Element is fully equipped to take on the Urban jungle with flat mount hydraulic disc bakes and a 3x9 Shimano drive train to help you get over any terrain and a light weight 6061 heat treated aluminium frame which is finished with a aluminium fibre fork all makes the Element the ideal Urban bike for the modern individual.",
+      "price": 999.00,
+      "category": 2,
+      "rating": 4.9,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/342713166/600x600x2/ridgeback-ridgeback-element-eq-city-bike-mudguards.jpg",
+      "image": "ridgeback-ridgeback-element-eq-city-bike-mudguards.jpg"
+    }
+  },
+  {
+    "pk": 8,
+    "model": "products.product",
+    "fields": {
+      "sku": "8",
+      "name": "Ridgeback Avenida 7SP Nexus LDS City Bike",
+      "description": "With the classic comfortable upright riding position, the Avenida is known for the Avenida 7 is the perfect bike for the person who wants a relaxed comfortable ride. We have equipped the Avenida 7 with a high-quality low maintenance Shimano Nexus 7 speed internal hub to offer you a wide range of gear to take on any terrain you may face. We have also given the Avenida 7 a full length chain guard and full-length mudguards to make sure the dirt and grime stays well away when riding in any weather.",
+      "price": 679.00,
+      "category": 2,
+      "rating": 4.4,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/336566365/600x600x2/ridgeback-ridgeback-avenida-7sp-nexus-lds-city-bik.jpg",
+      "image": "ridgeback-ridgeback-avenida-7sp-nexus-lds-city-bik.jpg"
+    }
+  },
+  {
+    "pk": 9,
+    "model": "products.product",
+    "fields": {
+      "sku": "9",
+      "name": "Cannondale Treadwell Neo EQ Electric City Bike 2020",
+      "description": "An e-bike for any day and anywhere. Fun and light to rip around the neighborhood for meet ups, running errands or Sunday fun days. The new optional Battery or “Range Extender” from ebikemotion is one of the most interesting accessories of X35 propulsion system. Its 208w complement the 252w of the main inner battery reaching 450w as total capacity. This numbers can move the system during 4.5 hours with a medium consumption of 100wh that is currently the media consumption of the system.",
+      "price": 2399.00,
+      "category": 3,
+      "rating": 4.2,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/314513687/600x600x2/cannondale-cannondale-treadwell-neo-eq-electric-ci.jpg",
+      "image": "cannondale-cannondale-treadwell-neo-eq-electric-ci.jpg"
+    }
+  },
+  {
+    "pk": 10,
+    "model": "products.product",
+    "fields": {
+      "sku": "10",
+      "name": "Ridgeback Cyclone Gents 2020",
+      "description": "Designed for everyday use, a short test ride of the Cyclone and you will soon realise it is the perfect companion for any leisure or commute rides. The use of Shimano's bench-mark STePS system provides a high level of reliability and an ease of use to match. With a charge time of four hours and a range of up 125km, STePS makes the Cyclone the perfect bike for the person who wants to get to work on time by missing all the traffic and not arrive hot and bothered. The Cyclone has all the bells and whistles you will ever need with the remarkable Shimano STePS system for when you need a little assistance, full mudguards perfect for those rainy morning commutes.",
+      "price": 2799.00,
+      "category": 3,
+      "rating": 4.6,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/332202555/600x600x2/ridgeback-electric-bike-ridgeback-cyclone-gents-20.jpg",
+      "image": "ridgeback-electric-bike-ridgeback-cyclone-gents-20.jpg"
+    }
+  },
+  {
+    "pk": 11,
+    "model": "products.product",
+    "fields": {
+      "sku": "11",
+      "name": "Merida Eone-Forty 9000",
+      "description": "Carbon front triangle with integrated battery technology, paired with 6016 rear end with aggressive enduro/trail geometry and 133 mm rear wheel travel - Shimano STePS E8000/E7000 motors allow for short chain stays delivering agility. Internal cable guide for rattle free running. Full carbon motor bracket creates an integrated appearance of the motor into the frame as well as provides an extremely strong connection between frame and motor. A two-component battery cover, which offers the perfect protection for the internal battery of these models. The softer (outer) layer reduces noises, seals the downtube perfectly and absorbs hits from trail debris easily, while the harder (inner) layer ensures that the battery does not get damaged and gives it the structural shape.",
+      "price": 8350.00,
+      "category": 3,
+      "rating": 4.6,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/343235622/600x600x2/merida-merida-eone-forty-9000-electric-dual-suspen.jpg",
+      "image": "merida-merida-eone-forty-9000-electric-dual-suspen.jpg"
+    }
+  },
+  {
+    "pk": 12,
+    "model": "products.product",
+    "fields": {
+      "sku": "12",
+      "name": "Merida E-Speeder 400 EQ",
+      "description": "Brand new for MY21 a new range of eLeisure bikes powered by the Mahle eBikemotion system. Five models all based on the same versatile geometry frame. Each model has a specific fork and componentry to match its application. The frame has mounts for mudguards and rack and a neat hidden kickstand mount, generous tyre clearance means you can run up to a 40mm tyre and mudguards. Cable routing is through a specific headset cap to keep the cockpit nice and neat.",
+      "price": 3120.00,
+      "category": 3,
+      "rating": 4.1,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/342743711/600x600x2/merida-merida-e-speeder-400-eq-2021-electric-city.jpg",
+      "image": "merida-merida-e-speeder-400-eq-2021-electric-city.jpg"
+    }
+  },
+  {
+    "pk": 13,
+    "model": "products.product",
+    "fields": {
+      "sku": "13",
+      "name": "Ridgeback Electron Di2 2020",
+      "description": "The Electron Di2 uses Shimanos bench-mark STEPS system to provides a high level of reliability and an ease of use to match. With a charge time of four hours and a range of up to 125km, the Electron Di2 pushes the E-bike market into new territory. The Electron Di2 makes the most of the Shimano STEPS system by incorporating Shimanos Di2 Electronic shifting in to the mix, this make sure the rider has a crisp precise shift 100% of the time.",
+      "price": 2780.00,
+      "category": 3,
+      "rating": 4.2,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/294688458/600x600x2/ridgeback-electric-bike-ridgeback-electron-di2-aut.jpg",
+      "image": "ridgeback-electric-bike-ridgeback-electron-di2-aut.jpg"
+    }
+  },
+  {
+    "pk": 14,
+    "model": "products.product",
+    "fields": {
+      "sku": "14",
+      "name": "Cannondale Treadwell Neo 650",
+      "description": "An e-bike for any day and anywhere. Fun and light to rip around the neighborhood for meet ups, running errands or Sunday fun days. Light, powerful ebikemotion rear-hub drive system / Range: up to 75km/47mi. Integrated connectivity with Cannondale App / rear light.",
+      "price": 2399.00,
+      "category": 3,
+      "rating": 4.2,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/334167251/600x600x2/cannondale-cannondale-treadwell-neo-650-2021-elect.jpg",
+      "image": "cannondale-cannondale-treadwell-neo-650-2021-elect.jpg"
+    }
+  },
+  {
+    "pk": 15,
+    "model": "products.product",
+    "fields": {
+      "sku": "15",
+      "name": "Cannondale Synapse Neo EQ",
+      "description": "Electric road bike with an internal frame battery. The Range to Roam: Quiet, light, and drag free - the super-strong Bosch drive unit and long range battery are beautifully integrated into the Synapse NEO frame. Go further than ever.",
+      "price": 4200.00,
+      "category": 3,
+      "rating": 4.0,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/342465490/600x600x2/cannondale-cannondale-synapse-neo-eq-electric-road.jpg",
+      "image": "cannondale-cannondale-synapse-neo-eq-electric-road.jpg"
+    }
+  },
+  {
+    "pk": 16,
+    "model": "products.product",
+    "fields": {
+      "sku": "16",
+      "name": "Merida E'Spresso 300 EQ SE",
+      "description": "Electric road bike with an internal frame battery. The Range to Roam: Quiet, light, and drag free - the super-strong Bosch drive unit and long range battery are beautifully integrated into the Synapse NEO frame. Go further than ever.",
+      "price": 2800.00,
+      "category": 3,
+      "rating": 4.3,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/300290742/600x600x2/merida-merida-espresso-300eq-se-electric-bike-2020.jpg",
+      "image": "merida-merida-espresso-300eq-se-electric-bike-2020.jpg"
+    }
+  },
