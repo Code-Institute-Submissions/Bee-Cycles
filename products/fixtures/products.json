@@ -671,3 +671,115 @@
       "image": "kryptonite-kryptonite-kryptoflex-cable-lock-7-feet.jpg"
     }
   },
+  {
+    "pk": 49,
+    "model": "products.product",
+    "fields": {
+      "sku": "49",
+      "name": "Oakley Evzero Blades",
+      "description": "Inspired by streetwear culture and global influencers, the aesthetic of Oakley™ EVZero™ Blades taps into the fashion meets sport-performance style trend. The shield merges the temples of the brand's EVZero frame with the lens cut of the iconic RazorBlades.",
+      "price": 150.00,
+      "category": 8,
+      "rating": 4.7,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/341103432/600x600x2/oakley-oakley-evzero-blades-matte-neon-pink-prizm.jpg",
+      "image": "oakley-oakley-evzero-blades-matte-neon-pink-prizm.jpg"
+    }
+  },
+  {
+    "pk": 50,
+    "model": "products.product",
+    "fields": {
+      "sku": "50",
+      "name": "Oakley Radar EV Path",
+      "description": "The original Radar® eyewear combined everything Oakley have learned from decades of research with the world’s best athletes, and with the taller lens of Radar EV and its extended range of view in the upper peripheral region, the heritage of performance has a new milestone. Lightweight O Matter™ frame material with ellipse metal icon accents. Unobtainium® earsocks and nosepads for increased comfort and performance. Oakley performance shield lens technology with HDO®. Available with Prizm™ lenses to enhance color, contrast and detail for an optimized experience. Polarized and Iridium® lens options available. Available with Oakley Authentic Prescription Lenses. Protective hard case included.",
+      "price": 160.00,
+      "category": 8,
+      "rating": 4.8,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/341134207/600x600x2/oakley-oakley-radar-ev-path-polished-black-with-pr.jpg",
+      "image": "oakley-oakley-radar-ev-path-polished-black-with-pr.jpg"
+    }
+  },
+  {
+    "pk": 51,
+    "model": "products.product",
+    "fields": {
+      "sku": "51",
+      "name": "Oakley Evzero Path",
+      "description": "Built for speed and engineered to be the ultimate multi-sport sunglass for training, running and beyond, EVZero™ Path is Oakley's lightest performance frame and features a toric shield of Plutonite® in a rimless design for an unobstructed view. Three-Point Fit: Comfort and performance that holds lenses in precise optical alignment. Durability and all-day comfort of lightweight, stress-resistant O Matter™ frame material. Unobtainium® earsocks and nosebombs increase grip with perspiration for a no slip grip without compromising on style. Frame suitable for small to medium faces. Available with Prizm™ lenses to enhance color, contrast and detail for an optimized experience. UV protection of Plutonite® lens that filters out 100% of UVA / UVB / UVC & harmful blue light up to 400nm. Glare reduction and tuned light transmission of Iridium® lens coating (optional). Optimized peripheral vision of toric shield lens curvature. Optimal precision and impact resistance that meet or exceed ANSI Z80.3 optical and basic impact standards. Geometric Oakley design language etched into the lens",
+      "price": 150.00,
+      "category": 8,
+      "rating": 4.7,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/341136289/600x600x2/oakley-oakley-evzero-path-polished-white-with-priz.jpg",
+      "image": "oakley-oakley-evzero-path-polished-white-with-priz.jpg"
+    }
+  },
+  {
+    "pk": 52,
+    "model": "products.product",
+    "fields": {
+      "sku": "52",
+      "name": "Oakley Flak 2.0 Prizm",
+      "description": "Oakley engineering takes performance to the next level and brings style along for the ride. Flak 2.0 offers a standard size frame with enhanced lens coverage, and every millimeter of the lens is optimized with High Definition Optics® in a ruggedly durable yet lightweight design. Designed to push your limits with patented XYZ Optics® for razor sharp clarity and secure grip of Unobtanium®",
+      "price": 149.00,
+      "category": 8,
+      "rating": 4.2,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/341103781/600x600x2/oakley-oakley-flak-20-xl-prizm-lens-smoke-grey-red.jpg",
+      "image": "oakley-oakley-flak-20-xl-prizm-lens-smoke-grey-red.jpg"
+    }
+  },
+  {
+    "pk": 53,
+    "model": "products.product",
+    "fields": {
+      "sku": "53",
+      "name": "Oakley Flight Jacket",
+      "description": "Aerodynamic engineering makes this speed specialist the ultimate eyewear for cycling, running and beyond. An open-edge brow maximizes the upper field of view, and our new Advancer nose bridge instantly opens airflow to combat fogging and overheating. Brow-less design allows for improved upper field of view. Advancer™ nosebridge positions the frame to block light while opening airflow to combat fogging and overheating. Interchangeable temple lengths for improved helmet compatibility. Durability and all-day comfort of lightweight O-Matter™ frame material. No-slip Unobtainium™ nosepads and earsocks: Increase grip with perspiration. Three-Point Fit: Comfort and performance that holds lenses in precise optical alignment. Frame suitable for medium to large faces.Optimal precision and impact resistance that meet or exceed ANSI Z80.3 optical and impact standards",
+      "price": 195.00,
+      "category": 8,
+      "rating": 5.0,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/313733611/600x600x2/oakley-oakley-flight-jacket-steel-prizm-road-jade.jpg",
+      "image": "oakley-oakley-flight-jacket-steel-prizm-road-jade.jpg"
+    }
+  },
+  {
+    "pk": 54,
+    "model": "products.product",
+    "fields": {
+      "sku": "54",
+      "name": "Madison Recon",
+      "description": "Tried and tested in race conditions, the Recon offers stylish looks and precision fit with pro level performance. A performance polycarbonate lens gives great optical clarity along with full UVA and UVB protection. The durable polycarbonate lenses are both impact and scratch resistant. The pack includes three lenses, offering a solution for riding in all conditions. The frame has been ergonomically designed to fit comfortably and securely with your helmet. The interchangeable lens system is easy and convenient, making a lens swap no hassle, and the vented lens prevents unwanted fogging. Rubber pads on the arms give added comfort and grip. This 3 lens pack contains a dark lens for bright conditions, an amber lens for low light riding and a clear lens for protection from spray and debris. Includes a hard case for safe transportation and storage, and a soft case for lens protection on the move. All 3 lenses offer full UVA and UVB protection. Limited lifetime warranty",
+      "price": 47.50,
+      "category": 8,
+      "rating": 4.0,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/264532106/600x600x2/madison-madison-recon-glasses-3x-lens-pack.jpg",
+      "image": "madison-madison-recon-glasses-3x-lens-pack.jpg"
+    }
+  },
+  {
+    "pk": 55,
+    "model": "products.product",
+    "fields": {
+      "sku": "55",
+      "name": "Shimano Aerolite",
+      "description": "Frameless design co-developed with Team LottoNL-Jumbo; the choice of the professional peloton. Minimalist frame design focuses on lightweight, optimal fit, and wide view. Fitting can be adjusted with a reversible nose pad, which has a different thickness in the front and back sections. Lightweight, strong, and durable Grilamid TR-90 material. CNC molding for ultimate precision, symmetry, and quality. Comfortable, adjustable temples. Dual-injection molded, non-toxic TPE temple tips. Strong, rigid, and lightweight Polycarbonate lens. Full UV400 protection. Hydrophobic coating increases water-repellency, keeps lenses cleaner. Special anti-scratch treatment. Includes a travel box, spare clear lens, eyewear pouch and XL nose pad",
+      "price": 79.99,
+      "category": 8,
+      "rating": 4.2,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/183793091/600x600x2/shimano-shimano-aerolite-sunglasses-includes-hardc.jpg",
+      "image": "shimano-shimano-aerolite-sunglasses-includes-hardc.jpg"
+    }
+  },
+  {
+    "pk": 56,
+    "model": "products.product",
+    "fields": {
+      "sku": "56",
+      "name": "Oakley Jawbreaker",
+      "description": "Oakley have extended the field of view in the upper peripheral region to optimize it for cycling, and with added Switchlock™ Technology for easy lens changing plus temples that adjust to three different lengths for helmet compatibility, Jawbreaker™ became the ultimate sport design. Fast, secure lens replacement with Switchlock™ interchangeable lens technology. Lightweight O Matter™ frame material with ellipse metal icon accents. Unobtainium™ earsocks and nosepads for increased comfort and performance. Oakley performance shield lens technology with HDO™. Available with Prizm™ lenses to enhance color, contrast and detail for an optimized experience. Polarized and Iridium™ lens options available. Protective soft vault included",
+      "price": 185.00,
+      "category": 8,
+      "rating": 4.9,
+      "image_url": "https://cdn.webshopapp.com/shops/219098/files/341120743/600x600x2/oakley-oakley-jawbreaker-matte-black-prizm-road-bl.jpg",
+      "image": "oakley-oakley-jawbreaker-matte-black-prizm-road-bl.jpg"
+    }
+  },
