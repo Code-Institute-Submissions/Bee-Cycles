@@ -10,9 +10,9 @@
                 All Products <i class="fas fa-sort-down"></i>
             </a>
             <div class="dropdown-menu border-0 bg-warning" aria-labelledby="all-products-link">
-                <a href="" class="dropdown-item">By Price</a>
-                <a href="" class="dropdown-item ">By Rating</a>
-                <a href="" class="dropdown-item ">By Category</a>
+                <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
+                <a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item ">By Rating</a>
+                <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item ">By Category</a>
                 <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
             </div>
         </li>
@@ -34,10 +34,10 @@
                 Bikes <i class="fas fa-sort-down"></i>
             </a>
             <div class="dropdown-menu border-0 bg-warning" aria-labelledby="bikes-link">
-                <a href="" class="dropdown-item">City Bikes</a>
-                <a href="" class="dropdown-item">Electric Bikes</a>
-                <a href="" class="dropdown-item">Road Bikes</a>
-                <a href="" class="dropdown-item">All Bikes</a>
+                <a href="{% url 'products' %}?category=city_bikes" class="dropdown-item">City Bikes</a>
+                <a href="{% url 'products' %}?category=electric_bikes" class="dropdown-item">Electric Bikes</a>
+                <a href="{% url 'products' %}?category=road_bikes" class="dropdown-item">Road Bikes</a>
+                <a href="{% url 'products' %}?category=city_bikes,electric_bikes,road_bikes" class="dropdown-item">All Bikes</a>
             </div>
         </li>
 
@@ -46,10 +46,11 @@
                 Accessories <i class="fas fa-sort-down"></i>
             </a>
             <div class="dropdown-menu border-0 bg-warning" aria-labelledby="accessories-link">
-                <a href="" class="dropdown-item">Helmets</a>
-                <a href="" class="dropdown-item">Lights</a>
-                <a href="" class="dropdown-item">Locks</a>
-                <a href="" class="dropdown-item">Sunglasses</a>
+                <a href="{% url 'products' %}?category=helmets" class="dropdown-item">Helmets</a>
+                <a href="{% url 'products' %}?category=lights" class="dropdown-item">Lights</a>
+                <a href="{% url 'products' %}?category=locks" class="dropdown-item">Locks</a>
+                <a href="{% url 'products' %}?category=sunglasses" class="dropdown-item">Sunglasses</a>
+                <a href="{% url 'products' %}?category=helmets,lights,locks,sunglasses" class="dropdown-item">All Accessories</a>
             </div>
         </li>
 
@@ -58,10 +59,10 @@
                 Special Offers <i class="fas fa-sort-down"></i>
             </a>
             <div class="dropdown-menu border-0 bg-warning" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">New Arrivals</a>
-                <a href="" class="dropdown-item">Deals</a>
-                <a href="" class="dropdown-item">Clearance</a>
-                <a href="" class="dropdown-item">All Specials</a>
+                <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">New Arrivals</a>
+                <a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
+                <a href="{% url 'products' %}?category=clearance" class="dropdown-item">Clearance</a>
+                <a href="{% url 'products' %}?category=new_arrivals,deals,clearance" class="dropdown-item">All Specials</a>
             </div>
         </li>
     </ul>
