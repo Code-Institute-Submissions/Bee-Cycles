@@ -4,6 +4,12 @@ html{
     height: 100%;
     overflow-x: hidden;
 }
+.header-container {
+        padding-top: 174px;
+    }
+.bg-secondary{
+    background-color: #e3e1e1!important;
+}
 /*** LOGO ***/
 .logo-font{
     font-family: 'Permanent Marker', cursive;
@@ -32,10 +38,7 @@ html{
 #carousel{
     padding: 0;
 }
-
-.header-container {
-        padding-top: 174px;
-    }
-.bg-secondary{
-    background-color: #e3e1e1!important;
+/*** BUTTONS ***/
+.btn-secondary:hover{
+    color: #ffc107;
 }
