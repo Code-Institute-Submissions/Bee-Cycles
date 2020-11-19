@@ -1,0 +1,33 @@
+{% extends "base.html" %} {% load static %} 
+{% block page_header %}
+    <div class="container products-header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+{% block content %}
+    <div class="container-fluid">
+        <div class="row">
+            <h2 class="logo-font">Products</h2>
+        </div>
+        <div class="row">
+            {% for product in products %}
+            <div class="col-sm-12 col-md-3">
+                <div class="card" style="width: 18rem;">
+                    {% if product.image.url %}
+                        <img src="{{ product.image.url }}" class="card-img-top" alt="{{ product.name }}">
+                    {% else %}
+                        <img src="{{ media }}no-image-available.jpg" class="card-img-top" alt="{{ product.name }}">
+                    {% endif %}
+                    <div class="card-body">
+                        <h5 class="card-title text-center">{{ product.name }}</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}
