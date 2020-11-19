@@ -36,6 +36,6 @@ html{
 .header-container {
         padding-top: 174px;
     }
-.products-header-container {
-        padding-top: 184px;
-    }
+.bg-secondary{
+    background-color: #e3e1e1!important;
+}
