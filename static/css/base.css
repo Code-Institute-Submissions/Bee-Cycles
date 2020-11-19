@@ -32,3 +32,10 @@ html{
 #carousel{
     padding: 0;
 }
+
+.header-container {
+        padding-top: 174px;
+    }
+.products-header-container {
+        padding-top: 184px;
+    }
