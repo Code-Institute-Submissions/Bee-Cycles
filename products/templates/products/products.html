@@ -11,17 +11,17 @@
         <div class="row">
             <div class="col-12 d-sm-none d-md-block text-center">
                 <span>
-                    <a href="" class="btn btn-danger">View All</a>
-                    <a href="" class="btn btn-danger">City Bikes</a>
-                    <a href="" class="btn btn-danger">Electric Bikes</a>
-                    <a href="" class="btn btn-danger">Road Bikes</a>
-                    <a href="" class="btn btn-danger">Helmets</a>
-                    <a href="" class="btn btn-danger">Lights</a>
-                    <a href="" class="btn btn-danger">Locks</a>
-                    <a href="" class="btn btn-danger">Sunglasses</a>
-                    <a href="" class="btn btn-danger">New Arrivals</a>
-                    <a href="" class="btn btn-danger">Deals</a>
-                    <a href="" class="btn btn-danger">Clearance</a>
+                    <a href="{% url 'products' %}" class="btn btn-danger">View All</a>
+                    <a href="{% url 'products' %}?category=city_bikes" class="btn btn-danger">City Bikes</a>
+                    <a href="{% url 'products' %}?category=electric_bikes" class="btn btn-danger">Electric Bikes</a>
+                    <a href="{% url 'products' %}?category=road_bikes" class="btn btn-danger">Road Bikes</a>
+                    <a href="{% url 'products' %}?category=helmets" class="btn btn-danger">Helmets</a>
+                    <a href="{% url 'products' %}?category=lights" class="btn btn-danger">Lights</a>
+                    <a href="{% url 'products' %}?category=locks" class="btn btn-danger">Locks</a>
+                    <a href="{% url 'products' %}?category=sunglasses" class="btn btn-danger">Sunglasses</a>
+                    <a href="{% url 'products' %}?category=new_arrivals" class="btn btn-danger">New Arrivals</a>
+                    <a href="{% url 'products' %}?category=deals" class="btn btn-danger">Deals</a>
+                    <a href="{% url 'products' %}?category=clearance" class="btn btn-danger">Clearance</a>
                 </span>
             </div>
         </div>
@@ -52,6 +52,8 @@
                         </p>
                     </div>
                 </div>
+            </div>
+        </div>
         <div class="row justify-content-sm-center justify-content-md-around justify-content-md-between">
             {% for product in products %}
             <div class="col-sm-6 col-md-4 col-lg-3 text-center">
