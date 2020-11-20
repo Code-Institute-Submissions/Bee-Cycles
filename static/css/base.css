@@ -39,6 +39,6 @@ html{
     padding: 0;
 }
 /*** BUTTONS ***/
-.btn-secondary:hover{
+.btn-dark:hover{
     color: #ffc107;
 }
