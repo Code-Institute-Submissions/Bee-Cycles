@@ -8,8 +8,26 @@
 {% endblock %}
 {% block content %}
     <div class="container-fluid bg-secondary">
+        <div class="row">
+            <div class="col-12 d-sm-none d-md-block text-center">
+                <span>
+                    <a href="" class="btn btn-danger">View All</a>
+                    <a href="" class="btn btn-danger">City Bikes</a>
+                    <a href="" class="btn btn-danger">Electric Bikes</a>
+                    <a href="" class="btn btn-danger">Road Bikes</a>
+                    <a href="" class="btn btn-danger">Helmets</a>
+                    <a href="" class="btn btn-danger">Lights</a>
+                    <a href="" class="btn btn-danger">Locks</a>
+                    <a href="" class="btn btn-danger">Sunglasses</a>
+                    <a href="" class="btn btn-danger">New Arrivals</a>
+                    <a href="" class="btn btn-danger">Deals</a>
+                    <a href="" class="btn btn-danger">Clearance</a>
+                </span>
+            </div>
+        </div>
+         
         <div class="row justify-content-center">
-            <h2 class="logo-font">Products</h2>
+            <h2 class="logo-font">All Products</h2>
         </div>
         <div class="row justify-content-sm-center justify-content-md-around justify-content-md-between">
             {% for product in products %}
@@ -40,8 +58,8 @@
                         </div>
                         {% endif %}
                         <div class="card-buttons">
-                        <a href="#" class="btn btn-secondary">Add to Cart</a>
-                        <a href="{% url 'product_details' product.id %}" class="btn btn-secondary">More Details</a>
+                        <a href="#" class="btn btn-dark">Add to Cart</a>
+                        <a href="{% url 'product_details' product.id %}" class="btn btn-dark">More Details</a>
                         </div>
                     </div>
                 </div>
