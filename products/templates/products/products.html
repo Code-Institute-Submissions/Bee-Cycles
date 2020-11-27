@@ -62,10 +62,10 @@
                     {% endif %}
                     </a>
                     <div class="card-body bg-warning">
-                        <h5 class="card-title text-center">{{ product.name }}</h5>
+                        <h5 class="card-title">{{ product.name }}</h5>
                         {% if product.price %}
                         <div>
-                            <i class="fas fa-euro-sign"> {{ product.price }}</i>
+                          <p class="lead mb-0 font-weight-bold">€{{ product.price }}</p>
                         </div>
                         {% endif %}
                         {% if product.category %}
