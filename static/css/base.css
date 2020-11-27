@@ -4,6 +4,9 @@ html{
     height: 100%;
     overflow-x: hidden;
 }
+body{
+    background-color: #e3e1e1;
+}
 .header-container {
         padding-top: 174px;
     }
