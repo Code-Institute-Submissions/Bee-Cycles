@@ -68,7 +68,7 @@ body{
     overflow: visible;
 }
 .toast-capper {
-    height: 2px;
+    height: 10px;
 }
 /* Convenience classes - colors copied from Bootstrap */
 .arrow-primary {
