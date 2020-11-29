@@ -13,6 +13,9 @@ body{
 .bg-secondary{
     background-color: #e3e1e1!important;
 }
+.dropdown-item:hover{
+    background-color: #6c757d;
+}
 /*** LOGO ***/
 .logo-font{
     font-family: 'Permanent Marker', cursive;
