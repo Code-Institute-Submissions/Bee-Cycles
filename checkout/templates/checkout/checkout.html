@@ -35,7 +35,7 @@
                 </div>
                 {% for item in cart_items %}
                     <div class="row">
-                        <div class="col-2 mb-1">
+                        <div class="col-5 mb-1">
                             <a href="{% url 'product_details' item.product.id %}">
                                 {% if item.product.image %}
                                     <img class="w-100" src="{{ item.product.image.url }}" alt="{{ product.name }}">
@@ -44,7 +44,7 @@
                                 {% endif %}
                             </a>
                         </div>
-                        <div class="col-7">
+                        <div class="col-4">
                             <p class="my-0"><strong>{{ item.product.name }}</strong></p>
                             <p class="my-0 small">Size: {% if item.product.has_sizes %}{{ item.size|upper }}{% else %}N/A{% endif %}</p>
                             <p class="my-0 small">Qty: {{ item.quantity }}</p>
