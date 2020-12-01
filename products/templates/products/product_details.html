@@ -32,6 +32,14 @@
                         <div class="mt-1">
                             <i class="fas fa-star"> {{ product.rating }}/5</i>
                         </div>
+                        {% else %}
+                            <small>No Rating</small>
+                        {% endif %}
+                        {% if request.user.is_superuser %}
+                            <small>
+                                <a href="{% url 'edit_product' product.id %}"><i class="fas fa-edit"></i> Edit</a> | 
+                                <a class="text-danger" href="{% url 'delete_product' product.id %}"><i class="fas fa-times-circle"></i> Delete</a>
+                            </small>
                         {% endif %}
                         <div class="product-description mt-3">
                             <span>{{ product.description }}</span>

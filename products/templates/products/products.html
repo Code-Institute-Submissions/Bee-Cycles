@@ -78,6 +78,12 @@
                             <i class="fas fa-star"> {{ product.rating }}/5</i>
                         </div>
                         {% endif %}
+                        {% if request.user.is_superuser %}
+                            <small class="ml-3">
+                                <a href="{% url 'edit_product' product.id %}"><i class="fas fa-edit"></i> Edit</a> | 
+                                <a class="text-danger" href="{% url 'delete_product' product.id %}"><i class="fas fa-times-circle"></i> Delete</a>
+                            </small>
+                        {% endif %}
                     </div>
                 </div>
             </div>
