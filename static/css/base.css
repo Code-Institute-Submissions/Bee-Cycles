@@ -247,3 +247,8 @@ select option[value=""] {
     border-color: #dc3545;
     border-radius: 0;
 }
+/*** ORDER SUMMARY ***/
+.order-history {
+    max-height: 416px; /* height of profile form + submit button */
+    overflow-y: auto;
+}
