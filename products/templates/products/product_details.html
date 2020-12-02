@@ -10,10 +10,10 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12 col-md-6">
-                {% if product.image.url %}
+                {% if product.image %}
                         <img src="{{ product.image.url }}" class="card-img-top img-fluid" alt="{{ product.name }}">
                     {% else %}
-                        <img src="{{ media }}no-image-available.jpg" class="card-img-top img-fluid" alt="{{ product.name }}">
+                        <img src="{{ MEDIA_URL }}no-image-available.jpg" class="card-img-top img-fluid" alt="{{ product.name }}">
                     {% endif %}
             </div>
             <div class="col-sm-12 col-md-6">
