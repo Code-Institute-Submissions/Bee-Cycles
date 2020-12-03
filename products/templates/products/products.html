@@ -64,15 +64,9 @@
                     <div class="card-body bg-warning">
                         <h5 class="card-title">{{ product.name }}</h5>
                         {% if product.price %}
-                            {% if product.category.name == 'deals' %}
-                                <div>
-                                    <p class="lead mb-0 text-danger"><del>€{{ product.price }}</del> € {{ product.price }}</p>
-                                </div>
-                                {% else %}
-                                <div>
-                                    <p class="lead mb-0 font-weight-bold">€ {{ product.price }}</p>
-                                </div>
-                            {% endif %}
+                            <div>
+                                <p class="lead mb-0 font-weight-bold">€ {{ product.price }}</p>
+                            </div>
                         {% endif %}
                         {% if product.category %}
                         <div>
