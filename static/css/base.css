@@ -21,6 +21,9 @@ body{
 .allauth-footer-down{
     min-height: calc(100vh - 266px);
 }
+.large{
+    font-size: large;
+}
 /*** LOGO ***/
 .logo-font{
     font-family: 'Permanent Marker', cursive;
