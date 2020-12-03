@@ -14,11 +14,11 @@ body{
     background-color: #6c757d;
     color: #fff;
 }
-.card{
+.category{
     transition: transform .3s;
     text-shadow: 0 3px 30px rgba(0,0,0,1);
 }
- .card:hover {
+ .category:hover {
      -webkit-transform: scale(1.01);
      -ms-transform: scale(1.01);
      transform: scale(1.01);
