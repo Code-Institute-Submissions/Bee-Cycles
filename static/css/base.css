@@ -17,6 +17,13 @@ body{
     background-color: #6c757d;
     color: #fff;
 }
+/*** FOOTER ***/
+.footer-down{
+    min-height: calc(100vh - 440px);
+}
+.allauth-footer-down{
+    min-height: calc(100vh - 266px);
+}
 /*** LOGO ***/
 .logo-font{
     font-family: 'Permanent Marker', cursive;
