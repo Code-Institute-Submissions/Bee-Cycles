@@ -12,19 +12,19 @@
             <h2 class="text-uppercase font-weight-bold mt-4">Products</h2>
         </div>
         <div class="row">
-            <div class="col-12 d-none d-md-block text-center mt-3">
+            <div class="col-12 d-none d-md-block text-center mt-3 btn-group btn-group-toggle" data-toggle="buttons">
                 <span>
-                    <a href="{% url 'products' %}" class="badge badge-danger">All</a>
-                    <a href="{% url 'products' %}?category=city_bikes" class="badge badge-danger">City Bikes</a>
-                    <a href="{% url 'products' %}?category=electric_bikes" class="badge badge-danger">Electric Bikes</a>
-                    <a href="{% url 'products' %}?category=road_bikes" class="badge badge-danger">Road Bikes</a>
-                    <a href="{% url 'products' %}?category=helmets" class="badge badge-danger">Helmets</a>
-                    <a href="{% url 'products' %}?category=lights" class="badge badge-danger">Lights</a>
-                    <a href="{% url 'products' %}?category=locks" class="badge badge-danger">Locks</a>
-                    <a href="{% url 'products' %}?category=sunglasses" class="badge badge-danger">Sunglasses</a>
-                    <a href="{% url 'products' %}?category=new_arrivals" class="badge badge-danger">New Arrivals</a>
-                    <a href="{% url 'products' %}?category=deals" class="badge badge-danger">Deals</a>
-                    <a href="{% url 'products' %}?category=clearance" class="badge badge-danger">Clearance</a>
+                    <a href="{% url 'products' %}" class="btn btn-sm btn-outline-dark">All</a>
+                    <a href="{% url 'products' %}?category=city_bikes" class="btn btn-sm btn-outline-dark">City Bikes</a>
+                    <a href="{% url 'products' %}?category=electric_bikes" class="btn btn-sm btn-outline-dark">Electric Bikes</a>
+                    <a href="{% url 'products' %}?category=road_bikes" class="btn btn-sm btn-outline-dark">Road Bikes</a>
+                    <a href="{% url 'products' %}?category=helmets" class="btn btn-sm btn-outline-dark">Helmets</a>
+                    <a href="{% url 'products' %}?category=lights" class="btn btn-sm btn-outline-dark">Lights</a>
+                    <a href="{% url 'products' %}?category=locks" class="btn btn-sm btn-outline-dark">Locks</a>
+                    <a href="{% url 'products' %}?category=sunglasses" class="btn btn-sm btn-outline-dark">Sunglasses</a>
+                    <a href="{% url 'products' %}?category=new_arrivals" class="btn btn-sm btn-outline-dark">New Arrivals</a>
+                    <a href="{% url 'products' %}?category=deals" class="btn btn-sm btn-outline-dark">Deals</a>
+                    <a href="{% url 'products' %}?category=clearance" class="btn btn-sm btn-outline-dark">Clearance</a>
                 </span>
             </div>
         </div>
@@ -125,5 +125,14 @@
                 window.location.replace(currentUrl);
             }
         })
+        // added active btn btn-sm btn-outline-dark classes as per https://www.youtube.com/watch?v=BI3kNsTruWo
+        let currentLocation = location.href;
+        let menuItem = document.querySelectorAll('span a');
+        let menuLength = menuItem.length;
+        for(let i = 0; i<menuLength; i++){
+            if(menuItem[i].href === currentLocation){
+                menuItem[i].className = 'active btn btn-sm btn-outline-dark';
+            }
+        }
     </script>
 {% endblock %}
