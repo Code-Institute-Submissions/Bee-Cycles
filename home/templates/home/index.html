@@ -68,7 +68,7 @@
     </div>
   </div>
 </div>
-<div class="container-fluid bg-dark">
+<div class="container-fluid bg-dark p-5">
   <div class="row">
     <div class="col-xs-6 col-md-3">
         <a href="">
@@ -143,7 +143,7 @@
     </div>
     <div class="col-xs-6 col-md-3">
     <a href="{% url 'products' %}?category=helmets">
-      <div class="card category bg-dark text-white">
+      <div class="card cate bg-dark text-white">
         <img src="/media/helmet.jpg" class="card-img" alt="Helmet" />
         <div class="card-img-overlay">
           <h5 class="card-title">Helmets</h5>
@@ -153,21 +153,17 @@
     </div>
   </div>
 </div>
-<div class="container p-4 mt-5">
+ <div class="container-fluid">
     <div class="row">
-        <div class="col-sm-12 col-md-6">
-            <h2 class="text-dark">New Arrivals</h2>
+        <div class="col-12">
+            <a href="#" id="new_arrivals" class="text-decoration-none text-dark">New Arrivals</a>
+            <a href="#" id="deals" class="text-decoration-none text-dark">Deals</a>
         </div>
-    <div class="col-sm-12 col-md-6">
-        <h2 class="text-dark">Deals</h2>
     </div>
-    </div>
-</div>
-  <div class="container-fluid">
        <div class="row">
     {% for product in products %}
         {% if product.category.name == "new_arrivals" %}
-         <div class="col-sm-6 col-md-4 col-lg-3 text-center mb-5">
+         <div class="col-sm-6 col-md-4 col-lg-3 text-center mb-5" id="new_arrivals-container">
                 <div class="card h-100">
                     <a href="{% url 'product_details' product.id %}">
                     {% if product.image %}
@@ -204,7 +200,7 @@
             </div>
     {% endif %}
     {% if product.category.name == "deals" %}
-         <div class="col-sm-6 col-md-4 col-lg-3 text-center mb-5">
+         <div class="col-sm-6 col-md-4 col-lg-3 text-center mb-5" id="deals-container">
                 <div class="card h-100">
                     <a href="{% url 'product_details' product.id %}">
                     {% if product.image %}
@@ -243,5 +239,8 @@
      {% endfor %}
         </div>
     </div>
- 
+{% endblock %}
+{% block postloadjs %}
+<script>
+</script>
 {% endblock %}
