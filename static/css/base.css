@@ -23,6 +23,10 @@ body{
      -ms-transform: scale(1.01);
      transform: scale(1.01);
  }
+ #deals,
+ #new_arrivals{
+     width: 20rem;
+ }
 /*** FOOTER ***/
 .footer-down{
     min-height: calc(100vh - 440px);
