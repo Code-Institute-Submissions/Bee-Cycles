@@ -156,8 +156,8 @@
  <div class="container">
     <div class="row">
         <div class="col-12 text-center mt-5 mb-5">
-            <a href="#" id="new_arrivals" class="text-decoration-none btn btn-outline-dark active btn-lg mr-3">New Arrivals</a>
-            <a href="#" id="deals" class="text-decoration-none btn btn-outline-dark btn-lg">Deals</a>
+            <button id="new_arrivals" class="text-decoration-none btn btn-outline-dark active btn-lg mr-md-3 mb-sm-4 mb-md-0">New Arrivals</button>
+            <button id="deals" class="text-decoration-none btn btn-outline-dark btn-lg">Deals</button>
         </div>
     </div>
        <div class="row">
@@ -200,7 +200,7 @@
             </div>
     {% endif %}
     {% if product.category.name == "deals" %}
-         <div class="col-sm-6 col-md-4 col-lg-3 text-center mb-5" id="deals-container">
+         <div class="col-sm-6 col-md-4 col-lg-3 text-center mb-5 d-none" id="deals-container">
                 <div class="card h-100">
                     <a href="{% url 'product_details' product.id %}">
                     {% if product.image %}
@@ -243,5 +243,17 @@
     
 {% block postloadjs %}
 <script>
+$("#deals").click(function(){
+    $("#deals-container").removeClass("d-none");
+    $(this).addClass("active");
+    $("#new_arrivals-container").addClass("d-none");
+    $("#new_arrivals").removeClass("active");
+})
+$("#new_arrivals").click(function(){
+    $("#new_arrivals-container").removeClass("d-none");
+    $(this).addClass("active");
+    $("#deals-container").addClass("d-none");
+    $("#deals").removeClass("active");
+})
 </script>
 {% endblock %}
