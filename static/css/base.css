@@ -78,7 +78,7 @@ body{
     cursor: pointer;
 }
 #deals,
-#new_arrivals{
+#new-arrivals{
     width: 20rem;
  }
 /*** TOASTS ***/
