@@ -23,10 +23,6 @@ body{
      -ms-transform: scale(1.01);
      transform: scale(1.01);
  }
- #deals,
- #new_arrivals{
-     width: 20rem;
- }
 /*** FOOTER ***/
 .footer-down{
     min-height: calc(100vh - 440px);
@@ -60,7 +56,7 @@ body{
 
 /*** index.html CAROUSEL ***/
 .carousel-item img{
-    max-height: 60rem;
+    max-height: 50rem;
 }
 #carousel{
     padding: 0;
@@ -81,6 +77,10 @@ body{
 .remove-item {
     cursor: pointer;
 }
+#deals,
+#new_arrivals{
+    width: 20rem;
+ }
 /*** TOASTS ***/
 .message-container {
     position: fixed;
