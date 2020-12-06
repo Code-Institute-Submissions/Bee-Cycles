@@ -30,7 +30,7 @@
             <div class="col-12 mt-3 d-lg-none">
                     <div class="input-group mb-3">
                     <div class="input-group-prepend">
-                        <button class="btn btn-outline-dark dropdown-toggle rounded-0" id="dropdown-btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Category</button>
+                        <button class="btn btn-outline-dark dropdown-toggle rounded-0" id="dropdown-btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{% if current_categories %}{{ current_categories.friendly_name }} {% else %} All {% endif %}</button>
                         <div class="dropdown-menu">
                             <a href="{% url 'products' %}" class="dropdown-item">All</a>
                             <a href="{% url 'products' %}?category=city_bikes" class="dropdown-item">City Bikes</a>
@@ -150,9 +150,9 @@
         let menuItem = document.querySelectorAll('span a');
         let menuLength = menuItem.length;
         let dropdownButton = document.getElementById('dropdown-btn');
-        let dropdownButtonValue = document.getElementById('dropdown-btn');
         let dropdownItemValue = document.getElementsByClassName('dropdown-item');
         let dropdownItem = document.getElementsByClassName('dropdown-item');
+        let selectedValue = $('.dropdown-item').find(":selected").text();
         for(let i = 0; i<menuLength; i++){
             if(menuItem[i].href === currentLocation){
                 menuItem[i].className = 'active btn btn-sm btn-outline-dark';
