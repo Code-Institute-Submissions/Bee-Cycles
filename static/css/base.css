@@ -86,6 +86,9 @@ body{
 #new-arrivals{
     width: 20rem;
  }
+ #dropdown-btn{
+     width: 15rem;
+ }
 /*** TOASTS ***/
 .message-container {
     position: fixed;
