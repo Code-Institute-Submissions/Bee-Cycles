@@ -318,8 +318,17 @@ select option[value=""] {
         padding-top: 120px;
     }
     .keep-shopping-btn,
+    .keep-shopping,
     .add-to-cart-btn,
     .secure-checkout-btn{
         padding: .250rem
+    }
+}
+@media (min-width: 320px) and (max-width: 413px) {
+    .secure-checkout-btn,
+    .keep-shopping,
+    .secure-checkout-btn i,
+    .keep-shopping i {
+        font-size: 14px;
     }
 }
