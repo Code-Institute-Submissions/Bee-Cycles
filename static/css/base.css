@@ -317,4 +317,8 @@ select option[value=""] {
     .header-container {
         padding-top: 120px;
     }
+    .keep-shopping-btn,
+    .add-to-cart-btn{
+        padding: .250rem
+    }
 }

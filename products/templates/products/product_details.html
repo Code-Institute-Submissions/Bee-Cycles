@@ -88,13 +88,13 @@
                             </div>
 
                             <div class="col-12">
-                                <a href="{% url 'products' %}" class="btn text-uppercase border border-dark bg-warning mt-5 mb-3 mr-2 font-weight-bold">
+                                <a href="{% url 'products' %}" class="btn text-uppercase border border-dark bg-warning mt-0 mt-md-5 mb-3 mr-2 font-weight-bold keep-shopping-btn">
                                     <span class="icon">
                                         <i class="fas fa-chevron-left"></i>
                                     </span>
                                    Keep Shopping
                                 </a>
-                                <input type="submit" class="btn text-uppercase mt-5 mb-3 border border-dark bg-warning font-weight-bold" value="Add to Cart">  
+                                <input type="submit" class="btn text-uppercase mt-0 mt-md-5 mb-3 border border-dark bg-warning font-weight-bold add-to-cart-btn" value="Add to Cart">  
                             </div>
                             <input type="hidden" name="redirect_url" value="{{ request.path }}">
                         </div>
