@@ -296,6 +296,22 @@ select option[value=""] {
     .header-container {
         padding-top: 80px;
     }
+    .nav-link {
+        padding: 0.15rem;
+    }
+
+    .nav-link i.fa-lg {
+        font-size: 1rem;
+    }
+
+    .navbar-toggler {
+        padding: .6rem .6rem;
+        font-size: 1rem;
+    }
+    #deals,
+    #new-arrivals{
+        width: 15rem;
+    }
 }
 @media (max-width: 377px) {
     .header-container {
