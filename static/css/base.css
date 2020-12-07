@@ -318,7 +318,8 @@ select option[value=""] {
         padding-top: 120px;
     }
     .keep-shopping-btn,
-    .add-to-cart-btn{
+    .add-to-cart-btn,
+    .secure-checkout-btn{
         padding: .250rem
     }
 }
