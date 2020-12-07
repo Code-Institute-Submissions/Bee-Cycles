@@ -16,7 +16,7 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img
-              src="/media/hero_2.jpg"
+              src="{{ MEDIA_URL }}hero_2.jpg"
               class="d-block w-100"
               alt="Bicycle Repair"
             />
@@ -156,14 +156,14 @@
  <div class="container">
     <div class="row">
         <div class="col-12 text-center mt-5 mb-5">
-            <button id="new-arrivals" class="text-decoration-none btn btn-outline-dark active btn-lg mr-md-3 mb-sm-4 mb-md-0">New Arrivals</button>
-            <button id="deals" class="text-decoration-none btn btn-outline-dark btn-lg">Deals</button>
+            <button id="new-arrivals" class="text-decoration-none btn btn-outline-dark active btn-lg m-3">New Arrivals</button>
+            <button id="deals" class="text-decoration-none btn btn-outline-dark btn-lg m-3">Deals</button>
         </div>
     </div>
        <div class="row">
     {% for product in products %}
         {% if product.category.name == "new_arrivals" %}
-         <div class="col-sm-6 col-md-4 col-lg-3 text-center mb-5" id="new-arrivals-container">
+         <div class="col-sm-6 col-md-4 col-lg-3 text-center mb-5 new-arrivals-container">
                 <div class="card h-100">
                     <a href="{% url 'product_details' product.id %}">
                     {% if product.image %}
@@ -200,7 +200,7 @@
             </div>
     {% endif %}
     {% if product.category.name == "deals" %}
-         <div class="col-sm-6 col-md-4 col-lg-3 text-center mb-5 d-none" id="deals-container">
+         <div class="col-sm-6 col-md-4 col-lg-3 text-center mb-5 d-none deals-container">
                 <div class="card h-100">
                     <a href="{% url 'product_details' product.id %}">
                     {% if product.image %}
@@ -244,15 +244,15 @@
 {% block postloadjs %}
 <script>
 $("#deals").click(function(){
-    $("#deals-container").removeClass("d-none");
+    $(".deals-container").removeClass("d-none");
     $(this).addClass("active");
-    $("#new-arrivals-container").addClass("d-none");
+    $(".new-arrivals-container").addClass("d-none");
     $("#new-arrivals").removeClass("active");
 })
 $("#new-arrivals").click(function(){
-    $("#new-arrivals-container").removeClass("d-none");
+    $(".new-arrivals-container").removeClass("d-none");
     $(this).addClass("active");
-    $("#deals-container").addClass("d-none");
+    $(".deals-container").addClass("d-none");
     $("#deals").removeClass("active");
 })
 </script>
