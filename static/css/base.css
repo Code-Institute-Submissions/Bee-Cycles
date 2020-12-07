@@ -61,7 +61,7 @@ body{
 
 /*** index.html CAROUSEL ***/
 .carousel-item img{
-    max-height: 50rem;
+    max-height: 55rem;
 }
 #carousel{
     padding: 0;
