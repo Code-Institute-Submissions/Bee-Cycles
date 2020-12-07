@@ -16,12 +16,17 @@ body{
 }
 .category{
     transition: transform .3s;
-    text-shadow: 0 3px 30px rgba(0,0,0,1);
 }
  .category:hover {
      -webkit-transform: scale(1.01);
      -ms-transform: scale(1.01);
      transform: scale(1.01);
+ }
+  .card-img-overlay .card-title{
+     text-shadow: 2px 2px 30px black;
+ }
+ .card-img {
+    filter: brightness(70%);
  }
 /*** FOOTER ***/
 .footer-down{
