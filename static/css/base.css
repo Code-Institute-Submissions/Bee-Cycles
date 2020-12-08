@@ -63,9 +63,6 @@ body{
 .carousel-item img{
     max-height: 55rem;
 }
-#carousel{
-    padding: 0;
-}
 /*** BUTTONS ***/
 .btn-dark:hover{
     color: #ffc107;
