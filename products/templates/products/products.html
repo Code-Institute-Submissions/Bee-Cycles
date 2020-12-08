@@ -30,7 +30,10 @@
             <div class="col-12 mt-3 d-lg-none">
                     <div class="input-group mb-3">
                     <div class="input-group d-flex justify-content-center">
-                        <button class="btn btn-outline-dark dropdown-toggle btn-lg" id="dropdown-btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{% if current_categories %}{{ current_categories.friendly_name }} {% else %} All {% endif %}</button>
+                    {% for category in current_categories %}
+                        {% if category %}
+                            <button class="btn btn-outline-dark dropdown-toggle btn-lg" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ category.friendly_name }}</button>
+                        {% endif %}
                         <div class="dropdown-menu">
                             <a href="{% url 'products' %}" class="dropdown-item">All</a>
                             <a href="{% url 'products' %}?category=city_bikes" class="dropdown-item">City Bikes</a>
@@ -44,6 +47,7 @@
                             <a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
                             <a href="{% url 'products' %}?category=clearance" class="dropdown-item">Clearance</a>
                         </div>
+                    {% endfor %}
                     </div>
                     </div>
             </div>
