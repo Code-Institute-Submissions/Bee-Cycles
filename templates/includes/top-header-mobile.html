@@ -23,7 +23,11 @@
 <li class="list-inline-item dropdown">
     <a class="nav-link d-block d-lg-none" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         <div class="text-center text-dark">
-            <div><i class="fas fa-user fa-lg"></i></div>
+            {% if request.user.is_superuser %}
+                <div><i class="fas fa-user-ninja fa-lg text-dark"></i></div>
+            {% else %}
+                <div><i class="fas fa-user fa-lg text-dark"></i></div>
+            {% endif %}
             <p class="my-0">My Account</p>
         </div>
     </a>
