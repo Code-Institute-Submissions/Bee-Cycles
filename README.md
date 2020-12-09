@@ -1,6 +1,7 @@
 # Bee Cycles
 ## [Live Heroku App Link](https://bee-cycles.herokuapp.com/)
-## [GitHub repository Link](https://github.com/todorr92/Bee-Cycles) 
+## [GitHub repository Link](https://github.com/todorr92/Bee-Cycles)
+![](media/readme-images/bee-cycles-mockup-generator.png)
 #### Bee Cycles webshop was designed, built and deployed by Slobodan Todorovic as his final project for the Code Institute Full Stack Web Development diploma. The purpose of Bee Cycles online shop is to be the first website built for this shop. This website is designed to create a beautifully intuitive, smooth and effortless online shopping experience.
 ## Table of Contents
 ### 1. [UX](#ux)
