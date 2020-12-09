@@ -194,16 +194,16 @@
 + For this all to work, gmail account was used and set it up with Django.
 ### Features to Implement
 1. Coupons and discount codes.
-  + Checkout page to include a field for customers to enter discount codes or coupons to adjust their final payment cost.
+    + Checkout page to include a field for customers to enter discount codes or coupons to adjust their final payment cost.
 2. Newsletter.
-  + Users would recieve an email with current deals, and depending on situation coupons or discount codes would be included.
+    + Users would recieve an email with current deals, and depending on situation coupons or discount codes would be included.
 3. Additional payment methods.
-  + Implement Paypal.
+    + Implement Paypal.
 4. Bike Services.
-  + Bookin Bike repairs, bike maintenance classes and bike rentals.
+    + Bookin Bike repairs, bike maintenance classes and bike rentals.
 5. Cycle To Work Scheme.
 6. Implementing more categories.
-  + Kids bikes, electric scooters, tools, clothing, footwear, nutrition and care.
+    + Kids bikes, electric scooters, tools, clothing, footwear, nutrition and care.
 ## Information Architecture
 ### Database Choice
 + As a framework Django works with SQL databases. During development on my local machine I worked with the standard sqlite3 database installed with Django.
