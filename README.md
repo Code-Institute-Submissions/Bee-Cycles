@@ -39,7 +39,7 @@
 
 ## Design Choices
 ### Font
-[](media/readme-images/fonts.png)
+![](media/readme-images/fonts.png)
 + Primary font 'Arial' was chosen for the main text of the site because of it clear readability, clean style and complementary contrast with the secondary font. This font also looks good in uppercase with a little extra letter spacing, and so could serve nicely as a sub heading as well.
 + The secondary font 'Permanent Marker' was chosen for the site name as it helps site name to stand out, but yet keep that simplicity.
 ### Icons
