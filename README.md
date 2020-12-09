@@ -75,7 +75,7 @@
 ## Features
 ### Existing Features
 #### Elements on every page
-Navbar:
+##### Navbar:
 ![](media/readme-images/navbar.png)
 + The navbar features on every page
 + The navigation bar features Bee Cycles logo on the far left, and site name Bee Cycles in the middle of the page which both links to the home page of the site.
@@ -89,7 +89,7 @@ Navbar:
 ![](/media/readme-images/mobile-nav.png)
 + In tablet and mobile view the logo and site name Bee Cycles are hidden, and Home link is added to burger menu.
 + The shopping cart icon is displayed at the right of the navigation bar, and the burger icon to display the full navigation menu is on the far left, with search bar and user icon in the middle of navigation bar because that is where a user would expect to find it.
-Footer
+##### Footer
 ![](media/readme-images/footer.png)
 + The footer features on every page.
 + The footer background of dark grey and orange text was chosen to maintain same colour palette.
@@ -99,33 +99,33 @@ Footer
 Hero slider/carousel
 + The home page hero slider/carousel features 3 slides of images from. All of them were selected randomly from online source. User testimonials are added at the bottom of carousel.
 + Below carousel some of the Bee Cycles characteristics are shown.
-Shop Categories
+##### Shop Categories
 ![](media/readme-images/home-category.png) 
 + Below the Bee Cycles characteristics are a selection of the shop categories, displayed with beautiful product photographs and clear headings. The user can click any of these images to be taken to the relevant sections of the shop. On hover there is some light zoom in action.
 + On desktop view these sections are displayed with 4 categories in one line as shown on image. On smaller screens each category is made as col-12.
-New Arrivals/Deals listings
+##### New Arrivals/Deals listings
 + Two buttons, both connected with his product container, on click, one container is shown and second is hidden.
 + At the bottom of the home page 8 products are selected from the products database from those with product.category.name == 'new_arrivals' or product.category.name == 'deals in their properties.
 #### Products Page
-Category buttons
+##### Category buttons
 + The main products page features a collection of buttons leading to each section of the shop, on click of the button, selected category will get active class. These buttons are not visible on mobile view to save space, instead of it one dropdown button was placed with all categories included and selected category will be selected as active and shown as dropdown text.
-Sort
+##### Sort
 + Just under category buttons on left side, cound of products was placed.
 + Just under category buttons on right side, sort selector is placed and includes the option to sort its results by "Price (low to high)", "Price (high to low)","Rating (low to high)" and "Rating (high to low)".
-Products selection
+##### Products selection
 + Products in the shop are displayed as cards with images, their title, price, category and rating displayed underneath each image. If user is logged in as superuser Edit and Delete functions are appearing underneath rating.
 + Each product in the list has a link to it's respective product listing with more information.
 #### Products Details Page
 ![](media/readme-images/Product-Details.png)
-Product Image
+##### Product Image
 + While beeing on medium size screen, up to large and extra-large image is displayed on left side on the screen.
 + On mobile phone screens image is displayed first.
-Product details
+##### Product details
 + The product title, price, category, rating, edit-delete functions (if user is logged as superuser) and description are all clearly visible on the product listing page.
 + Under the product description is size dropdown selector if there is size applicable for product.
 + A quantity selector allows the user to select the quantity of a product they wish to purchase.
 + An "Keep shopping" and "Add to cart" buttons are displayed right under the quantity selection.
-Notification messages
+##### Notification messages
 + Whole notification messages are based on django message levels, for this specific project four levels were used: INFO, SUCCESS, WARNING and ERROR.
 + When a user adds an item to their cart, an Bootstrap toast success message appears with a green toast capper to inform them that their item has been successfully added and shows the user minified version of their cart, with information such as what action was done(Added ** product to your cart), cart summary, size(if selected), quantity and total price. They are then given the option to secure checkout in toast or they can just close it and continue their shopping.
 + Error message will appear with a red toast capper if any error occur on website, for example if empty search string is searched, toast error will appear with short details.
@@ -146,18 +146,18 @@ Notification messages
 + Asking user if they are sure regarding loging out.
 + One button is there to cancel action and returns user to home page, second button is to confirm log out action and then returns user again to home page.
 #### Product Managment Page
-Add Product
+##### Add Product
 ![](media/readme-images/add-product.png)
 + Only admin or superuser can add product, once admin is logged in, Product Managment option comes up under user icon.
 + Admin then can add product, only name, description and price are required fields.
 + Once the product is added page is redirected to that specific product.
-Edit Product
+##### Edit Product
 ![](media/readme-images/edit-product.png)
 + Only admin or superuser can edit product.
 + Admin can edit product, only name, description and price are required fields.
 + On the bottom small image of the product is shown so the Admin can see which one is uploaded.
 #### Cart Page
-Desktop
+##### Desktop
 ![](media/readme-images/shopping-cart.png)
 + The shopping cart page features a summary of all the items the user has added to their cart.
 + On desktop view, image comes first, product name, size, sku, price, quantity and subtotal then follows.
@@ -166,7 +166,7 @@ Desktop
 + Remove link deletes product from cart.
 + On the bottom of cart user can see cart total amount.
 + Keep Shopping button redirects user back to all products and secure checkout brings user to checkout page.
-Mobile
+##### Mobile
 ![](media/readme-images/shopping-cart-mobile.png)
 + Due to cart content beeing in table, scroll left-right appeared once testing on mobile.
 + To prevent that, content was spread in seperate html files and included then in cart.html.
@@ -212,14 +212,16 @@ Mobile
 #### User
 + The User model utilized for this project is the standard one provided by django.contrib.auth.models
 #### Product app models
-Category
+##### Category
 Within the products app, the Category model holds all the data needed for the categories in the shop.
 Name | Key in DB | Validation | Field Type
 ------------ | ------------- | ------------- | -------------
 Name | name | max_length=254 | CharField
 Friendly Name | friendly_name | max_length=254, null=True, blank=True | CharField 
-Product
+
+##### Product
 Within the products app, the Product model holds all the data needed for the products in the shop.
+
 Name | Key in DB | Validation | Field Type
 ------------ | ------------- | ------------- | -------------
 Category | category | 'Category', null=True, blank=True, on_delete=models.SET_NULL | ForeignKey
@@ -233,7 +235,7 @@ Image URL | image_url | max_length=1024, null=True, blank=True | URLField
 Image | image | null=True, blank=True | ImageField
 #### Checkoutt app models
 Within the checkout app, the Order and OrderLineItem models hold the data needed for users to create and pay for their orders.
-Order
+##### Order
 Name | Key in DB | Validation | Field Type
 ------------ | ------------- | ------------- | -------------
 Order Number | order_number | max_length=32, null=False, editable=False | CharField
@@ -251,7 +253,7 @@ Date | date | auto_now_add=True | DateTimeField
 Order Total | order_total | max_digits=10, decimal_places=2, null=False, default=0 | DecimalField
 Original Cart | original_cart | null=False, blank=False, default='' | TextField
 Stripe PID | stripe_pid | max_length=254, null=False, blank=False, default='' | CharField
-OrderLineItem
+##### OrderLineItem
 Name | Key in DB | Validation | Field Type
 ------------ | ------------- | ------------- | -------------
 Order | order | Order, null=False, blank=False, on_delete=models.CASCADE, related_name='lineitems' | ForeignKey
@@ -260,7 +262,7 @@ Product Size | product_size | max_length=2, null=True, blank=True | CharField
 Quantity | quantity | null=False, blank=False, default=0 | IntegerField
 Line Item Total | lineitem_total | max_digits=6, decimal_places=2, null=False, blank=False, editable=False | DecimalField
 #### Profiles app models
-UserProfile
+##### UserProfile
 Name | Key in DB | Validation | Field Type
 ------------ | ------------- | ------------- | -------------
 User | user | User, on_delete=models.CASCADE | OneToOneField
@@ -273,32 +275,32 @@ Default Postcode | default_postcode | max_length=20, null=True, blank=True | Cha
 Default Country | default_country | blank_label='Country', null=True, blank=True | CountryField
 ## Technologies Used
 #### Tools
-+ Gitpod as online IDE used for developing this project.
-+ Django as python web framework for rapid development and clean design.
-+ Stripe as payment platform to validate and accept credit card payments securely.
-+ AWS S3 Bucket to store images entered into the database.
-+ Boto3 to enable creation, configuration and management of AWS S3.
-+ Django Crispy Forms to style django forms.
-+ Django Storages a collection of custom storage backends with django to work with boto3 and AWS S3.
-+ Django Allauth to handle register, log in, log out, password recovery actions.
-+ Django Countries to handle country selection.
-+ Gunicorn WSGI HTTP Server for UNIX to aid in deployment of the Django project to heroku.
-+ Pillow as python imaging library to aid in processing image files to store in database.
-+ Psycopg2 as PostgreSQL database adapter for Python.
-+ PIP3 for installation of tools needed in this project.
-+ Git to handle version control.
-+ GitHub to store and share all project code remotely.
-+ Balsamiq to create the wireframes for this project.
-+ TinyPNG used to compress images.
++ [Gitpod](https://www.gitpod.io/) as online IDE used for developing this project.
++ [Django](https://www.djangoproject.com/) as python web framework for rapid development and clean design.
++ [Stripe](https://stripe.com/en-ie) as payment platform to validate and accept credit card payments securely.
++ [AWS S3 Bucket](https://aws.amazon.com/) to store images entered into the database.
++ [Boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html) to enable creation, configuration and management of AWS S3.
++ [Django Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/) to style django forms.
++ [Django Storages](https://django-storages.readthedocs.io/en/latest/) a collection of custom storage backends with django to work with boto3 and AWS S3.
++ [Django Allauth](https://django-allauth.readthedocs.io/en/latest/) to handle register, log in, log out, password recovery actions.
++ [Django Countries](https://pypi.org/project/django-countries/2.0/) to handle country selection.
++ [Gunicorn](https://pypi.org/project/gunicorn/) WSGI HTTP Server for UNIX to aid in deployment of the Django project to heroku.
++ [Pillow](https://pillow.readthedocs.io/en/stable/) as python imaging library to aid in processing image files to store in database.
++ [Psycopg2](https://pypi.org/project/psycopg2/) as PostgreSQL database adapter for Python.
++ [PIP3](https://pip.pypa.io/en/stable/) for installation of tools needed in this project.
++ [Git](https://git-scm.com/) to handle version control.
++ [GitHub](https://github.com/) to store and share all project code remotely.
++ [Balsamiq](https://balsamiq.com/) to create the wireframes for this project.
++ [TinyPNG](https://tinypng.com/) used to compress images.
 + [Mockup Generator](https://techsini.com/multi-mockup/index.php)
 #### Databases
-+ PostgreSQL for production database, provided by heroku.
-+ SQlite3 for development database, provided by django.
++ [PostgreSQL](https://www.postgresql.org/) for production database, provided by heroku.
++ [SQlite3](https://www.sqlite.org/index.html) for development database, provided by django.
 #### Libraries
-+ JQuery to simplify DOM manipulation.
-+ Bootstrap to simplify the structure of the website and make the website responsive easily.
-+ FontAwesome to provide icons for Bee Cycles webshop.
-+ Google Fonts to style the website fonts.
++ [JQuery](https://jquery.com/) to simplify DOM manipulation.
++ [Bootstrap](https://getbootstrap.com/) to simplify the structure of the website and make the website responsive easily.
++ [FontAwesome](https://fontawesome.com/) to provide icons for Bee Cycles webshop.
++ [Google Fonts](https://fonts.google.com/) to style the website fonts.
 #### Languages
 + This project uses HTML, CSS, JavaScript and Python programming languages.
 ## Testing
@@ -312,18 +314,28 @@ To run this project on your own IDE follow the instructions below:
 + Please click the links above for documentation on how to set these up and retrieve the necessary environment variables.
 #### Instructions
 1. Save a copy of the github repository located at https://github.com/todorr92/Bee-Cycles by clicking the "download zip" button at the top of the page and extracting the zip file to your chosen folder. If you have Git installed on your system, you can clone the repository with the following command.
-`git clone https://github.com/todorr92/Bee-Cycles`
+```
+git clone https://github.com/todorr92/Bee-Cycles
+```
 2. Open your preferred IDE, open a terminal session in the unzip folder or cd to the correct location.
 3. A virtual environment is recommended for the Python interpreter, I recommend using Pythons built in virtual environment. Enter the command:
-`python -m .venv venv`
+```
+python -m .venv venv
+```
 *NOTE: The python part of this command and the ones in other steps below assumes you are working with a windows operating system. Your Python command may differ, such as python3 or py*
 4. Activate the .venv with the command:
-`.venv\Scripts\activate`
+```
+.venv\Scripts\activate
+```
 *Again this command may differ depending on your operating system, please check the [Python Documentation on virtual environments](https://docs.python.org/3/library/venv.html) for further instructions.*
 5. If needed, Upgrade pip locally with:
-`pip install --upgrade pip`
+```
+pip install --upgrade pip
+```
 6. Install all required modules with the command:
-`pip -r requirements.txt`
+```
+pip -r requirements.txt
+```
 7. Set up the following environment variables within your IDE.
 + If using VSCode, locate the settings.json file within the .vscode directory and add your environment variables as below. Do not forget to restart your machine to activate your environment variables or your code will not be able to see them:
 ```
@@ -345,16 +357,24 @@ To run this project on your own IDE follow the instructions below:
 + HOSTNAME should be the local address for the site when running within your own IDE.
 8. If you have restarted your machine to activate your environment variables, do not forget to reactivate your virtual environment with the command used at step 4.
 9. Migrate the admin panel models to create your database template with the terminal command:
-`python manage.py migrate` 
+```
+python manage.py migrate
+``` 
 10. Create your superuser to access the django admin panel and database with the following command, and then follow the steps to add your admin username and password:
-`python manage.py migrate`
+```
+python manage.py migrate
+```
 11. You can now run the program locally with the following command:
-`python manage.py runserver`
+```
+python manage.py runserver
+```
 ### Heroku Deployment
 To deploy Bee Cycles webshop to heroku, take the following steps:
 1. Create a requirements.txt file using the terminal command pip freeze > requirements.txt.
 2. Create a Procfile and inside of it place this line of code:
-`web: gunicorn bee_cycles.wsgi:application`
+```
+web: gunicorn bee_cycles.wsgi:application
+```
 3. **git add** and **git commit** the new requirements and Procfile and then git push the project to GitHub.
 4. Create a new app on the [Heroku website](https://dashboard.heroku.com/apps/) by clicking the "New" button in your dashboard. Give it a name and set the region to whichever is applicable for your location.
 5. From the heroku dashboard of your newly created application, click on "Deploy" > "Deployment method" and select GitHub.
