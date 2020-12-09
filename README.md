@@ -30,11 +30,11 @@ The Goals of Bee Cycles business are:
 + Make sales of products easy for buyers to increase sales conversion.
 ### User Stories
 ### As a Shopper
-1. As a shopper I want to view list of products and services.
-2. As a shopper I want to view product and service details so that I can identify price, description, product rating and product image.
+1. As a shopper I want to view list of products.
+2. As a shopper I want to view product details so that I can identify price, description, product rating and product image.
 3. As a shopper I want to easily view total of my purchases at any time.
 4. As a shopper I want to sort the list of available products by best rated, price and categorically.
-5. As a shopper I want to search for a product/service by name or description.
+5. As a shopper I want to search for a product by name or description.
 6. As a shopper I want to view items in my bag to be puchased.
 7. As a shopper I want to adjust the quantity of individual items in my bag.
 8. As a shopper I want to easily enter my payment information.
@@ -400,16 +400,16 @@ web: gunicorn bee_cycles.wsgi:application
 
 Key | Value 
 ------------ | ------------- 
-AWS_ACCESS_KEY_ID | <your value> 
-AWS_SECRET_ACCESS_KEY | <your value> 
-DATABASE_URL | <your value> 
-EMAIL_HOST_PASS | <your value> 
-EMAIL_HOST_USER | <your value> 
-SECRET_KEY | <your value> 
-STRIPE_PUBLIC_KEY | <your value> 
-STRIPE_SECRET_KEY | <your value> 
-STRIPE_WH_SECRET | <your value>  
-USE_AWS | <True> 
+AWS_ACCESS_KEY_ID | `Your Value`
+AWS_SECRET_ACCESS_KEY | `Your Value` 
+DATABASE_URL | `Your Value` 
+EMAIL_HOST_PASS | `Your Value` 
+EMAIL_HOST_USER | `Your Value` 
+SECRET_KEY | `Your Value` 
+STRIPE_PUBLIC_KEY | `Your Value` 
+STRIPE_SECRET_KEY | `Your Value` 
+STRIPE_WH_SECRET | `Your Value`  
+USE_AWS | `True` 
 9. From the command line of your local IDE:
     + Enter the heroku postgres shell
     + Migrate the database models
