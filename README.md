@@ -62,7 +62,7 @@ The Goals of Bee Cycles business are:
 + In order to keep the site uncluttered only a few icons were utilized.
 [](media/readme-images/nav-icons.png)
 + The search icon, shopping cart and user icons were used in the navigation bar as they are conventionally used in this setting and would be what the user expects to see.
-+ If the user is logged in as Admin, user icon is changing to njinja user icon
++ If the user is logged in as Admin, user icon is changing to ninja user icon
 [](/media/readme-images/nav-icons.png)
 + The Facebook and Yelp logo icon is included in the footer to lead visitors to Bee Cycles facebook and Yelp page.
 [](media/readme-images/products-icons.png)
@@ -83,10 +83,10 @@ The Goals of Bee Cycles business are:
 #### These wireframes were created using [Balsamiq](https://balsamiq.com/) during the Scope Plane part of the design and planning process for this project.
 + [Home](media/wireframes/Home.png)
 + [Products](media/wireframes/Products.png)
-+ [Product Details](media/wireframes/)
++ [Product Details](media/wireframes/Product-Details.png)
 + [Shopping Bag](media/wireframes/Shopping-Bag.png)
 + [Checkout](media/wireframes/Checkout.png)
-+ [Checkout Success](media/wireframes/)
++ [Checkout Success](media/wireframes/Checkout-Success.png)
 + [Profile](media/wireframes/Profile.png)
 ## Features
 ### Existing Features
@@ -156,8 +156,8 @@ The Goals of Bee Cycles business are:
 #### Profile Page
 ![](media/readme-images/profile.png)
 + The profile page is split in two sections:
- + Order Summary where user can see summary of all their previous orders.
- + Profile Info where user can update their phone number, street address, city, county, postal code and country.
+    + Order Summary where user can see summary of all their previous orders.
+    + Profile Info where user can update their phone number, street address, city, county, postal code and country.
 #### Sign Out Page
 + Asking user if they are sure regarding loging out.
 + One button is there to cancel action and returns user to home page, second button is to confirm log out action and then returns user again to home page.
@@ -278,6 +278,7 @@ Product Size | product_size | max_length=2, null=True, blank=True | CharField
 Quantity | quantity | null=False, blank=False, default=0 | IntegerField
 Line Item Total | lineitem_total | max_digits=6, decimal_places=2, null=False, blank=False, editable=False | DecimalField
 #### Profiles app models
+Within the Profiles app, UserProfile model hold the data needed for users to so it can be displayed as users information.
 ##### UserProfile
 Name | Key in DB | Validation | Field Type
 ------------ | ------------- | ------------- | -------------
