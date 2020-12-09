@@ -12,7 +12,22 @@
 ### 7. [Credits](#credits)
 
 ## UX
-### Goal
+### Goals
+#### Visitor Goals
+The central target audience for Bee Cycles are:
++ People who cycle for fun, joy or need.
++ People who value good shopping service.
++ People searching for top class bike equipment.
+User Goals are:
++ Find a proper bike to suit my needs.
++ Enjoy browsing bike equipment.
++ Be able to navigate the shop easily, find what I need and make a safe and secure purchase.
++ Buy from a trustworthy online shop.
+#### Business Goals
+The Goals of Bee Cycles business are:
++ Provide a professional online shop that helps the user to feel safe that they are buying from a trustworthy source.
++ Connect to fans of the shop through Bee Cycles social media channels.
++ Make sales of products easy for buyers to increase sales conversion.
 ### User Stories
 ### As a Shopper
 1. As a shopper I want to view list of products and services.
@@ -96,7 +111,7 @@
 + Location shown in footer is linked to Google Maps, email can be sent using default mail provider and telephone is just for information.
 + The footer also includes a link to Bee Cycle active social media channel on Facebook and Yelp. If/When Bee Cycles activates their other social medial channels on twitter/instagram/pinterest then these can be added to the icons in the footer.
 #### Home Page
-Hero slider/carousel
+##### Hero slider/carousel
 + The home page hero slider/carousel features 3 slides of images from. All of them were selected randomly from online source. User testimonials are added at the bottom of carousel.
 + Below carousel some of the Bee Cycles characteristics are shown.
 ##### Shop Categories
@@ -322,7 +337,8 @@ git clone https://github.com/todorr92/Bee-Cycles
 ```
 python -m .venv venv
 ```
-*NOTE: The python part of this command and the ones in other steps below assumes you are working with a windows operating system. Your Python command may differ, such as python3 or py*
+*NOTE: The python part of this command and the ones in other steps below assumes you are working with a windows operating system. Your Python command may differ, such as python3 or py*.
+
 4. Activate the .venv with the command:
 ```
 .venv\Scripts\activate
@@ -370,17 +386,18 @@ python manage.py runserver
 ```
 ### Heroku Deployment
 To deploy Bee Cycles webshop to heroku, take the following steps:
-1. Create a requirements.txt file using the terminal command pip freeze > requirements.txt.
-2. Create a Procfile and inside of it place this line of code:
+1. Create a `requirements.txt` file using the terminal command `pip freeze > requirements.txt`.
+2. Create a `Procfile` and inside of it place this line of code:
 ```
 web: gunicorn bee_cycles.wsgi:application
 ```
-3. **git add** and **git commit** the new requirements and Procfile and then git push the project to GitHub.
+3. `git add` and `git commit` the new requirements and Procfile and then git push the project to GitHub.
 4. Create a new app on the [Heroku website](https://dashboard.heroku.com/apps/) by clicking the "New" button in your dashboard. Give it a name and set the region to whichever is applicable for your location.
 5. From the heroku dashboard of your newly created application, click on "Deploy" > "Deployment method" and select GitHub.
 6. Confirm the linking of the heroku app to the correct GitHub repository.
 7. In the heroku dashboard for the application, click on "Settings" > "Reveal Config Vars".
 8. Set the following config vars:
+
 Key | Value 
 ------------ | ------------- 
 AWS_ACCESS_KEY_ID | <your value> 
@@ -394,9 +411,9 @@ STRIPE_SECRET_KEY | <your value>
 STRIPE_WH_SECRET | <your value>  
 USE_AWS | <True> 
 9. From the command line of your local IDE:
-+ Enter the heroku postgres shell
-+ Migrate the database models
-+ Create your superuser account in your new database
+    + Enter the heroku postgres shell
+    + Migrate the database models
+    + Create your superuser account in your new database
 Instructions on how to do these steps can be found in the [heroku devcenter documentation](https://devcenter.heroku.com/articles/heroku-postgresql).
 10. In your heroku dashboard, click "Deploy". Scroll down to "Manual Deploy", select the master branch then click "Deploy Branch".
 11. Once the build is complete, click the "View app" button provided and site should run as expected.
@@ -406,7 +423,7 @@ Instructions on how to do these steps can be found in the [heroku devcenter docu
 ### Images
 + Images on home page and logo taken from [Pexels](https://www.pexels.com/), [FreeImages](https://www.freeimages.com/) and [Pixabay](https://pixabay.com/).
 ### Code
-+ [Boutique Ado](https://todorr92-boutique-ado.herokuapp.com/)
++ [Boutique Ado](https://todorr92-boutique-ado.herokuapp.com/) as a great insight in a project.
 + The following youtube video series provided much explanation about the use and operation of Django.
  + [Python Django Web Framework - Full Course for Beginners by freeCodeCamp.org](https://www.youtube.com/watch?v=F5mRW0jo-U4)
  + [Django Tutorials by Corey Schafer](https://www.youtube.com/watch?v=UmljXZIypDc&list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6U4p)
