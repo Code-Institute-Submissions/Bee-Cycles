@@ -3,13 +3,13 @@
 ## [GitHub repository Link](https://github.com/todorr92/Bee-Cycles) 
 #### Bee Cycles webshop was designed, built and deployed by Slobodan Todorovic as his final project for the Code Institute Full Stack Web Development diploma. The purpose of Bee Cycles online shop is to be the first website built for this shop. This website is designed to create a beautifully intuitive, smooth and effortless online shopping experience.
 ## Table of Contents
-1. UX
-2. Features
-3. Information Architecture
-4. Technologies Used
-5. Testing
-6. Deployment
-7. Credits
+1. [UX](#ux)
+2. [Features](#features)
+3. [Information Architecture](#information-architecture)
+4. [Technologies Used](#technologies-used)
+5. [Testing](#testing)
+6. [Deployment](#deployment)
+7. [Credits](#credits)
 
 ## UX
 ### Goal
@@ -193,16 +193,16 @@
 + Also once users checks out, orded confirmation is sent to user with all details.
 + For this all to work, gmail account was used and set it up with Django.
 ### Features to Implement
-1. Coupons and discount codes.
++ Coupons and discount codes.
     + Checkout page to include a field for customers to enter discount codes or coupons to adjust their final payment cost.
-2. Newsletter.
++ Newsletter.
     + Users would recieve an email with current deals, and depending on situation coupons or discount codes would be included.
-3. Additional payment methods.
++ Additional payment methods.
     + Implement Paypal.
-4. Bike Services.
++ Bike Services.
     + Bookin Bike repairs, bike maintenance classes and bike rentals.
-5. Cycle To Work Scheme.
-6. Implementing more categories.
++ Cycle To Work Scheme.
++ Implementing more categories.
     + Kids bikes, electric scooters, tools, clothing, footwear, nutrition and care.
 ## Information Architecture
 ### Database Choice
@@ -303,6 +303,81 @@ Default Country | default_country | blank_label='Country', null=True, blank=True
 + This project uses HTML, CSS, JavaScript and Python programming languages.
 ## Testing
 Testing information can be found in separate [TESTING.md](testing.md) file.
+## Deployment
+### Run this project locally
+To run this project on your own IDE follow the instructions below:
+Ensure you have the following tools: - An IDE such as [Visual Studio Code](https://code.visualstudio.com/)
+The following must be installed on your machine: - [PIP](https://pip.pypa.io/en/stable/installing/) - [Python 3](https://www.python.org/downloads/) - [Git](https://gist.github.com/derhuerst/1b15ff4652a867391f03)
+To allow you to access all functionality on the site locally, ensure you have created free accounts with the following services: - [Stripe](https://stripe.com/en-ie) - [AWS](https://aws.amazon.com/) and [set up an S3 bucket](https://docs.aws.amazon.com/AmazonS3/latest/gsg/CreatingABucket.html)
+Please click the links above for documentation on how to set these up and retrieve the necessary environment variables.
+#### Instructions
+1. Save a copy of the github repository located at https://github.com/todorr92/Bee-Cycles by clicking the "download zip" button at the top of the page and extracting the zip file to your chosen folder. If you have Git installed on your system, you can clone the repository with the following command.
+"git clone https://github.com/todorr92/Bee-Cycles"
+2. Open your preferred IDE, open a terminal session in the unzip folder or cd to the correct location.
+3. A virtual environment is recommended for the Python interpreter, I recommend using Pythons built in virtual environment. Enter the command:
+"python -m .venv venv"
+*NOTE: The python part of this command and the ones in other steps below assumes you are working with a windows operating system. Your Python command may differ, such as python3 or py*
+4. Activate the .venv with the command:
+".venv\Scripts\activate "
+*Again this command may differ depending on your operating system, please check the [Python Documentation on virtual environments](https://docs.python.org/3/library/venv.html) for further instructions.*
+5. If needed, Upgrade pip locally with:
+"pip install --upgrade pip"
+6. Install all required modules with the command:
+"pip -r requirements.txt"
+7. Set up the following environment variables within your IDE.
++ If using VSCode, locate the settings.json file within the .vscode directory and add your environment variables as below. Do not forget to restart your machine to activate your environment variables or your code will not be able to see them:
+"terminal.integrated.env.windows": {
+    "HOSTNAME": "<enter hostname here>",
+    "AWS_ACCESS_KEY_ID": "<enter key here>",
+    "AWS_SECRET_ACCESS_KEY": "<enter key here>",
+    "DATABASE_URL": "<enter key here>",
+    "EMAIL_HOST_PASS": "<enter key here>",
+    "EMAIL_HOST_USER": "<enter url here>",
+    "SECRET_KEY": "<enter url here>",
+    "STRIPE_PUBLIC_KEY": "<enter key here>",
+    "STRIPE_SECRET_KEY": "<enter key here>",
+    "STRIPE_WH_SECRET": "<enter key here>",
+    "USE_AWS": "True",
+    "AWS_STORAGE_BUCKET_NAME": "<enter bucket name here>"
+}
++ HOSTNAME should be the local address for the site when running within your own IDE.
+8. If you have restarted your machine to activate your environment variables, do not forget to reactivate your virtual environment with the command used at step 4.
+9. Migrate the admin panel models to create your database template with the terminal command:
+"python manage.py migrate" 
+10. Create your superuser to access the django admin panel and database with the following command, and then follow the steps to add your admin username and password:
+"python manage.py migrate"
+11. You can now run the program locally with the following command:
+"python manage.py runserver"
+### Heroku Deployment
+To deploy Bee Cycles webshop to heroku, take the following steps:
+1. Create a requirements.txt file using the terminal command pip freeze > requirements.txt.
+2. Create a Procfile and inside of it place this line of code:
+"web: gunicorn bee_cycles.wsgi:application"
+3. **git add** and **git commit** the new requirements and Procfile and then git push the project to GitHub.
+4. Create a new app on the [Heroku website](https://dashboard.heroku.com/apps/) by clicking the "New" button in your dashboard. Give it a name and set the region to whichever is applicable for your location.
+5. From the heroku dashboard of your newly created application, click on "Deploy" > "Deployment method" and select GitHub.
+6. Confirm the linking of the heroku app to the correct GitHub repository.
+7. In the heroku dashboard for the application, click on "Settings" > "Reveal Config Vars".
+8. Set the following config vars:
+Key | Value 
+------------ | ------------- 
+AWS_ACCESS_KEY_ID | <your value> 
+AWS_SECRET_ACCESS_KEY | <your value> 
+DATABASE_URL | <your value> 
+EMAIL_HOST_PASS | <your value> 
+EMAIL_HOST_USER | <your value> 
+SECRET_KEY | <your value> 
+STRIPE_PUBLIC_KEY | <your value> 
+STRIPE_SECRET_KEY | <your value> 
+STRIPE_WH_SECRET | <your value>  
+USE_AWS | <True> 
+9. From the command line of your local IDE:
++ Enter the heroku postgres shell
++ Migrate the database models
++ Create your superuser account in your new database
+Instructions on how to do these steps can be found in the [heroku devcenter documentation](https://devcenter.heroku.com/articles/heroku-postgresql).
+10. In your heroku dashboard, click "Deploy". Scroll down to "Manual Deploy", select the master branch then click "Deploy Branch".
+11. Once the build is complete, click the "View app" button provided and site should run as expected.
 ## Credits
 ### Content
 + All product images and description provided by [360 Cycles](https://www.360cycles.ie/)
