@@ -320,7 +320,7 @@ select option[value=""] {
 }
 @media (max-width: 377px) {
     .header-container {
-        padding-top: 120px;
+        padding-top: 100px;
     }
     .keep-shopping-btn,
     .keep-shopping,
