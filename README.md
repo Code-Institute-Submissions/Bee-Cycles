@@ -312,47 +312,49 @@ To run this project on your own IDE follow the instructions below:
 + Please click the links above for documentation on how to set these up and retrieve the necessary environment variables.
 #### Instructions
 1. Save a copy of the github repository located at https://github.com/todorr92/Bee-Cycles by clicking the "download zip" button at the top of the page and extracting the zip file to your chosen folder. If you have Git installed on your system, you can clone the repository with the following command.
-> "git clone https://github.com/todorr92/Bee-Cycles"
+`git clone https://github.com/todorr92/Bee-Cycles`
 2. Open your preferred IDE, open a terminal session in the unzip folder or cd to the correct location.
 3. A virtual environment is recommended for the Python interpreter, I recommend using Pythons built in virtual environment. Enter the command:
-> "python -m .venv venv"
+`python -m .venv venv`
 *NOTE: The python part of this command and the ones in other steps below assumes you are working with a windows operating system. Your Python command may differ, such as python3 or py*
 4. Activate the .venv with the command:
-> ".venv\Scripts\activate "
+`.venv\Scripts\activate`
 *Again this command may differ depending on your operating system, please check the [Python Documentation on virtual environments](https://docs.python.org/3/library/venv.html) for further instructions.*
 5. If needed, Upgrade pip locally with:
-> "pip install --upgrade pip"
+`pip install --upgrade pip`
 6. Install all required modules with the command:
-> "pip -r requirements.txt"
+`pip -r requirements.txt`
 7. Set up the following environment variables within your IDE.
 + If using VSCode, locate the settings.json file within the .vscode directory and add your environment variables as below. Do not forget to restart your machine to activate your environment variables or your code will not be able to see them:
-> "terminal.integrated.env.windows": {
->    "HOSTNAME": "<enter hostname here>",
->    "AWS_ACCESS_KEY_ID": "<enter key here>",
->    "AWS_SECRET_ACCESS_KEY": "<enter key here>",
->    "DATABASE_URL": "<enter key here>",
->    "EMAIL_HOST_PASS": "<enter key here>",
->    "EMAIL_HOST_USER": "<enter url here>",
->    "SECRET_KEY": "<enter url here>",
->    "STRIPE_PUBLIC_KEY": "<enter key here>",
->    "STRIPE_SECRET_KEY": "<enter key here>",
->    "STRIPE_WH_SECRET": "<enter key here>",
->    "USE_AWS": "True",
->    "AWS_STORAGE_BUCKET_NAME": "<enter bucket name here>"
-> }
+```
+ "terminal.integrated.env.windows": {
+    "HOSTNAME": "<enter hostname here>",
+    "AWS_ACCESS_KEY_ID": "<enter key here>",
+    "AWS_SECRET_ACCESS_KEY": "<enter key here>",
+    "DATABASE_URL": "<enter key here>",
+    "EMAIL_HOST_PASS": "<enter key here>",
+    "EMAIL_HOST_USER": "<enter url here>",
+    "SECRET_KEY": "<enter url here>",
+    "STRIPE_PUBLIC_KEY": "<enter key here>",
+    "STRIPE_SECRET_KEY": "<enter key here>",
+    "STRIPE_WH_SECRET": "<enter key here>",
+    "USE_AWS": "True",
+    "AWS_STORAGE_BUCKET_NAME": "<enter bucket name here>"
+ }
+ ```
 + HOSTNAME should be the local address for the site when running within your own IDE.
 8. If you have restarted your machine to activate your environment variables, do not forget to reactivate your virtual environment with the command used at step 4.
 9. Migrate the admin panel models to create your database template with the terminal command:
-> "python manage.py migrate" 
+`python manage.py migrate` 
 10. Create your superuser to access the django admin panel and database with the following command, and then follow the steps to add your admin username and password:
-> "python manage.py migrate"
+`python manage.py migrate`
 11. You can now run the program locally with the following command:
-> "python manage.py runserver"
+`python manage.py runserver`
 ### Heroku Deployment
 To deploy Bee Cycles webshop to heroku, take the following steps:
 1. Create a requirements.txt file using the terminal command pip freeze > requirements.txt.
 2. Create a Procfile and inside of it place this line of code:
-> "web: gunicorn bee_cycles.wsgi:application"
+`web: gunicorn bee_cycles.wsgi:application`
 3. **git add** and **git commit** the new requirements and Procfile and then git push the project to GitHub.
 4. Create a new app on the [Heroku website](https://dashboard.heroku.com/apps/) by clicking the "New" button in your dashboard. Give it a name and set the region to whichever is applicable for your location.
 5. From the heroku dashboard of your newly created application, click on "Deploy" > "Deployment method" and select GitHub.
