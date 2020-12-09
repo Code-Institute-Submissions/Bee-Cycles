@@ -76,7 +76,7 @@
 ### Existing Features
 #### Elements on every page
 ##### Navbar:
-[](media/readme-images/navbar.png)
+![](media/readme-images/navbar.png)
 + The navbar features on every page
 + The navigation bar features Bee Cycles logo on the far left, and site name Bee Cycles in the middle of the page which both links to the home page of the site.
 + In desktop view on the center of the navbar is a list of the product pages: All Products, Bikes, Accessories and Special Offers. All of the links apart of All Products are a dropdown menu which lists out the categories of shop products.
@@ -86,11 +86,11 @@
 + A user who is logged in will see options to view their account page or log out.
 + Superuser or Admin will have additional option Product Managment where new product can be added.
 + The shopping cart icon is located to the far right of the navigation bar. Once a user has added at least one item to their cart a bold font will be applied to cart and amount for specific product or products.
-[](/media/readme-images/mobile-nav.png)
+![](/media/readme-images/mobile-nav.png)
 + In tablet and mobile view the logo and site name Bee Cycles are hidden, and Home link is added to burger menu.
 + The shopping cart icon is displayed at the right of the navigation bar, and the burger icon to display the full navigation menu is on the far left, with search bar and user icon in the middle of navigation bar because that is where a user would expect to find it.
 ##### Footer
-[](media/readme-images/footer.png)
+![](media/readme-images/footer.png)
 + The footer features on every page.
 + The footer background of dark grey and orange text was chosen to maintain same colour palette.
 + Location shown in footer is linked to Google Maps, email can be sent using default mail provider and telephone is just for information.
@@ -100,7 +100,7 @@
 + The home page hero slider/carousel features 3 slides of images from. All of them were selected randomly from online source. User testimonials are added at the bottom of carousel.
 + Below carousel some of the Bee Cycles characteristics are shown.
 ##### Shop Categories
-[](media/readme-images/home-category.png) 
+![](media/readme-images/home-category.png) 
 + Below the Bee Cycles characteristics are a selection of the shop categories, displayed with beautiful product photographs and clear headings. The user can click any of these images to be taken to the relevant sections of the shop. On hover there is some light zoom in action.
 + On desktop view these sections are displayed with 4 categories in one line as shown on image. On smaller screens each category is made as col-12.
 ##### New Arrivals/Deals listings
@@ -116,7 +116,7 @@
 + Products in the shop are displayed as cards with images, their title, price, category and rating displayed underneath each image. If user is logged in as superuser Edit and Delete functions are appearing underneath rating.
 + Each product in the list has a link to it's respective product listing with more information.
 #### Products Details Page
-[](media/readme-images/Product-Details.png)
+![](media/readme-images/Product-Details.png)
 ##### Product Image
 + While beeing on medium size screen, up to large and extra-large image is displayed on left side on the screen.
 + On mobile phone screens image is displayed first.
@@ -131,14 +131,14 @@
 + Error message will appear with a red toast capper if any error occur on website, for example if empty search string is searched, toast error will appear with short details.
 + Toast for Info and Warning were created also and are pretty much same like error message, only one thing that is different is toast capper colour, for info is light blue and for warning is orange.
 #### Register Page
-[](media/readme-images/register.png)
+![](media/readme-images/register.png)
 + A user who is not logged in can create a new account using the sign up page. The page on this form includes a username (which must be unique), email address, email address confirmation, password and password conformation fields.
 #### Login Page
-[](media/readme-images/sign-in.png)
+![](media/readme-images/sign-in.png)
 + The login page features a standard login form asking for username and password with option to remember user.
 + In case user forgot password, they can retrieve it by clicking on Forgot Password? link, user should provide email, if email exists, recovery steps will bi sent to users email address.
 #### Profile Page
-[](media/readme-images/profile.png)
+![](media/readme-images/profile.png)
 + The profile page is split in two sections:
  + Order Summary where user can see summary of all their previous orders.
  + Profile Info where user can update their phone number, street address, city, county, postal code and country.
@@ -147,18 +147,18 @@
 + One button is there to cancel action and returns user to home page, second button is to confirm log out action and then returns user again to home page.
 #### Product Managment Page
 ##### Add Product
-[](media/readme-images/add-product.png)
+![](media/readme-images/add-product.png)
 + Only admin or superuser can add product, once admin is logged in, Product Managment option comes up under user icon.
 + Admin then can add product, only name, description and price are required fields.
 + Once the product is added page is redirected to that specific product.
 ##### Edit Product
-[](media/readme-images/edit-product.png)
+![](media/readme-images/edit-product.png)
 + Only admin or superuser can edit product.
 + Admin can edit product, only name, description and price are required fields.
 + On the bottom small image of the product is shown so the Admin can see which one is uploaded.
 #### Cart Page
 ##### Desktop
-[](media/readme-images/shopping-cart.png)
+![](media/readme-images/shopping-cart.png)
 + The shopping cart page features a summary of all the items the user has added to their cart.
 + On desktop view, image comes first, product name, size, sku, price, quantity and subtotal then follows.
 + With plus and minus simboles qunatity can adjust.
@@ -167,7 +167,7 @@
 + On the bottom of cart user can see cart total amount.
 + Keep Shopping button redirects user back to all products and secure checkout brings user to checkout page.
 ##### Mobile
-[](media/readme-images/shopping-cart-mobile.png)
+![](media/readme-images/shopping-cart-mobile.png)
 + Due to cart content beeing in table, scroll left-right appeared once testing on mobile.
 + To prevent that, content was spread in seperate html files and included then in cart.html.
 + Cart total comes first here, following by keep shopping and add to cart buttons.
@@ -176,7 +176,7 @@
 + Edit link updates adjusted quantity.
 + Remove link deletes product from cart.
 #### Checkout Page
-[](media/readme-images/checkout.png)
+![](media/readme-images/checkout.png)
 + Checkout is divided in three sections:
  + Order summary showing everything is pending payment.
  + Personal details such as email address and Full Name, and delivery details with option to save delivery information to users profile.
@@ -185,7 +185,7 @@
 + Under buttons small red text is placed, notifying user how much credit card will be charged.
 + Once Complete Order is clicked form validation is done first, if everything is good to go, loading spinner shows up while payment is processing.
 #### Checkout Success Page
-[](media/readme-images/checkout-success.png)
+![](media/readme-images/checkout-success.png)
 + Displayed is very simple order confirmation with order details, product ordered details, delivery and personal details and order total amount.
 + At the bottom button is shown, by clicking on it, user is redirected to New Arrivals, Deals and Clearence category products.
 #### Django Email
