@@ -54,7 +54,7 @@
 [](media/readme-images/quantity-icons.png)
 + Basic plus and minus icons were used for quantity.
 ### Colours
-[](media/readme-images/quantity-icons.png)
+![](media/readme-images/colour-palette.png)
 + Orange: #FFC107
 + Smoky White: #E3E1E1
 + Dark Grey: #343A40
@@ -213,22 +213,110 @@
 + The User model utilized for this project is the standard one provided by django.contrib.auth.models
 #### Product app models
 ##### Category
+Within the products app, the Category model holds all the data needed for the categories in the shop.
 Name | Key in DB | Validation | Field Type
 ------------ | ------------- | ------------- | -------------
 Name | name | max_length=254 | CharField
 Friendly Name | friendly_name | max_length=254, null=True, blank=True | CharField 
 ##### Product
+Within the products app, the Product model holds all the data needed for the products in the shop.
 Name | Key in DB | Validation | Field Type
 ------------ | ------------- | ------------- | -------------
 Category | category | 'Category', null=True, blank=True, on_delete=models.SET_NULL | ForeignKey
 SKU | sku | max_length=254, null=True, blank=True | CharField
 Name | name | max_length=254 | CharField
-Description | description | * | TextField
+Description | description |  | TextField
 Sizes | has_sizes | default=False, null=True, blank=True | BooleanField
 Price | price | max_digits=6, decimal_places=2 | DecimalField
 Rating | rating | max_digits=6, decimal_places=2, null=True, blank=True | DecimalField
 Image URL | image_url | max_length=1024, null=True, blank=True | URLField
 Image | image | null=True, blank=True | ImageField
-## Hero images taken from Pixabay, freeimages, Pexels
-## TinyPNG used to compress images
-## Logo font is Permanent Marker
+#### Checkoutt app models
+Within the checkout app, the Order and OrderLineItem models hold the data needed for users to create and pay for their orders.
+##### Order
+Name | Key in DB | Validation | Field Type
+------------ | ------------- | ------------- | -------------
+Order Number | order_number | max_length=32, null=False, editable=False | CharField
+User Profile | user_profile | UserProfile, on_delete=models.SET_NULL, null=True, blank=True, related_name='orders' | ForeignKey
+Full Name | full_name | max_length=50, null=False, blank=False | CharField
+Email | email | max_length=254, null=False, blank=False | EmailField
+Phone Number | phone_number | max_length=20, null=False, blank=False | CharField
+Country | country | blank_label='Country *', null=False, blank=False | CountryField
+Postcode | postcode | max_length=20, null=True, blank=True | CharField
+City | city | max_length=40, null=False, blank=False | CharField
+Street Address 1 | street_address1 | max_length=80, null=False, blank=False | CharField
+Street Address 2 | street_address2 | max_length=80, null=True, blank=True | CharField
+County | county | max_length=80, null=True, blank=True | CharField
+Date | date | auto_now_add=True | DateTimeField
+Order Total | order_total | max_digits=10, decimal_places=2, null=False, default=0 | DecimalField
+Original Cart | original_cart | null=False, blank=False, default='' | TextField
+Stripe PID | stripe_pid | max_length=254, null=False, blank=False, default='' | CharField
+##### OrderLineItem
+Name | Key in DB | Validation | Field Type
+------------ | ------------- | ------------- | -------------
+Order | order | Order, null=False, blank=False, on_delete=models.CASCADE, related_name='lineitems' | ForeignKey
+Product | product | Product, null=False, blank=False, on_delete=models.CASCADE | ForeignKey
+Product Size | product_size | max_length=2, null=True, blank=True | CharField
+Quantity | quantity | null=False, blank=False, default=0 | IntegerField
+Line Item Total | lineitem_total | max_digits=6, decimal_places=2, null=False, blank=False, editable=False | DecimalField
+#### Profiles app models
+##### UserProfile
+Name | Key in DB | Validation | Field Type
+------------ | ------------- | ------------- | -------------
+User | user | User, on_delete=models.CASCADE | OneToOneField
+Default Phone Number | default_phone_number | max_length=20, null=True, blank=True | CharField
+Default Street Address 1 | default_street_address1 | max_length=80, null=True, blank=True | CharField
+Default Street Address 2 | default_street_address2 | max_length=80, null=True, blank=True | CharField
+Default City | default_city | max_length=40, null=True, blank=True | CharField
+Default County | default_county | max_length=80, null=True, blank=True | CharField
+Default Postcode | default_postcode | max_length=20, null=True, blank=True | CharField
+Default Country | default_country | blank_label='Country', null=True, blank=True | CountryField
+## Technologies Used
+#### Tools
++ Gitpod as online IDE used for developing this project.
++ Django as python web framework for rapid development and clean design.
++ Stripe as payment platform to validate and accept credit card payments securely.
++ AWS S3 Bucket to store images entered into the database.
++ Boto3 to enable creation, configuration and management of AWS S3.
++ Django Crispy Forms to style django forms.
++ Django Storages a collection of custom storage backends with django to work with boto3 and AWS S3.
++ Django Allauth to handle register, log in, log out, password recovery actions.
++ Django Countries to handle country selection.
++ Gunicorn WSGI HTTP Server for UNIX to aid in deployment of the Django project to heroku.
++ Pillow as python imaging library to aid in processing image files to store in database.
++ Psycopg2 as PostgreSQL database adapter for Python.
++ PIP3 for installation of tools needed in this project.
++ Git to handle version control.
++ GitHub to store and share all project code remotely.
++ Balsamiq to create the wireframes for this project.
++ TinyPNG used to compress images.
++ [Mockup Generator](https://techsini.com/multi-mockup/index.php)
+#### Databases
++ PostgreSQL for production database, provided by heroku.
++ SQlite3 for development database, provided by django.
+#### Libraries
++ JQuery to simplify DOM manipulation.
++ Bootstrap to simplify the structure of the website and make the website responsive easily.
++ FontAwesome to provide icons for Bee Cycles webshop.
++ Google Fonts to style the website fonts.
+#### Languages
++ This project uses HTML, CSS, JavaScript and Python programming languages.
+## Testing
+Testing information can be found in separate [TESTING.md](testing.md) file.
+## Credits
+### Content
++ All product images and description provided by [360 Cycles](https://www.360cycles.ie/)
+### Images
++ Images on home page and logo taken from [Pexels](https://www.pexels.com/), [FreeImages](https://www.freeimages.com/) and [Pixabay](https://pixabay.com/).
+### Code
++ [Boutique Ado](https://todorr92-boutique-ado.herokuapp.com/)
++ The following youtube video series provided much explanation about the use and operation of Django.
+ + [Python Django Web Framework - Full Course for Beginners by freeCodeCamp.org](https://www.youtube.com/watch?v=F5mRW0jo-U4)
+ + [Django Tutorials by Corey Schafer](https://www.youtube.com/watch?v=UmljXZIypDc&list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6U4p)
++ Other helpful resources were [w3schools.com](https://www.w3schools.com/), [CSS Gradient](https://cssgradient.io/), [Stack Overflow](https://stackoverflow.com/), [Material Design](https://material.io/design), [MDN web docs](https://developer.mozilla.org/en-US/), [Stack Abuse](https://stackabuse.com/) and [CSS Tricks](https://css-tricks.com/).
+## Acknowledgements
+Special thanks to my mentor [Akshat Garg](https://github.com/akshatnitd) for his time and expertise through my entire journey through the CodeInstitute full stack web development course.
+With thanks also to my many coding collagues on Slack community.
+## Disclaimer
+#### Please note that content on this website is educational purpose only.
+
