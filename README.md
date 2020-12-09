@@ -192,6 +192,43 @@
 + In order to register on site, user needs to provide email address, in case user forgets password, by clicking on Forgot Password?(on Sign Up page) link and providing email address, user can recieve next step in password recovery.
 + Also once users checks out, orded confirmation is sent to user with all details.
 + For this all to work, gmail account was used and set it up with Django.
+### Features to Implement
+1. Coupons and discount codes.
+ + Checkout page to include a field for customers to enter discount codes or coupons to adjust their final payment cost.
+2. Newsletter.
+ + Users would recieve an email with current deals, and depending on situation coupons or discount codes would be included.
+3. Additional payment methods.
+ + Implement Paypal.
+4. Bike Services.
+ + Bookin Bike repairs, bike maintenance classes and bike rentals.
+5. Cycle To Work Scheme.
+6. Implementing more categories.
+ + Kids bikes, electric scooters, tools, clothing, footwear, nutrition and care.
+## Information Architecture
+### Database Choice
++ As a framework Django works with SQL databases. During development on my local machine I worked with the standard sqlite3 database installed with Django.
++ On deployment, the SQL database provided by Heroku is a PostgreSQL database.
+### Data Models
+#### User
++ The User model utilized for this project is the standard one provided by django.contrib.auth.models
+#### Product app models
+##### Category
+Name | Key in DB | Validation | Field Type
+------------ | ------------- | ------------- | -------------
+Name | name | max_length=254 | CharField
+Friendly Name | friendly_name | max_length=254, null=True, blank=True | CharField 
+##### Product
+Name | Key in DB | Validation | Field Type
+------------ | ------------- | ------------- | -------------
+Category | category | 'Category', null=True, blank=True, on_delete=models.SET_NULL | ForeignKey
+SKU | sku | max_length=254, null=True, blank=True | CharField
+Name | name | max_length=254 | CharField
+Description | description | * | TextField
+Sizes | has_sizes | default=False, null=True, blank=True | BooleanField
+Price | price | max_digits=6, decimal_places=2 | DecimalField
+Rating | rating | max_digits=6, decimal_places=2, null=True, blank=True | DecimalField
+Image URL | image_url | max_length=1024, null=True, blank=True | URLField
+Image | image | null=True, blank=True | ImageField
 ## Hero images taken from Pixabay, freeimages, Pexels
 ## TinyPNG used to compress images
 ## Logo font is Permanent Marker
