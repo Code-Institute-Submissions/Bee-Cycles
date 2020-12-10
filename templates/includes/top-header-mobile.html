@@ -1,3 +1,4 @@
+<ul class="mb-0 mobile-nav">
 <li class="list-inline-item">
     <a class="nav-link d-block d-lg-none" href="#" id="mobile-search" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         <div class="text-center text-dark">
@@ -21,7 +22,7 @@
     </div>
 </li>
 <li class="list-inline-item dropdown">
-    <a class="nav-link d-block d-lg-none" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <a class="nav-link d-block d-lg-none" href="#" id="user-options-mobile" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         <div class="text-center text-dark">
             {% if request.user.is_superuser %}
                 <div><i class="fas fa-user-ninja fa-lg text-dark"></i></div>
@@ -31,7 +32,7 @@
             <p class="my-0">My Account</p>
         </div>
     </a>
-    <div class="dropdown-menu border-0 bg-warning" aria-labelledby="user-options">
+    <div class="dropdown-menu border-0 bg-warning" aria-labelledby="user-options-mobile">
         {% if request.user.is_authenticated %}
             {% if request.user.is_superuser %}
                 <a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>
@@ -58,3 +59,4 @@
         </div>
     </a>
 </li>
+</ul>
