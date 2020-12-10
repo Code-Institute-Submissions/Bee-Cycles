@@ -12,7 +12,7 @@ html{
  .logo{
      height: 6rem;
 }
-/*** LOGO ***/
+/*** NAV ELEMENTS ON MOBILE ***/
 .mobile-nav{
     display: inline-block;
     margin-block-start: 0;
@@ -350,7 +350,7 @@ html{
          margin-bottom: 20px;
     }
 }
- @media (min-width: 320px) and (max-width: 991) {
+ @media (min-width: 320px) and (max-width: 991px) {
      .secure-checkout-btn, .keep-shopping, .secure-checkout-btn i, .keep-shopping i {
          font-size: 14px;
     }
