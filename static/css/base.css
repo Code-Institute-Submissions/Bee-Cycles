@@ -337,3 +337,13 @@ select option[value=""] {
         font-size: 14px;
     }
 }
+@media (max-height: 680px){
+    .footer-down{
+        margin-bottom: 20px;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px){
+    .footer-down-cart{
+        min-height: calc(100vh - 278px);
+    }
+}
