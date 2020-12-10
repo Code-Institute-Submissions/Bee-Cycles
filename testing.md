@@ -11,17 +11,17 @@
 6. [Further Testing](#further-testing)
 
 ## Code Validation
-[Autoprefixer](https://autoprefixer.github.io/)
+### [Autoprefixer](https://autoprefixer.github.io/)
 + Added prefixes to CSS for different browsers.
-[CSS Validator](https://jigsaw.w3.org/css-validator/)
+### [CSS Validator](https://jigsaw.w3.org/css-validator/)
 + Couple of errors showed on base.css.
 ![](media/testing-images/css-errors.png)
 + Errors appeared because I wanted to override default `ul` styling as shown on image.
 ![](media/testing-images/default-ul.png)
 + Also couple of warnings were shown but all of them were due to prefix vendors.
-[CSS Formatter](https://www.cleancss.com/css-beautify/)
+### [CSS Formatter](https://www.cleancss.com/css-beautify/)
 + Formatted base.css.
-[HTML Validator](https://validator.w3.org/nu/)
+### [HTML Validator](https://validator.w3.org/nu/)
 #### Home Page
 + Had a few errors due to `li` item being direct child of `nav` element.
 ![](media/testing-images/home.png)
