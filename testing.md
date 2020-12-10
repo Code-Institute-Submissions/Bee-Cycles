@@ -29,18 +29,18 @@
 ![](media/testing-images/home-fixed.png)
 #### Products Page
 ![](media/testing-images/products-warnings.png)
-+ Had a two warnings regarding script type.
 ![](media/testing-images/products-fixed.png)
++ Had a two warnings regarding script type.
 + Fixed that by removing script type from code.
 #### Product Details Page
 ![](media/testing-images/product-details-warning.png)
-+ Only one warning regarding script type.
 ![](media/testing-images/product-details-fixed.png)
++ Only one warning regarding script type.
 + Fixed that by removing script type from code.
 #### Cart Page
 ![](media/testing-images/cart-warning.png)
-+ One warning regarding script type.
 ![](media/testing-images/cart-fixed.png)
++ One warning regarding script type.
 + Fixed that by removing script type from code.
 #### Checkout Page
 ![](media/testing-images/checkout.png)
