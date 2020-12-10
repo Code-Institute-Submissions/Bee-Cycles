@@ -1,258 +1,230 @@
-{% extends "base.html" %} {% load static %} 
-{% block content %}
+{% extends "base.html" %} {% load static %} {% block content %}
 <!--Carousel with three images-->
-      <div id="home-carousel" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li
-            data-target="#home-carousel"
-            data-slide-to="0"
-            class="active"
-          ></li>
-          <li data-target="#home-carousel" data-slide-to="1"></li>
-          <li data-target="#home-carousel" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              src="{{ MEDIA_URL }}hero_2.jpg"
-              class="d-block w-100"
-              alt="Bicycle Repair"
-            />
+<div id="home-carousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#home-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#home-carousel" data-slide-to="1"></li>
+        <li data-target="#home-carousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="{{ MEDIA_URL }}hero_2.jpg" class="d-block w-100" alt="Bicycle Repair" />
             <div class="carousel-caption d-none d-md-block">
-              <h4 class="font-weight-bold">John Doe</h4>
-              <em>"Had the best bike shopping service here. I approve!"</em>
+                <h4 class="font-weight-bold">John Doe</h4>
+                <em>"Had the best bike shopping service here. I approve!"</em>
             </div>
-          </div>
-          <div class="carousel-item">
+        </div>
+        <div class="carousel-item">
             <img src="{{ MEDIA_URL }}hero_1.jpg" class="d-block w-100" alt="Bike Repair" />
             <div class="carousel-caption d-none d-md-block">
-              <h4 class="font-weight-bold">Lisa Johnson</h4>
-              <em>"Always so friendly, helpful and efficient. Great value products and they know their stuff."</em>
+                <h4 class="font-weight-bold">Lisa Johnson</h4>
+                <em>"Always so friendly, helpful and efficient. Great value products and they know their stuff."</em>
             </div>
-          </div>
-          <div class="carousel-item">
+        </div>
+        <div class="carousel-item">
             <img src="{{ MEDIA_URL }}hero_3.jpg" class="d-block w-100" alt="Bicycle" />
             <div class="carousel-caption d-none d-md-block">
-              <h4 class="font-weight-bold">Mike Lower</h4>
-              <em>"Quality work, done quickly, at a good price. Great bike shop."</em>
+                <h4 class="font-weight-bold">Mike Lower</h4>
+                <em>"Quality work, done quickly, at a good price. Great bike shop."</em>
             </div>
-          </div>
         </div>
-      </div>
+    </div>
+</div>
 <!--Bee Cycles characteristics -->
 <div class="container-fluid">
-  <div class="row justify-content-sm-center justify-content-md-around text-center mt-lg-4 p-4">
-    <div class="col-sm-12 col-md-3 mb-2">
-      <span class="m-2">
-        <i class="fas fa-truck text-success"></i> Free Delivery
-      </span>
+    <div class="row justify-content-sm-center justify-content-md-around text-center mt-lg-4 p-4">
+        <div class="col-sm-12 col-md-3 mb-2">
+            <span class="m-2"> <i class="fas fa-truck text-success"></i> Free Delivery </span>
+        </div>
+        <div class="col-sm-12 col-md-3 mb-2">
+            <span class="m-2"> <i class="fas fa-check text-success"></i> Best quality service and products </span>
+        </div>
+        <div class="col-sm-12 col-md-3 mtb-2">
+            <span class="m-2"> <i class="fas fa-shopping-cart text-success"></i> Competitive pricing </span>
+        </div>
+        <div class="col-sm-12 col-md-3 mb-2">
+            <span class="m-2"> <i class="fas fa-heart text-success"></i> Customer service driven team </span>
+        </div>
     </div>
-    <div class="col-sm-12 col-md-3 mb-2">
-      <span class="m-2">
-        <i class="fas fa-check text-success"></i> Best quality service and products
-      </span>
-    </div>
-    <div class="col-sm-12 col-md-3 mtb-2">
-      <span class="m-2">
-        <i class="fas fa-shopping-cart text-success"></i> Competitive pricing
-      </span>
-    </div>
-    <div class="col-sm-12 col-md-3 mb-2">
-      <span class="m-2">
-        <i class="fas fa-heart text-success"></i> Customer service driven team
-      </span>
-    </div>
-  </div>
 </div>
 <!--Category cards-->
 <div class="container-fluid bg-dark p-5">
-  <div class="row">
-    <div class="col-xs-12 col-md-3">
-        <a href="{% url 'products' %}?category=clearance">
-      <div class="card category bg-dark text-white mb-md-3">
-        <img src="{{ MEDIA_URL }}clearance.jpg" class="card-img" alt="Clearance" />
-        <div class="card-img-overlay">
-          <h4 class="card-title">Clearance</h4>
+    <div class="row">
+        <div class="col-xs-12 col-md-3">
+            <a href="{% url 'products' %}?category=clearance">
+                <div class="card category bg-dark text-white mb-md-3">
+                    <img src="{{ MEDIA_URL }}clearance.jpg" class="card-img" alt="Clearance" />
+                    <div class="card-img-overlay">
+                        <h4 class="card-title">Clearance</h4>
+                    </div>
+                </div>
+            </a>
         </div>
-      </div>
-      </a>
-    </div>
-    <div class="col-xs-12 col-md-3">
-    <a href="{% url 'products' %}?category=locks">
-      <div class="card category bg-dark text-white">
-        <img src="{{ MEDIA_URL }}lock.jpg" class="card-img" alt="Locks" />
-        <div class="card-img-overlay">
-          <h4 class="card-title">Locks</h4>
+        <div class="col-xs-12 col-md-3">
+            <a href="{% url 'products' %}?category=locks">
+                <div class="card category bg-dark text-white">
+                    <img src="{{ MEDIA_URL }}lock.jpg" class="card-img" alt="Locks" />
+                    <div class="card-img-overlay">
+                        <h4 class="card-title">Locks</h4>
+                    </div>
+                </div>
+            </a>
         </div>
-      </div>
-    </a>
-    </div>
-    <div class="col-xs-12 col-md-3">
-    <a href="{% url 'products' %}?category=city_bikes">
-      <div class="card category bg-dark text-white">
-        <img src="{{ MEDIA_URL }}city_bike.jpg" class="card-img" alt="City Bikes" />
-        <div class="card-img-overlay">
-          <h4 class="card-title">City Bikes</h4>
+        <div class="col-xs-12 col-md-3">
+            <a href="{% url 'products' %}?category=city_bikes">
+                <div class="card category bg-dark text-white">
+                    <img src="{{ MEDIA_URL }}city_bike.jpg" class="card-img" alt="City Bikes" />
+                    <div class="card-img-overlay">
+                        <h4 class="card-title">City Bikes</h4>
+                    </div>
+                </div>
+            </a>
         </div>
-      </div>
-    </a>
-    </div>
 
-    <div class="col-xs-12 col-md-3">
-    <a href="{% url 'products' %}?category=lights">
-      <div class="card category bg-dark text-white">
-        <img src="{{ MEDIA_URL }}lights.jpg" class="card-img" alt="Lights" />
-        <div class="card-img-overlay">
-          <h4 class="card-title">Lights</h4>
+        <div class="col-xs-12 col-md-3">
+            <a href="{% url 'products' %}?category=lights">
+                <div class="card category bg-dark text-white">
+                    <img src="{{ MEDIA_URL }}lights.jpg" class="card-img" alt="Lights" />
+                    <div class="card-img-overlay">
+                        <h4 class="card-title">Lights</h4>
+                    </div>
+                </div>
+            </a>
         </div>
-      </div>
-    </a>
-    </div>
-    <div class="col-xs-12 col-md-3">
-    <a href="{% url 'products' %}?category=electric_bikes">
-      <div class="card category bg-dark text-white">
-        <img src="{{ MEDIA_URL }}electric_bike.jpg" class="card-img" alt="Electric Bike" />
-        <div class="card-img-overlay">
-          <h4 class="card-title">Electric Bikes</h4>
+        <div class="col-xs-12 col-md-3">
+            <a href="{% url 'products' %}?category=electric_bikes">
+                <div class="card category bg-dark text-white">
+                    <img src="{{ MEDIA_URL }}electric_bike.jpg" class="card-img" alt="Electric Bike" />
+                    <div class="card-img-overlay">
+                        <h4 class="card-title">Electric Bikes</h4>
+                    </div>
+                </div>
+            </a>
         </div>
-      </div>
-    </a>
-    </div>
-    <div class="col-xs-12 col-md-3">
-    <a href="{% url 'products' %}?category=sunglasses">
-      <div class="card category bg-dark text-white">
-        <img src="{{ MEDIA_URL }}sunglasses.jpg" class="card-img" alt="Sunglasses" />
-        <div class="card-img-overlay">
-          <h4 class="card-title">Sunglasses</h4>
+        <div class="col-xs-12 col-md-3">
+            <a href="{% url 'products' %}?category=sunglasses">
+                <div class="card category bg-dark text-white">
+                    <img src="{{ MEDIA_URL }}sunglasses.jpg" class="card-img" alt="Sunglasses" />
+                    <div class="card-img-overlay">
+                        <h4 class="card-title">Sunglasses</h4>
+                    </div>
+                </div>
+            </a>
         </div>
-      </div>
-    </a>
-    </div>
-    <div class="col-xs-12 col-md-3">
-    <a href="{% url 'products' %}?category=road_bikes">
-      <div class="card category bg-dark text-white">
-        <img src="{{ MEDIA_URL }}road_bike.jpg" class="card-img" alt="Road Bike" />
-        <div class="card-img-overlay">
-          <h4 class="card-title">Road Bikes</h4>
+        <div class="col-xs-12 col-md-3">
+            <a href="{% url 'products' %}?category=road_bikes">
+                <div class="card category bg-dark text-white">
+                    <img src="{{ MEDIA_URL }}road_bike.jpg" class="card-img" alt="Road Bike" />
+                    <div class="card-img-overlay">
+                        <h4 class="card-title">Road Bikes</h4>
+                    </div>
+                </div>
+            </a>
         </div>
-      </div>
-    </a>
-    </div>
-    <div class="col-xs-12 col-md-3">
-    <a href="{% url 'products' %}?category=helmets">
-      <div class="card category bg-dark text-white">
-        <img src="{{ MEDIA_URL }}helmet.jpg" class="card-img" alt="Helmet" />
-        <div class="card-img-overlay">
-          <h4 class="card-title">Helmets</h4>
+        <div class="col-xs-12 col-md-3">
+            <a href="{% url 'products' %}?category=helmets">
+                <div class="card category bg-dark text-white">
+                    <img src="{{ MEDIA_URL }}helmet.jpg" class="card-img" alt="Helmet" />
+                    <div class="card-img-overlay">
+                        <h4 class="card-title">Helmets</h4>
+                    </div>
+                </div>
+            </a>
         </div>
-      </div>
-    </a>
     </div>
-  </div>
 </div>
 <!--New Arrivals and Deals listings-->
- <div class="container">
+<div class="container">
     <div class="row">
         <div class="col-12 text-center mt-5 mb-5">
             <button id="new-arrivals" class="text-decoration-none btn btn-outline-dark active btn-lg m-3">New Arrivals</button>
             <button id="deals" class="text-decoration-none btn btn-outline-dark btn-lg m-3">Deals</button>
         </div>
     </div>
-       <div class="row">
-    {% for product in products %}
-        {% if product.category.name == "new_arrivals" %}
-         <div class="col-sm-6 col-md-4 col-lg-3 text-center mb-5 new-arrivals-container">
-                <div class="card h-100">
-                    <a href="{% url 'product_details' product.id %}">
+    <div class="row">
+        {% for product in products %} {% if product.category.name == "new_arrivals" %}
+        <div class="col-sm-6 col-md-4 col-lg-3 text-center mb-5 new-arrivals-container">
+            <div class="card h-100">
+                <a href="{% url 'product_details' product.id %}">
                     {% if product.image %}
-                        <img src="{{ product.image.url }}" class="card-img-top img-fluid" alt="{{ product.name }}">
+                    <img src="{{ product.image.url }}" class="card-img-top img-fluid" alt="{{ product.name }}" />
                     {% else %}
-                        <img src="{{ MEDIA_URL }}no-image-available.jpg" class="card-img-top img-fluid" alt="{{ product.name }}">
+                    <img src="{{ MEDIA_URL }}no-image-available.jpg" class="card-img-top img-fluid" alt="{{ product.name }}" />
                     {% endif %}
-                    </a>
-                    <div class="card-body bg-warning">
-                        <h5 class="card-title">{{ product.name }}</h5>
-                        {% if product.price %}
-                            <div>
-                                <p class="lead mb-0 font-weight-bold">€ {{ product.price }}</p>
-                            </div>
-                        {% endif %}
-                        {% if product.category %}
-                        <div>
-                            <i class="fas fa-tags"> {{ product.category.friendly_name }}</i>
-                        </div>
-                        {% endif %}
-                        {% if product.rating %}
-                        <div>
-                            <i class="fas fa-star"> {{ product.rating }}/5</i>
-                        </div>
-                        {% endif %}
-                        {% if request.user.is_superuser %}
-                            <small class="ml-3">
-                                <a href="{% url 'edit_product' product.id %}"><i class="fas fa-edit"></i> Edit</a> | 
-                                <a class="text-danger" href="{% url 'delete_product' product.id %}"><i class="fas fa-times-circle"></i> Delete</a>
-                            </small>
-                        {% endif %}
+                </a>
+                <div class="card-body bg-warning">
+                    <h5 class="card-title">{{ product.name }}</h5>
+                    {% if product.price %}
+                    <div>
+                        <p class="lead mb-0 font-weight-bold">€ {{ product.price }}</p>
                     </div>
+                    {% endif %} {% if product.category %}
+                    <div>
+                        <i class="fas fa-tags"> {{ product.category.friendly_name }}</i>
+                    </div>
+                    {% endif %} {% if product.rating %}
+                    <div>
+                        <i class="fas fa-star"> {{ product.rating }}/5</i>
+                    </div>
+                    {% endif %} {% if request.user.is_superuser %}
+                    <small class="ml-3">
+                        <a href="{% url 'edit_product' product.id %}"><i class="fas fa-edit"></i> Edit</a> |
+                        <a class="text-danger" href="{% url 'delete_product' product.id %}"><i class="fas fa-times-circle"></i> Delete</a>
+                    </small>
+                    {% endif %}
                 </div>
             </div>
-    {% endif %}
-    {% if product.category.name == "deals" %}
-         <div class="col-sm-6 col-md-4 col-lg-3 text-center mb-5 d-none deals-container">
-                <div class="card h-100">
-                    <a href="{% url 'product_details' product.id %}">
-                    {% if product.image %}
-                        <img src="{{ product.image.url }}" class="card-img-top img-fluid" alt="{{ product.name }}">
-                    {% else %}
-                        <img src="{{ MEDIA_URL }}no-image-available.jpg" class="card-img-top img-fluid" alt="{{ product.name }}">
-                    {% endif %}
-                    </a>
-                    <div class="card-body bg-warning">
-                        <h5 class="card-title">{{ product.name }}</h5>
-                        {% if product.price %}
-                            <div>
-                                <p class="lead mb-0 font-weight-bold">€ {{ product.price }}</p>
-                            </div>
-                        {% endif %}
-                        {% if product.category %}
-                        <div>
-                            <i class="fas fa-tags"> {{ product.category.friendly_name }}</i>
-                        </div>
-                        {% endif %}
-                        {% if product.rating %}
-                        <div>
-                            <i class="fas fa-star"> {{ product.rating }}/5</i>
-                        </div>
-                        {% endif %}
-                        {% if request.user.is_superuser %}
-                            <small class="ml-3">
-                                <a href="{% url 'edit_product' product.id %}"><i class="fas fa-edit"></i> Edit</a> | 
-                                <a class="text-danger" href="{% url 'delete_product' product.id %}"><i class="fas fa-times-circle"></i> Delete</a>
-                            </small>
-                        {% endif %}
-                    </div>
-                </div>
-            </div>
-             {% endif %}
-     {% endfor %}
         </div>
+        {% endif %} {% if product.category.name == "deals" %}
+        <div class="col-sm-6 col-md-4 col-lg-3 text-center mb-5 d-none deals-container">
+            <div class="card h-100">
+                <a href="{% url 'product_details' product.id %}">
+                    {% if product.image %}
+                    <img src="{{ product.image.url }}" class="card-img-top img-fluid" alt="{{ product.name }}" />
+                    {% else %}
+                    <img src="{{ MEDIA_URL }}no-image-available.jpg" class="card-img-top img-fluid" alt="{{ product.name }}" />
+                    {% endif %}
+                </a>
+                <div class="card-body bg-warning">
+                    <h5 class="card-title">{{ product.name }}</h5>
+                    {% if product.price %}
+                    <div>
+                        <p class="lead mb-0 font-weight-bold">€ {{ product.price }}</p>
+                    </div>
+                    {% endif %} {% if product.category %}
+                    <div>
+                        <i class="fas fa-tags"> {{ product.category.friendly_name }}</i>
+                    </div>
+                    {% endif %} {% if product.rating %}
+                    <div>
+                        <i class="fas fa-star"> {{ product.rating }}/5</i>
+                    </div>
+                    {% endif %} {% if request.user.is_superuser %}
+                    <small class="ml-3">
+                        <a href="{% url 'edit_product' product.id %}"><i class="fas fa-edit"></i> Edit</a> |
+                        <a class="text-danger" href="{% url 'delete_product' product.id %}"><i class="fas fa-times-circle"></i> Delete</a>
+                    </small>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        {% endif %} {% endfor %}
     </div>
-{% endblock %}
-    
-{% block postloadjs %}
+</div>
+{% endblock %} {% block postloadjs %}
 <!--Adding and removing d-none class on deals and new-arrivals-container on click-->
 <script>
-$("#deals").click(function(){
-    $(".deals-container").removeClass("d-none");
-    $(this).addClass("active");
-    $(".new-arrivals-container").addClass("d-none");
-    $("#new-arrivals").removeClass("active");
-})
-$("#new-arrivals").click(function(){
-    $(".new-arrivals-container").removeClass("d-none");
-    $(this).addClass("active");
-    $(".deals-container").addClass("d-none");
-    $("#deals").removeClass("active");
-})
+    $("#deals").click(function () {
+        $(".deals-container").removeClass("d-none");
+        $(this).addClass("active");
+        $(".new-arrivals-container").addClass("d-none");
+        $("#new-arrivals").removeClass("active");
+    });
+    $("#new-arrivals").click(function () {
+        $(".new-arrivals-container").removeClass("d-none");
+        $(this).addClass("active");
+        $(".deals-container").addClass("d-none");
+        $("#deals").removeClass("active");
+    });
 </script>
 {% endblock %}
