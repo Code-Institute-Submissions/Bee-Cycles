@@ -31,8 +31,7 @@
                     <div class="input-group mb-3">
                     <div class="input-group d-flex justify-content-center">
                     {% for category in current_categories %}
-                        {% if category %}
-                            <button class="btn btn-outline-dark dropdown-toggle btn-lg" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ category.friendly_name }}</button>
+                            <button class="btn btn-outline-dark dropdown-toggle btn-lg" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{% if category %}{{ category.friendly_name }}{% else %}All</button>
                         {% endif %}
                         <div class="dropdown-menu">
                             <a href="{% url 'products' %}" class="dropdown-item">All</a>
