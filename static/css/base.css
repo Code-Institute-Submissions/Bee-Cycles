@@ -317,6 +317,9 @@ html{
      .header-container {
          padding-top: 160px;
     }
+    .header-container-checkout{
+        padding-top: 175px;
+    }
     .list-inline-item:not(:last-child){
         margin-right: 0.5rem;
     }
