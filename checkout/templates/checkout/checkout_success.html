@@ -1,5 +1,5 @@
-{% extends "base.html" %} {% load static %}
-
+{% extends "base.html" %} 
+{% load static %}
 <!--Push content down-->
 {% block page_header %}
 <div class="container header-container">
@@ -14,9 +14,9 @@
 <div class="container mt-lg-3 footer-down">
     <div class="row text-center">
         <div class="col">
-            <hr />
+            <hr/>
             <h2 class="text-uppercase font-weight-bold mb-4">Thank You</h2>
-            <hr />
+            <hr/>
             <p class="text-dark">Your order information is below. A confirmation email will be sent to <strong>{{ order.email }}</strong>.</p>
         </div>
     </div>
@@ -58,7 +58,7 @@
                 <div class="row">
                     <div class="col-12 col-md-4">
                         <p class="small mb-0 font-weight-bold">
-                            {{ item.product.name }}{% if item.product_size %} - Size {{ item.product.size|upper }}{% endif %}
+                            {{ item.product.name }}{% if item.product_size %} - Size {{ item.product_size|upper }}{% endif %}
                         </p>
                     </div>
                     <div class="col-12 col-md-8 text-md-right">
@@ -100,7 +100,8 @@
                         <p class="mb-0">{{ order.street_address2 }}</p>
                     </div>
                 </div>
-                {% endif %} {% if order.county %}
+                {% endif %} 
+                {% if order.county %}
                 <div class="row">
                     <div class="col-12 col-md-4">
                         <p class="mb-0 font-weight-bold">County</p>
