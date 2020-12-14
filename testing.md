@@ -6,9 +6,8 @@
 1. [User Stories Testing](#user-stories-testing)
 2. [Manual Testing](#manual-testing)
 3. [Code Validation](#code-validation)
-4. [Browser Testing](#browser-testing)
-5. [Bugs Discovered](#bugs-discovered)
-6. [Further Testing](#further-testing)
+4. [Bugs Discovered](#bugs-discovered)
+5. [Further Testing](#further-testing)
 ## User Stories Testing
 The following section goes through the user stories identified in the UX section of README.md to check that the site meets those needs.
 As a Shopper:
@@ -162,7 +161,18 @@ Responsive design was also tested in the Chrome Developer Tools device simulator
 1. Navbar
     + Open the website on mobile, confirm that the navbar is collapsed into a burger icon
     + Click the burger icon, confirm that the navbar list appears as expected.
+    + Add something to the cart, confirm that the user shopping cart icon appears as bold and price displays correctly.
 2. Footer
+    + Scroll to the bottom of the page, confirm that the footer contents is displayed as expected with the bootstrap grid.
+    + No content squashed or squeezed or disproportionate in size.
+    + Confirm that all links and buttons in footer are easy to click with a finger on the smallest screen sizes.
+##### Products
+    + Confirm that dropdown button with categories appeares and works as expected no matter which category is selected.
+    + Confirm that the product list is displayed one on top of each other on mobile, and 3 to a row on tablet.
+    + Confirm that all clicks and swipes operate as expected on touch screen.
+##### All pages
+    + Navigate to all pages on the site, check that the layout is as expected for the screen size.
+    + Check that all buttons, menus, forms and other elements are the correct proportions and easily clickable with a finger.
 ## Code Validation
 ### [Autoprefixer](https://autoprefixer.github.io/)
 + Added prefixes to CSS for different browsers.
@@ -225,3 +235,30 @@ Responsive design was also tested in the Chrome Developer Tools device simulator
 ### [PEP8](http://pep8online.com/)
 + After Flake8, I've decided to double check my .py files in PEP8.
 + Everything seemed fine, apart from couple of warnings for ```E501 line too long (92 > 79 characters)```, but as mentioned above, code was reformatted as best I could.
+## Bugs Discovered
+#### Solved bugs
+1. Scripts not loading
+    + All scripts are in {% block postloadjs %}, and I've tried to keep same standard on every page, but scripts were not loading at first when using this block. The issue was fairly simple, I've had to move this block in base.html just before closing body tag, and that fixed this issue.
+2. Country field not showing correctly
+    + Country field in checkout page was not displaying correctly, after inspecting item, I've realized that some padding needs to be added to that specific field.
+3. Value error
+![](media/testing-images/img-error.png)
+    + This error appeared while trying to get product images displayed on each card.
+    + Fixed that by adding .url. "{{ product.image.url }}" that worked for me in this case.
+4. Categories images not same
+    + Could not get category images on home page to be same size with custom styling.
+    + To fix had I had to resize them to be same size using windows default tool.
+5. Home carousel overflowing
+    + Carousel was overflowing because it was wrapped in row and container, once these classes were removed, there were no issues anymore.
+6. Register
+    + By clicking on register link I was getting inconsistency, sometimes it would work and sometimes dont.
+    + After checking whole code, I've found a typo, curly bracket was missing at the end of the register link.
+7. Product size
+![](media/testing-images/size-bug-order.png)
+![](media/testing-images/size-bug.png)
+    + On checkout success page, when order summary is displayed, beside product price, product size should be displayed.
+![](media/testing-images/size-bug-fix.png)
+![](media/testing-images/size-bug-order-fix.png)
+    + Fixed this by adding item.product_size instead of item.product.size.
+## Further testing:
++ Asked fellow students, friends and family to look at the site on their devices and report any issues they found.
