@@ -10,7 +10,7 @@
 5. [Further Testing](#further-testing)
 ## User Stories Testing
 The following section goes through the user stories identified in the UX section of README.md to check that the site meets those needs.
-As a Shopper:
+#### As a Shopper:
 1. I want to view list of products.
     + Some of the products are visible on home page, but once user clicks on All Products, all products are returned.
 2. I want to view product details so that I can identify price, description, product rating and product image.
@@ -38,7 +38,7 @@ As a Shopper:
     + Once payment is succesfull, order summary page is shown to user.
 11. I want to recieve an email confirmation after checking out.
     + While checking order summary above, user will recieve an email also for future reference if necessary.
-As a Site User:
+#### As a Site User:
 1. I want to easily register/log in/ log out.
     + User icon is contstantly shown in the navigation bar, so the user have no difficulties to find it.
 2. I want to easily recover my password in case I forget it.
@@ -48,7 +48,7 @@ As a Site User:
 4. I want to have a personalized user profile.
     + User can update their information by clicking on user icon.
     + Order history is shown also in case they require that information.
-As a Shop Owner:
+#### As a Shop Owner:
 1. I want to add/edit/delete a product.
     + Only when Admin, or in this case owner is logged, Product Managment option appears by clicking on user icon.
     + Owner can add products with only name, description and price being required fields.
@@ -167,12 +167,12 @@ Responsive design was also tested in the Chrome Developer Tools device simulator
     + No content squashed or squeezed or disproportionate in size.
     + Confirm that all links and buttons in footer are easy to click with a finger on the smallest screen sizes.
 ##### Products
-    + Confirm that dropdown button with categories appeares and works as expected no matter which category is selected.
-    + Confirm that the product list is displayed one on top of each other on mobile, and 3 to a row on tablet.
-    + Confirm that all clicks and swipes operate as expected on touch screen.
++ Confirm that dropdown button with categories appeares and works as expected no matter which category is selected.
++ Confirm that the product list is displayed one on top of each other on mobile, and 3 to a row on tablet.
++ Confirm that all clicks and swipes operate as expected on touch screen.
 ##### All pages
-    + Navigate to all pages on the site, check that the layout is as expected for the screen size.
-    + Check that all buttons, menus, forms and other elements are the correct proportions and easily clickable with a finger.
++ Navigate to all pages on the site, check that the layout is as expected for the screen size.
++ Check that all buttons, menus, forms and other elements are the correct proportions and easily clickable with a finger.
 ## Code Validation
 ### [Autoprefixer](https://autoprefixer.github.io/)
 + Added prefixes to CSS for different browsers.
@@ -241,7 +241,7 @@ Responsive design was also tested in the Chrome Developer Tools device simulator
     + All scripts are in {% block postloadjs %}, and I've tried to keep same standard on every page, but scripts were not loading at first when using this block. The issue was fairly simple, I've had to move this block in base.html just before closing body tag, and that fixed this issue.
 2. Country field not showing correctly
     + Country field in checkout page was not displaying correctly, after inspecting item, I've realized that some padding needs to be added to that specific field.
-3. Value error
+3. Value error\
 ![](media/testing-images/img-error.png)
     + This error appeared while trying to get product images displayed on each card.
     + Fixed that by adding .url. "{{ product.image.url }}" that worked for me in this case.
@@ -253,12 +253,12 @@ Responsive design was also tested in the Chrome Developer Tools device simulator
 6. Register
     + By clicking on register link I was getting inconsistency, sometimes it would work and sometimes dont.
     + After checking whole code, I've found a typo, curly bracket was missing at the end of the register link.
-7. Product size
+7. Product size\
 ![](media/testing-images/size-bug-order.png)
 ![](media/testing-images/size-bug.png)
     + On checkout success page, when order summary is displayed, beside product price, product size should be displayed.
 ![](media/testing-images/size-bug-fix.png)
 ![](media/testing-images/size-bug-order-fix.png)
-    + Fixed this by adding item.product_size instead of item.product.size.
+    + Fixed this by adding ```item.product_size``` instead of ```item.product.size```.
 ## Further testing:
 + Asked fellow students, friends and family to look at the site on their devices and report any issues they found.
