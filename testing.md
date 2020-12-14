@@ -58,3 +58,7 @@
 ![](media/testing-images/sign-up.png)
 ![](media/testing-images/login.png)
 + No errors.
+### [HTML Formatter](https://webformatter.com/html)
++ Formatted all HTML files for better indentation.
+### [JSHint](https://jshint.com/)
++ Couple of warnings for undefined variable ("$"), it was reffering to JQuery selector and it can be ignored.
