@@ -59,17 +59,18 @@
                             <a class="nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <div class="text-center">
                                     {% if request.user.is_superuser %}
-                                    <div><i class="fas fa-user-ninja fa-lg text-dark"></i></div>
+                                        <div><i class="fas fa-user-ninja fa-lg text-dark"></i></div>
                                     {% else %}
-                                    <div><i class="fas fa-user fa-lg text-dark"></i></div>
+                                        <div><i class="fas fa-user fa-lg text-dark"></i></div>
                                     {% endif %}
                                     <p class="my-0 text-dark">My Account</p>
                                 </div>
                             </a>
                             <div class="dropdown-menu border-0 bg-warning" aria-labelledby="user-options">
-                                {% if request.user.is_authenticated %} {% if request.user.is_superuser %}
-                                <a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>
-                                {% endif %}
+                                {% if request.user.is_authenticated %} 
+                                    {% if request.user.is_superuser %}
+                                        <a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>
+                                    {% endif %}
                                 <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
                                 <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
                                 {% else %}
@@ -96,7 +97,8 @@
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    {% include 'includes/top-header-mobile.html' %} {% include 'includes/nav.html' %}
+                    {% include 'includes/top-header-mobile.html' %} 
+                    {% include 'includes/nav.html' %}
                 </nav>
             </div>
         </header>
@@ -104,10 +106,25 @@
         <!-- Displaying message toasts based on django levels-->
         {% if messages %}
         <div class="message-container">
-            {% for message in messages %} {% with message.level as level %} {% if level == 40 %} {% include 'includes/toasts/toast_error.html' %} {% elif level == 30 %} {% include 'includes/toasts/toast_warning.html' %} {% elif level == 25
-            %} {% include 'includes/toasts/toast_success.html' %} {% else %} {% include 'includes/toasts/toast_info.html' %} {% endif %} {% endwith %} {% endfor %}
+            {% for message in messages %} 
+                {% with message.level as level %} 
+                    {% if level == 40 %} 
+                        {% include 'includes/toasts/toast_error.html' %} 
+                    {% elif level == 30 %} 
+                        {% include 'includes/toasts/toast_warning.html' %} 
+                    {% elif level == 25%} 
+                        {% include 'includes/toasts/toast_success.html' %} 
+                    {% else %} 
+                        {% include 'includes/toasts/toast_info.html' %} 
+                    {% endif %} 
+                {% endwith %} 
+            {% endfor %}
         </div>
-        {% endif %} {% block page_header %} {% endblock %} {% block content %} {% endblock %}
+        {% endif %} 
+        {% block page_header %} 
+        {% endblock %} 
+        {% block content %} 
+        {% endblock %}
         <footer>
             <div class="container-fluid bg-dark">
                 <div class="row">
