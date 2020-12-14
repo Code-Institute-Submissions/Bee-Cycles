@@ -179,7 +179,7 @@ Responsive design was also tested in the Chrome Developer Tools device simulator
 ### [CSS Validator](https://jigsaw.w3.org/css-validator/)
 + Couple of errors showed on base.css.
 ![](media/testing-images/css-errors.png)
-+ Errors appeared because I wanted to override default `ul` styling as shown on image.
++ Errors appeared because I wanted to override default `ul` styling as shown on image.\
 ![](media/testing-images/default-ul.png)
 + Also couple of warnings were shown but all of them were due to prefix vendors.
 ### [CSS Formatter](https://www.cleancss.com/css-beautify/)
