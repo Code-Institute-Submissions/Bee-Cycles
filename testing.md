@@ -126,6 +126,7 @@ All steps on desktop were repeated in browsers: Firefox, Chrome and Microsoft Ed
 ##### Order Summary
 1. Order information
     + Confirm that order information is shown as expected.
+    + Confirm that user cart session is deleted.
     + Confirmed that email was sent to customer with order summary included.
 2. Checkout our deals button
     + By clicking on the button, I was redirected to products with category deals, no issues here.
@@ -251,7 +252,8 @@ Responsive design was also tested in the Chrome Developer Tools device simulator
 5. Home carousel overflowing
     + Carousel was overflowing because it was wrapped in row and container, once these classes were removed, there were no issues anymore.
 6. Register
-    + By clicking on register link I was getting inconsistency, sometimes it would work and sometimes dont.
+    + By clicking on register link I was getting inconsistency, sometimes it would work and sometimes dont.\
+![](media/testing-images/size-bug-order.png)
     + After checking whole code, I've found a typo, curly bracket was missing at the end of the register link.
 7. Product size\
 ![](media/testing-images/size-bug-order.png)
