@@ -170,14 +170,14 @@
     <div class="row justify-content-center">
         <div class="col-12 col-lg-7 text-right">
             {% if from_profile %}
-            <a href="{% url 'profile' %}" class="btn bg-warning">
-                <span class="icon mr-2">
+            <a href="{% url 'profile' %}" class="btn bg-warning mt-3 mb-5">
+                <span class="icon">
                     <i class="fas fa-angle-left"></i>
                 </span>
-                <span class="text-uppercase">Back to Profile</span>
+                <span class="text-uppercase font-weight-bold">Back to Profile</span>
             </a>
             {% else %}
-            <a href="{% url 'products' %}?category=deals" class="btn bg-warning my-2 font-weight-bold">
+            <a href="{% url 'products' %}?category=deals" class="btn bg-warning my-2 font-weight-bold mb-5 mt-3">
                 <span class="icon mr-2">
                     <i class="fas fa-gifts"></i>
                 </span>
