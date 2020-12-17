@@ -358,6 +358,11 @@ html{
          margin-bottom: 20px;
     }
 }
+@media (min-width: 768px) and (max-width: 991px){
+     .footer-down{
+         min-height: calc(100vh - 360px);
+    }
+}
  @media (min-width: 320px) and (max-width: 991px) {
      .secure-checkout-btn, .keep-shopping, .secure-checkout-btn i, .keep-shopping i {
          font-size: 14px;
