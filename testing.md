@@ -277,6 +277,8 @@ Responsive design was also tested in the Chrome Developer Tools device simulator
     + Double checked code, to find any potential typo, could not see it until I've spoke with Chris Zielinski from CI, we checked together and on terminal we located possible issue.\
 ![](media/testing-images/email-bug.png)
     + Once ```total``` was replaced with ```order_total``` everything workes as it should, email was sent to terminal, and to temp email when tested deployed site.
+![](media/testing-images/terminal-email.png)\
+![](media/testing-images/temp-email.png)
 
 
 ## Further testing:
