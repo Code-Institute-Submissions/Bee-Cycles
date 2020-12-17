@@ -262,5 +262,17 @@ Responsive design was also tested in the Chrome Developer Tools device simulator
 ![](media/testing-images/size-bug-fix.png)
 ![](media/testing-images/size-bug-order-fix.png)
     + Fixed this by adding ```item.product_size``` instead of ```item.product.size```.
+8. Register/Logout links were not focused correctly and Login/Logout message notifications were not showing on home page\
+![](media/testing-images/message-bug.png)\
+    + After checking inspector, I've found that message is generated.\
+![](media/testing-images/inspector-message.png)
++ After checking script in base.html, could not find and issue, cause code for calling toast message was there.\
+![](media/testing-images/base-script.png)
++ I've double checked index.html and found out that postloadjs block from base.html was overwritten with code from index.html.\
+![](media/testing-images/index-script.png)
+    + Once ```$(".toast").toast("show");``` was added to index.html, everything worked as expected.\
+![](media/testing-images/message-showing.png)
+
+
 ## Further testing:
 + Asked fellow students, friends and family to look at the site on their devices and report any issues they found.
