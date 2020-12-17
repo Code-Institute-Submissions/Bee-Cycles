@@ -156,7 +156,7 @@ All steps on desktop were repeated in browsers: Firefox, Chrome and Microsoft Ed
 + Edited item to confirm Alert message, works as expected.
 + Searched with no text inside search bar, confirmed Error message.
 #### Testing undertaken on tablet and phone devices
-All steps below were repeated to test mobile and tablet specific elements on my Samsung phone and Ipad, using Google Chrome and Safari.
+All steps below were repeated to test mobile and tablet specific elements on my Samsung phone and Ipad, using Google Chrome, Mozilla Firefox, Opera and Safari.
 Responsive design was also tested in the Chrome Developer Tools device simulators on all options and orientations.
 ##### Elements on every page
 1. Navbar
