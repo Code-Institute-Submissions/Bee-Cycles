@@ -360,7 +360,7 @@ html{
 }
 @media (min-width: 768px) and (max-width: 991px){
      .footer-down{
-         min-height: calc(100vh - 360px);
+         min-height: calc(100vh - 280px);
     }
 }
  @media (min-width: 320px) and (max-width: 991px) {
